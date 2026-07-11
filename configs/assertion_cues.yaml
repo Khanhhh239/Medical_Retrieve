@@ -1,0 +1,51 @@
+# Cue từ vựng ConText (§S5 medical.md). CONFIG — thêm cue ở đây.
+# Khớp trên text CÓ DẤU (lowercased) + RANH GIỚI TỪ \b (xem context.py).
+# KHÔNG bỏ dấu: bỏ dấu làm 'bố/bó/bò' thành 'bo' và 'không' chứa 'ong' -> false positive.
+# Chỉ áp cho TRIỆU_CHỨNG / CHẨN_ĐOÁN / THUỐC.
+
+isNegated:
+  - "không"
+  - "không có"
+  - "không ghi nhận"
+  - "không còn"
+  - "không thấy"
+  - "phủ nhận"
+  - "âm tính"
+  - "chưa"
+  - "loại trừ"
+
+# Cụm chứa 'không' nhưng KHÔNG phủ định khái niệm phía sau
+negation_exceptions:
+  - "không đặc hiệu"
+  - "không rõ"
+  - "không rõ nguyên nhân"
+
+# Family: CHỈ giữ cue rõ ràng. Bỏ 'ông/bà' (thường chỉ chính bệnh nhân cao tuổi).
+isFamily:
+  - "gia đình"
+  - "tiền sử gia đình"
+  - "bố"
+  - "mẹ"
+  - "cha"
+  - "bố mẹ"
+  - "cha mẹ"
+  - "anh trai"
+  - "chị gái"
+  - "em trai"
+  - "em gái"
+  - "người thân"
+  - "họ hàng"
+  - "di truyền"
+
+isHistorical:
+  - "tiền sử"
+  - "tiền căn"
+  - "từng bị"
+  - "đã từng"
+  - "trước đây"
+  - "bệnh sử"
+
+# Header section (lowercased, substring) ngụ ý isHistorical cho khái niệm bên dưới
+historical_section_headers:
+  - "tiền sử"
+  - "trước khi nhập viện"

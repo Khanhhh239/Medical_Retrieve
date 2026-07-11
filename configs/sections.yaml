@@ -1,0 +1,85 @@
+# Section canonical <- các biến thể header (đã BỎ DẤU, viết thường).
+# Đây là CONFIG (dữ liệu), không phải logic — thêm biến thể ở đây, không sửa code.
+# Khớp theo: substring (pattern dài nhất thắng) -> fuzzy token_set_ratio (§ ngưỡng
+# trong sections.py). Nguồn: đo trên 100 file test (17 header, 90 sub-section).
+
+# --- Sub-section / mục nội dung: quyết định TYPE của entity bên dưới ---
+SYMPTOM:            # -> TRIỆU_CHỨNG
+  - "trieu chung hien tai"
+  - "cac trieu chung hien tai"
+  - "dac diem trieu chung"
+  - "dac diem trieu chung khi kham tai khoa cap cuu"
+  - "ly do nhap vien"
+  - "ly do vao vien"
+  - "ly do kham benh"
+  - "ly do kham"
+  - "thoi diem khoi phat trieu chung"
+  - "trieu chung"
+
+DIAGNOSIS:          # -> CHẨN_ĐOÁN
+  - "chan doan"
+  - "cac benh ly man tinh"
+  - "cac benh ly mang tinh"
+  - "benh ly man tinh"
+  - "benh ly mang tinh"
+  - "cac benh man tinh"
+  - "cac benh mang tinh"
+  - "cac benh mac kem"
+
+DRUG:               # -> THUỐC
+  - "thuoc truoc khi nhap vien lan nay"
+  - "thuoc truoc khi nhap vien"
+  - "thuoc dieu tri"
+  - "thuoc dang dung"
+  - "dieu tri"
+
+LAB:                # -> TÊN_XÉT_NGHIỆM / KẾT_QUẢ_XÉT_NGHIỆM (+ 1 phần CHẨN_ĐOÁN hình ảnh)
+  - "ket qua xet nghiem"
+  - "ket qua phong thi nghiem"
+  - "ket qua chan doan hinh anh"
+  - "ket qua chup anh"
+  - "ket qua chup chieu"
+  - "cac phat hien chan doan khac"
+  - "cac ket qua chan doan khac"
+  - "ket qua kham thuc the"
+  - "ket qua kham lam sang"
+  - "ket qua kham"
+  - "xet nghiem"
+
+PROC:               # thủ thuật / phẫu thuật (chưa gán type — theo dõi §11)
+  - "tien su phau thuat / thu thuat"
+  - "tien su phau thuat"
+  - "cac thu thuat da thuc hien"
+  - "thu thuat da thuc hien"
+
+EVENT:              # diễn biến, không phải khái niệm đơn lẻ
+  - "cac su kien truoc khi nhap vien"
+  - "cac dien bien truoc khi nhap vien"
+  - "cac dien bien  truoc khi nhap vien"
+  - "dien bien benh"
+  - "dien bien"
+  - "tinh trang ngay truoc khi nhap vien"
+  - "tinh trang luc vao vien"
+  - "cac yeu to nguy co lien quan"
+  - "cac yeu to nguy co"
+
+# --- Section cấp tài liệu (đánh số) ---
+HISTORY_PRESENT:    # bệnh sử hiện tại (history of present illness)
+  - "tien su benh hien tai"
+  - "benh su hien tai"
+  - "lich su benh hien tai"
+  - "tien su benh benh hien tai"
+
+HISTORY_PAST:       # tiền sử
+  - "tien su benh noi khoa"
+  - "tien su benh ly"
+  - "tien su benh noi"
+  - "tien su benh"
+  - "benh su"
+  - "cac tap tuong tu truoc day"
+  - "cac dot tuong tu truoc day"
+
+ASSESSMENT:         # đánh giá tại bệnh viện
+  - "danh gia tai benh vien"
+  - "kham tai benh vien"
+  - "luc vao vien benh vien"

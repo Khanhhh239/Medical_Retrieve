@@ -1,0 +1,14 @@
+# === P0 (metric) + P1 (data layer) — chạy CPU, không cần GPU ===
+numpy>=1.26
+rapidfuzz>=3.0
+pyyaml>=6.0
+regex>=2024.0
+pytest>=8.0
+
+# === P4+ (model NER, linking) — cài RIÊNG với CUDA ===
+# GPU: RTX 4050 Laptop 6GB. torch build cu124:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# (các gói dưới thêm khi tới phase tương ứng)
+# transformers>=4.44
+# faiss-cpu>=1.8
+# accelerate>=0.33

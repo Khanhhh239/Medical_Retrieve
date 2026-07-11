@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Moi truong
+.venv/
+venv/
+env/
+
+# Model weights (tai tao bang train) - qua nang cho git
+models/
+
+# Data sinh/tai lai duoc (comment PHAI o dong rieng)
+data/synthetic/
+# ICD-10 tieng Anh: tai lai bang: python scripts/build_kb.py --icd
+data/kb/icd10_en.csv
+# RxNorm day du (UMLS license) - khong commit
+data/kb/RXNCONSO.RRF
+
+# Output (tai tao bang predict)
+output/
+output_ner/
+*.zip
+
+# HuggingFace / torch cache
+.cache/
