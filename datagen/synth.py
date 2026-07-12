@@ -67,6 +67,15 @@ def _val(rng: random.Random, lo: float, hi: float) -> str:
     return s
 
 
+def _emit_narrative(b: NoteBuilder, template: str, ctext: str, ctype: str,
+                    assertions=(), candidates=()):
+    """Chèn 1 khái niệm vào GIỮA câu văn xuôi (span chính xác). template có '{c}'."""
+    pre, post = template.split("{c}")
+    b.emit(pre)
+    b.emit_concept(ctext, ctype, assertions, candidates)
+    b.emit(post + "\n")
+
+
 def generate_note(rng: random.Random, cfg: Optional[GenConfig] = None
                   ) -> Tuple[str, List[Concept]]:
     cfg = cfg or GenConfig()
@@ -116,11 +125,16 @@ def generate_note(rng: random.Random, cfg: Optional[GenConfig] = None
             b.emit_concept(s, "TRIỆU_CHỨNG")
         b.emit("\n")
 
-    # --- Câu free-text (KHÔNG bullet): baseline bỏ qua, cần model NER (P4) ---
-    if rng.random() < cfg.p_narrative:
-        b.emit("Bệnh nhân nhập viện vì tình trạng ")
-        b.emit_concept(rng.choice(syms), "TRIỆU_CHỨNG")
-        b.emit(" tăng dần trong vài ngày qua.\n")
+    # --- Câu free-text (nhiều mẫu, 1-3 câu): dạy model trích trong VĂN XUÔI ---
+    n_narr = rng.randint(1, 3) if rng.random() < cfg.p_narrative else 0
+    for _ in range(n_narr):
+        if rng.random() < 0.7:
+            _emit_narrative(b, rng.choice(L.NARRATIVE_SYMPTOM),
+                            rng.choice(syms), "TRIỆU_CHỨNG")
+        else:
+            name, icd = rng.choice(L.DISEASES)
+            _emit_narrative(b, rng.choice(L.NARRATIVE_DIAGNOSIS),
+                            name, "CHẨN_ĐOÁN", candidates=(icd,))
 
     # --- Section 3: Đánh giá + xét nghiệm (tên + kết quả) ---
     b.emit(rng.choice(L.H_ASSESS) + "\n")
