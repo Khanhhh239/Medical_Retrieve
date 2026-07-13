@@ -20,11 +20,13 @@ import yaml
 from rapidfuzz import fuzz
 
 from ..io.offsets import normalize_str
+from ..config import get as _cfg
 
 _CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__)))), "configs", "sections.yaml")
 
-FUZZ_THRESHOLD = 88          # token_set_ratio tối thiểu để chấp nhận fuzzy
+FUZZ_THRESHOLD = _cfg("sections", "fuzz_threshold", 88)   # token_sort_ratio tối thiểu (fuzzy)
+BARE_CONF = _cfg("sections", "bare_conf", 0.95)           # bare-header phải khớp >= conf này
 OTHER = "OTHER"
 
 
@@ -38,7 +40,7 @@ def _load_config(path: str = _CONFIG_PATH) -> Dict[str, List[str]]:
 _CONFIG = _load_config()
 
 
-SUBSTR_COVERAGE = 0.60       # pattern phải phủ >= 60% header mới tính substring-match
+SUBSTR_COVERAGE = _cfg("sections", "substr_coverage", 0.60)   # pattern phủ >= tỉ lệ header
 
 
 def match_canonical(header_text: str, config: Optional[Dict[str, List[str]]] = None
@@ -143,7 +145,7 @@ def header_of(content: str, config: Optional[Dict[str, List[str]]] = None):
         canon, _ = match_canonical(m2.group(1), config)
         return ("colon", m2.group(1), canon) if canon is not None else None
     canon, conf = match_canonical(body.strip(), config)   # bare header (khớp MẠNH)
-    if canon is not None and conf >= 0.95:
+    if canon is not None and conf >= BARE_CONF:
         return "bare", body.strip(), canon
     return None
 

@@ -1,0 +1,18 @@
+# Ngưỡng có thể TUNE (trước đây hardcode rải rác trong code). Giá trị hiện tại =
+# giá trị cũ (không đổi hành vi). Có gold dev thì chỉnh ở đây, không sửa code.
+baseline:
+  max_len: 120            # span dài hơn (ký tự) -> coi là câu, bỏ
+  max_words_symptom: 10   # triệu chứng/chẩn đoán > N từ -> câu văn xuôi, bỏ
+  max_words_drug: 8       # thuốc > N từ -> bỏ
+  drug_min_ascii: 4       # thuốc phải có token Latin >= N ký tự (loại câu VN thuần)
+
+sections:
+  fuzz_threshold: 88      # token_sort_ratio tối thiểu để nhận section (fuzzy)
+  substr_coverage: 0.60   # pattern phải phủ >= tỉ lệ này của header
+  bare_conf: 0.95         # bare-header phải khớp >= conf này mới coi là tiêu đề
+
+context:
+  neg_window: 35          # cửa sổ (ký tự) cue phủ định đứng trước khái niệm
+
+linker:
+  fuzzy_threshold: 90     # token_sort_ratio tối thiểu để chấp nhận mã (fuzzy)

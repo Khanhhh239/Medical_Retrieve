@@ -27,6 +27,7 @@ from ..segment.sections import segment, Segmentation, match_canonical, header_of
 from ..parse.numbers import find_numbers
 from ..assert_.context import detect_assertions, leading_negation_len
 from ..metric.scorer import Concept
+from ..config import get as _cfg
 
 SECTION_TYPE = {
     "SYMPTOM": "TRIỆU_CHỨNG",
@@ -40,8 +41,10 @@ _DRUG_INDICATION = re.compile(r"\s+(điều trị|cho|dùng cho|nếu|khi cần)
 _DRUG_PAREN = re.compile(r"\s*\([^)]*\)?\s*$")    # đuôi '(...)' kể cả ngoặc CHƯA đóng
 _DRUG_PREFIX = re.compile(r"^\s*(đang dùng|thường dùng|đã dùng|tiếp tục dùng|"
                           r"bắt đầu dùng|tiếp tục|bắt đầu|dùng)\s+", re.I)
-_MAX_LEN = 120                      # span dài hơn -> nhiều khả năng là câu, bỏ
-_MAX_WORDS = 10                    # triệu chứng/chẩn đoán > 10 từ -> là câu văn xuôi, bỏ
+_MAX_LEN = _cfg("baseline", "max_len", 120)              # span dài hơn -> coi là câu
+_MAX_WORDS = _cfg("baseline", "max_words_symptom", 10)   # triệu chứng/chẩn đoán > N từ -> bỏ
+_MAX_WORDS_DRUG = _cfg("baseline", "max_words_drug", 8)
+_DRUG_ASCII_RE = re.compile(r"[A-Za-z]{%d,}" % _cfg("baseline", "drug_min_ascii", 4))
 
 
 def _lines(raw: str):
@@ -119,11 +122,11 @@ def _emit_drug(raw, s, e, line, line_start, section, header, doc_section):
     mp = _DRUG_PAREN.search(txt)              # bỏ đuôi '(dose decreased...)'
     if mp:
         s, e, txt = _trim(raw, s, s + mp.start())
-    if not txt or len(txt) > _MAX_LEN or len(txt.split()) > 8:
+    if not txt or len(txt) > _MAX_LEN or len(txt.split()) > _MAX_WORDS_DRUG:
         return []
     # tên thuốc thật là Latin/tiếng Anh; loại câu tiếng Việt thuần ('Ăn uống kém',
     # 'Điều trị bắt đầu chạy thận nhân tạo') bị lọt vào mục thuốc
-    if not re.search(r"[A-Za-z]{4,}", txt):
+    if not _DRUG_ASCII_RE.search(txt):
         return []
     asserts = detect_assertions("THUỐC", line, s - line_start,
                                 section=section, section_header=header,

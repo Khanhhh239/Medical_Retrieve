@@ -37,9 +37,17 @@ _SIG = re.compile(r"\b(po|iv|im|sc|sl|pr|bid|tid|qid|qd|qhs|qam|qpm|prn|daily|"
 
 
 def _clean_query(m: str) -> str:
-    m = re.sub(r"[:().]", " ", m)
-    m = _SIG.sub(" ", m)
-    return re.sub(r"\s+", " ", m).strip()
+    """Tên + hàm lượng; nếu ĐƯỜNG UỐNG + hàm lượng mg/g -> ép 'oral tablet' để lấy mã
+    SCD (sản phẩm) đúng cấp độ GT (vd amlodipine 10mg -> 308135 khớp ví dụ đề)."""
+    low = m.lower()
+    base = re.sub(r"[:().]", " ", m)
+    base = _SIG.sub(" ", base)
+    base = re.sub(r"\s+", " ", base).strip()
+    has_oral = bool(re.search(r"\b(po|oral|uống)\b", low))
+    has_mg = bool(re.search(r"\d+\s*(mg|mcg|g)\b", low))
+    if has_oral and has_mg:
+        return base + " oral tablet"
+    return base
 
 
 def collect_drug_mentions() -> set:

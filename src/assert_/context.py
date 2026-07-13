@@ -20,10 +20,12 @@ from typing import Dict, List, Optional, Pattern
 
 import yaml
 
+from ..config import get as _cfg
+
 _CFG_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__)))), "configs", "assertion_cues.yaml")
 
-NEG_WINDOW = 35
+NEG_WINDOW = _cfg("context", "neg_window", 35)
 HISTORICAL_SECTIONS = frozenset({"HISTORY_PAST"})
 ASSERTABLE = frozenset({"TRIỆU_CHỨNG", "CHẨN_ĐOÁN", "THUỐC"})
 

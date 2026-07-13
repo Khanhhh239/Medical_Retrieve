@@ -13,11 +13,14 @@ from typing import List, Optional
 from rapidfuzz import process, fuzz
 
 from ..io.offsets import normalize_str
+from ..config import get as _cfg
 from .kb import KB
+
+_DEFAULT_FUZZY = _cfg("linker", "fuzzy_threshold", 90)
 
 
 class Linker:
-    def __init__(self, kb: KB, fuzzy_threshold: int = 90):
+    def __init__(self, kb: KB, fuzzy_threshold: int = _DEFAULT_FUZZY):
         self.kb = kb
         self.threshold = fuzzy_threshold
         self._exact: dict = {}
