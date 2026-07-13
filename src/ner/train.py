@@ -25,7 +25,7 @@ from .labels import LABELS, LABEL2ID, ID2LABEL, NUM_LABELS
 
 
 def train(model_name: str,
-          train_path: str,
+          train_path,                # str hoặc list[str] — gộp nhiều nguồn (synthetic + LLM)
           out_dir: str,
           epochs: float = 3.0,
           batch_size: int = 4,       # nhỏ cho card 6GB; bù bằng grad_accum
@@ -41,7 +41,13 @@ def train(model_name: str,
         model_name, num_labels=NUM_LABELS, id2label=ID2LABEL, label2id=LABEL2ID,
     )
 
-    train_ds = NERDataset(load_labeled(train_path), tok, max_length)
+    paths = [train_path] if isinstance(train_path, str) else list(train_path)
+    items = []
+    for p in paths:
+        if p and os.path.exists(p):
+            items.extend(load_labeled(p))
+    print(f"[train] gộp {len(items)} mẫu từ {len([p for p in paths if p and os.path.exists(p)])} file")
+    train_ds = NERDataset(items, tok, max_length)
     eval_ds = NERDataset(load_labeled(eval_path), tok, max_length) if eval_path else None
     collator = DataCollatorForTokenClassification(tok)
 

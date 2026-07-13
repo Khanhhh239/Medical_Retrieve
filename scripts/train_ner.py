@@ -40,9 +40,10 @@ def main():
         save_labeled(train_path, items)
 
     from src.ner.train import train
-    train(args.model, train_path, args.out, epochs=args.epochs,
+    paths = [p for p in train_path.split(",") if p]     # gộp nhiều nguồn: "a.jsonl,b.jsonl"
+    train(args.model, paths, args.out, epochs=args.epochs,
           batch_size=args.batch_size, grad_accum=args.grad_accum,
-          max_length=args.max_length)
+          max_length=args.max_length, optim=args.optim)
 
 
 if __name__ == "__main__":
