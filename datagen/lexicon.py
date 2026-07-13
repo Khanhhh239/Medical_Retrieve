@@ -54,6 +54,37 @@ DRUGS = [
     ("allopurinol", "519"), ("digoxin", "3407"), ("nitroglycerin", "4917"),
 ]
 
+# Thuốc thường gặp (tên generic) để PRE-CACHE rộng qua RxNav — phủ cả private test.
+COMMON_DRUGS = [
+    "aspirin", "acetaminophen", "ibuprofen", "naproxen", "diclofenac", "celecoxib",
+    "tramadol", "morphine", "oxycodone", "fentanyl", "codeine", "gabapentin", "pregabalin",
+    "amlodipine", "nifedipine", "diltiazem", "verapamil", "lisinopril", "enalapril",
+    "ramipril", "captopril", "losartan", "valsartan", "telmisartan", "irbesartan",
+    "metoprolol", "atenolol", "bisoprolol", "carvedilol", "propranolol", "labetalol",
+    "furosemide", "bumetanide", "hydrochlorothiazide", "spironolactone", "indapamide",
+    "atorvastatin", "rosuvastatin", "simvastatin", "pravastatin", "ezetimibe", "fenofibrate",
+    "clopidogrel", "ticagrelor", "warfarin", "apixaban", "rivaroxaban", "dabigatran",
+    "enoxaparin", "heparin", "digoxin", "amiodarone", "nitroglycerin", "isosorbide",
+    "metformin", "gliclazide", "glimepiride", "glipizide", "sitagliptin", "empagliflozin",
+    "dapagliflozin", "insulin glargine", "insulin aspart", "insulin", "pioglitazone",
+    "omeprazole", "pantoprazole", "esomeprazole", "lansoprazole", "rabeprazole", "ranitidine",
+    "famotidine", "domperidone", "metoclopramide", "ondansetron", "loperamide", "lactulose",
+    "amoxicillin", "amoxicillin clavulanate", "ampicillin", "cephalexin", "cefuroxime",
+    "ceftriaxone", "cefepime", "cefixime", "azithromycin", "clarithromycin", "erythromycin",
+    "ciprofloxacin", "levofloxacin", "moxifloxacin", "doxycycline", "metronidazole",
+    "clindamycin", "vancomycin", "meropenem", "piperacillin tazobactam", "gentamicin",
+    "trimethoprim sulfamethoxazole", "nitrofurantoin", "fluconazole", "acyclovir",
+    "levothyroxine", "carbimazole", "methimazole", "prednisone", "prednisolone",
+    "dexamethasone", "hydrocortisone", "methylprednisolone", "salbutamol", "salmeterol",
+    "ipratropium", "tiotropium", "budesonide", "fluticasone", "montelukast", "theophylline",
+    "sertraline", "fluoxetine", "escitalopram", "paroxetine", "amitriptyline", "mirtazapine",
+    "diazepam", "lorazepam", "alprazolam", "clonazepam", "zolpidem", "quetiapine",
+    "risperidone", "olanzapine", "haloperidol", "levetiracetam", "valproate", "phenytoin",
+    "carbamazepine", "allopurinol", "colchicine", "levodopa", "donepezil", "memantine",
+    "tamsulosin", "finasteride", "furosemide", "calcium carbonate", "vitamin d",
+    "ferrous sulfate", "folic acid", "potassium chloride", "magnesium",
+]
+
 SIGS = ["10 mg po daily", "25 mg po bid", "40 mg po daily", "500 mg po q12h",
         "81 mg po daily", "5 mg po qhs", "20 mg iv daily", "50 mg po bid",
         "100 mg po tid", "1 g iv q8h", "2.5 mg po daily", "12.5 mg po bid"]

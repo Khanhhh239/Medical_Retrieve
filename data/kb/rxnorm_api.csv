@@ -2,14 +2,19 @@ code,term
 152220,abdominal pain
 161,acetaminophen
 430897,acetaminophen 10 mg po daily
+281,acyclovir
 435,albuterol nebs q4h tai nha
 519,allopurinol
 370547,allopurinol 10 mg po daily
+596,alprazolam
 203114,amiodarone
+203168,amitriptyline
 104416,amlodipine
 308135,amlodipine 10 mg po daily
 133008,amoxicillin
 330654,amoxicillin 10 mg po daily
+19711,amoxicillin clavulanate
+203115,ampicillin
 1364430,apixaban
 1364434,apixaban 10 mg po daily
 1191,aspirin
@@ -24,53 +29,108 @@ code,term
 1298839,azithromycin
 706866,azithromycin 10 mg po daily
 151399,bactrim
+19484,bisoprolol
 19831,budesonide
 376186,budesonide 10 mg po daily
+1808,bumetanide
+1897,calcium carbonate
+1998,captopril
+2002,carbamazepine
+2020,carbimazole
+20352,carvedilol
+20481,cefepime
+25033,cefixime
 2191,ceftazidime
 2193,ceftriaxone
 2193,ceftriaxone 10 mg po daily
+2194,cefuroxime
+140587,celecoxib
 152633,cellcept
+2231,cephalexin
 203563,cipro
 235851,ciprofloxacin
 998755,ciprofloxacin 10 mg po daily
+21212,clarithromycin
+21235,clindamycin
+2598,clonazepam
 236991,clopidogrel
 374583,clopidogrel 10 mg po daily
+1008493,codeine
 82000,colace
+2683,colchicine
 203546,compazine va alevenhung van con dau
 795064,corticoid lieu cao keo dai
 202421,coumadin
 855320,coumadin 3.0 mg /ngay
+1546356,dabigatran
+1488564,dapagliflozin
 3251,desmopressin
+22690,dexamethasone
 2644068,diarrhea
 3322,diazepam
 197589,diazepam 10 mg po daily
+3355,diclofenac
 3407,digoxin
 371834,digoxin 10 mg po daily
+203211,diltiazem
+236099,domperidone
+135447,donepezil
 203122,doxycycline
 1364436,eliquis
+1545653,empagliflozin
+203123,enalapril
 67108,enoxaparin
 67108,enoxaparin 10 mg po daily
+24351,erythromycin
+321988,escitalopram
 283742,esomeprazole
 1855320,esomeprazole 10 mg po daily
+341248,ezetimibe
+4278,famotidine
+8703,fenofibrate
+142436,fentanyl
+24947,ferrous sulfate
+25025,finasteride
+4450,fluconazole
 227224,fluoxetine
 2532159,fluoxetine 10 mg po daily
+41126,fluticasone
+4511,folic acid
 4603,furosemide
 450542,furosemide 10 mg po daily
 25480,gabapentin
 378099,gabapentin 10 mg po daily
+1596450,gentamicin
 282386,gleevec
 4816,gliclazide
 372318,gliclazide 10 mg po daily
+25789,glimepiride
+4821,glipizide
+217483,haloperidol
+235473,heparin
 5224,heparin truyen tinh mach lien tuc
 5487,hydrochlorothiazide
 439014,hydrochlorothiazide 10 mg po daily
+1007334,hydrocortisone
+5640,ibuprofen
+5764,indapamide
 253182,insulin
 253182,insulin 10 mg po daily
+51428,insulin aspart
+274783,insulin glargine
+1309404,ipratropium
+83818,irbesartan
 90176,iron
+28004,isosorbide
 1297138,khang sinh
 20481,khang sinh cefepim va vancomycin truyen tinh mach
+202693,labetalol
+6218,lactulose
+17128,lansoprazole
 202991,lasix
 565458,lasix 40mg daily
+114477,levetiracetam
+6375,levodopa
 82122,levofloxacin
 885508,levofloxacin 10 mg po daily
 10582,levothyroxine
@@ -78,28 +138,51 @@ code,term
 29046,lisinopril
 314076,lisinopril 10 mg po daily
 316152,lisinopril 2.5mg daily
+6468,loperamide
+6470,lorazepam
 52175,losartan
 372651,losartan 10 mg po daily
+6574,magnesium
+236685,memantine
+29561,meropenem
 235743,metformin
 372803,metformin 10 mg po daily
 218337,methadone
+6835,methimazole
+155323,methylprednisolone
+267035,metoclopramide
 221124,metoprolol
 372891,metoprolol 10 mg po daily
 866924,metoprolol 25mg po bid
 1370483,metoprolol succinate 100mg daily
 103866,metronidazole
 343252,metronidazole 10 mg po daily
+15996,mirtazapine
+88249,montelukast
 235751,morphine
 895014,morphine 10 mg po daily
+139462,moxifloxacin
 2388175,mucinex d
+7258,naproxen
 1088971,nausea
+7417,nifedipine
+221129,nitrofurantoin
 4917,nitroglycerin
 337352,nitroglycerin 10 mg po daily
+1294588,olanzapine
 283742,omeprazole
 389171,omeprazole 10 mg po daily
+203148,ondansetron
+7804,oxycodone
 40790,pantoprazole
 373222,pantoprazole 10 mg po daily
+235830,paroxetine
 42844,percocet
+8183,phenytoin
+259319,pioglitazone
+74169,piperacillin tazobactam
+8591,potassium chloride
+42463,pravastatin
 34372,prednisolone
 436279,prednisolone 10 mg po daily
 8640,prednisone
@@ -107,33 +190,51 @@ code,term
 187832,pregabalin
 1988973,pregabalin 10 mg po daily
 196463,prograf
+82084,propranolol
+51272,quetiapine
+114979,rabeprazole
+35296,ramipril
 616493,ranexa 500mg daily
+203136,ranitidine
+35636,risperidone
 1114195,rivaroxaban
 1114198,rivaroxaban 10 mg po daily
 301542,rosuvastatin
 859747,rosuvastatin 10 mg po daily
 142153,salbutamol
 435,salbutamol 10 mg po daily
+36117,salmeterol
 83553,seroquel
 155137,sertraline
 373868,sertraline 10 mg po daily
 36567,simvastatin
 314231,simvastatin 10 mg po daily
+2716481,sitagliptin
 9997,spironolactone
 360521,spironolactone 10 mg po daily
+236495,tamsulosin
 151399,tang lieu bactrim
+73494,telmisartan
 2594484,thay the bicarbonate
+10438,theophylline
 761,thuoc giam dau opioid
+1116632,ticagrelor
 328141,tien su tang calci mau truoc day; 11.6
+1298831,tiotropium
 10689,tramadol
 374173,tramadol 10 mg po daily
+10831,trimethoprim sulfamethoxazole
 2268653,truyen dich : 4000 ml ns 0.9 %
 202433,tylenol
 6470,uong  morphineoral va  lorazepam do dau
+40254,valproate
 69749,valsartan
 378276,valsartan 10 mg po daily
 11124,vancomycin
+11170,verapamil
 128793,vicodin
+11253,vitamin d
 11289,warfarin
 855296,warfarin 10 mg po daily
 750149,z-pack
+39993,zolpidem

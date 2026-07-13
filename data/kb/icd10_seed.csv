@@ -3,85 +3,184 @@ I10,tăng huyết áp
 I10,cao huyết áp
 I10,bệnh tăng huyết áp
 I10,huyết áp cao
+I11.9,bệnh tim do tăng huyết áp
+I15.9,tăng huyết áp thứ phát
 E11,đái tháo đường type 2
 E11,đái tháo đường típ 2
 E11,đái tháo đường tuýp 2
 E11,tiểu đường type 2
 E11,tiểu đường
+E11.9,đái tháo đường type 2 không biến chứng
+E11.65,đái tháo đường type 2 kiểm soát kém
 E10,đái tháo đường type 1
 E10,tiểu đường type 1
+E78.5,rối loạn lipid máu
+E78.5,rối loạn mỡ máu
+E78.5,rối loạn chuyển hóa lipid
+E78.0,tăng cholesterol máu
+E78.1,tăng triglyceride máu
+E03.9,suy giáp
+E03.9,nhược giáp
+E05.90,cường giáp
+E05.90,basedow
+E66.9,béo phì
+E46,suy dinh dưỡng
+E86.0,mất nước
+E87.6,hạ kali máu
+E87.5,tăng kali máu
+E87.1,hạ natri máu
+E83.42,hạ magie máu
 K21.9,bệnh trào ngược dạ dày thực quản
 K21.9,trào ngược dạ dày thực quản
 K21.9,trào ngược dạ dày
 K21.0,bệnh trào ngược dạ dày thực quản có viêm thực quản
-J18.9,viêm phổi
-J18.9,viêm phổi cộng đồng
-N18.9,bệnh thận mạn
-N18.9,suy thận mạn
-N18.9,bệnh thận mạn tính
-N17.9,suy thận cấp
-I48.91,rung nhĩ
-I48.91,rung nhĩ kịch phát
-J44.9,bệnh phổi tắc nghẽn mạn tính
-J44.9,phổi tắc nghẽn mạn tính
-E78.5,rối loạn lipid máu
-E78.5,rối loạn mỡ máu
-E78.5,rối loạn chuyển hóa lipid
-I50.9,suy tim
-I50.0,suy tim sung huyết
-I21.9,nhồi máu cơ tim
-I21.9,nhồi máu cơ tim cấp
-I25.10,bệnh mạch vành
-I25.10,bệnh động mạch vành
-J45.909,hen phế quản
-J45.909,hen suyễn
-J20.9,viêm phế quản cấp
 K29.70,viêm dạ dày
 K25.9,loét dạ dày
 K25.9,loét dạ dày tá tràng
-D64.9,thiếu máu
-E03.9,suy giáp
-E05.90,cường giáp
-F32.9,trầm cảm
-F41.9,rối loạn lo âu
-F41.9,lo âu
-N39.0,nhiễm trùng đường tiết niệu
-N39.0,nhiễm trùng tiết niệu
-N39.0,nhiễm khuẩn tiết niệu
+K27.9,loét tiêu hóa
+K92.2,xuất huyết tiêu hóa
+K92.1,đi ngoài phân đen
+K80.20,sỏi mật
+K81.0,viêm túi mật cấp
+K85.90,viêm tụy cấp
+K86.1,viêm tụy mạn
 K74.60,xơ gan
+K70.30,xơ gan do rượu
+K72.90,suy gan
 B18.1,viêm gan B
 B18.1,viêm gan siêu vi B
 B18.2,viêm gan C
+K76.0,gan nhiễm mỡ
+K37,viêm ruột thừa
+K57.90,viêm túi thừa đại tràng
+K56.60,tắc ruột
+K59.00,táo bón
+A09,tiêu chảy nhiễm trùng
+J18.9,viêm phổi
+J18.9,viêm phổi cộng đồng
+J15.9,viêm phổi do vi khuẩn
+J44.9,bệnh phổi tắc nghẽn mạn tính
+J44.9,phổi tắc nghẽn mạn tính
+J44.1,đợt cấp bệnh phổi tắc nghẽn mạn tính
+J45.909,hen phế quản
+J45.909,hen suyễn
+J20.9,viêm phế quản cấp
+J42,viêm phế quản mạn
+J96.00,suy hô hấp cấp
+J96.90,suy hô hấp
+J90,tràn dịch màng phổi
+J93.9,tràn khí màng phổi
+J81.0,phù phổi cấp
+I26.99,thuyên tắc phổi
+I50.9,suy tim
+I50.0,suy tim sung huyết
+I50.9,suy tim mạn
+I21.9,nhồi máu cơ tim
+I21.9,nhồi máu cơ tim cấp
+I21.4,nhồi máu cơ tim không ST chênh
+I25.10,bệnh mạch vành
+I25.10,bệnh động mạch vành
+I20.0,cơn đau thắt ngực không ổn định
+I48.91,rung nhĩ
+I48.91,rung nhĩ kịch phát
+I47.1,nhịp nhanh trên thất
+I49.9,rối loạn nhịp tim
+I44.2,block nhĩ thất hoàn toàn
 I63.9,nhồi máu não
 I63.9,đột quỵ
 I63.9,tai biến mạch máu não
 I61.9,xuất huyết não
-C18.9,ung thư đại tràng
-C18.9,ung thư đại trực tràng
-C34.90,ung thư phổi
-C50.919,ung thư vú
-C16.9,ung thư dạ dày
-C22.9,ung thư gan
-C61,ung thư tuyến tiền liệt
+I60.9,xuất huyết dưới nhện
+G45.9,cơn thiếu máu não thoáng qua
+I73.9,bệnh động mạch ngoại biên
+I80.209,huyết khối tĩnh mạch sâu
+I71.4,phình động mạch chủ bụng
+N18.9,bệnh thận mạn
+N18.9,suy thận mạn
+N18.9,bệnh thận mạn tính
+N17.9,suy thận cấp
+N17.9,tổn thương thận cấp
+N39.0,nhiễm trùng đường tiết niệu
+N39.0,nhiễm trùng tiết niệu
+N39.0,nhiễm khuẩn tiết niệu
+N10,viêm thận bể thận cấp
 N20.0,sỏi thận
 N20.1,sỏi niệu quản
-K80.20,sỏi mật
-K85.90,viêm tụy cấp
-K37,viêm ruột thừa
-M51.9,thoát vị đĩa đệm
+N40.0,tăng sản tuyến tiền liệt
+N40.0,phì đại tuyến tiền liệt
+N13.30,thận ứ nước
+R33.9,bí tiểu
+D64.9,thiếu máu
+D64.9,thiếu máu không đặc hiệu
+D50.9,thiếu máu thiếu sắt
+D62,thiếu máu do mất máu cấp
+D69.6,giảm tiểu cầu
+C34.90,ung thư phổi
+C34.90,ung thư phế quản phổi
+C50.919,ung thư vú
+C18.9,ung thư đại tràng
+C18.9,ung thư đại trực tràng
+C20,ung thư trực tràng
+C16.9,ung thư dạ dày
+C22.9,ung thư gan
+C25.9,ung thư tụy
+C61,ung thư tuyến tiền liệt
+C67.9,ung thư bàng quang
+C64.9,ung thư thận
+C53.9,ung thư cổ tử cung
+C56.9,ung thư buồng trứng
+C73,ung thư tuyến giáp
+C91.00,bạch cầu cấp dòng lympho
+C92.00,bạch cầu cấp dòng tủy
+C90.00,đa u tủy xương
+C81.90,u lympho hodgkin
+C85.90,u lympho không hodgkin
+C79.9,ung thư di căn
+F32.9,trầm cảm
+F32.9,rối loạn trầm cảm
+F41.9,rối loạn lo âu
+F41.9,lo âu
+F41.1,rối loạn lo âu lan tỏa
+F03.90,sa sút trí tuệ
+F03.90,mất trí nhớ
+F05,mê sảng
+F10.20,nghiện rượu
+F17.200,nghiện thuốc lá
+G40.909,động kinh
+G40.909,co giật
+G20,parkinson
+G20,bệnh parkinson
+G35,xơ cứng rải rác
+G62.9,bệnh thần kinh ngoại biên
+G43.909,đau nửa đầu
 M06.9,viêm khớp dạng thấp
+M15.9,thoái hóa khớp
+M17.9,thoái hóa khớp gối
 M10.9,gout
 M10.9,bệnh gút
 M81.0,loãng xương
-G40.909,động kinh
-G20,parkinson
-G20,bệnh parkinson
-F03.90,sa sút trí tuệ
-E66.9,béo phì
-E46,suy dinh dưỡng
-A15.0,lao phổi
+M51.9,thoát vị đĩa đệm
+M54.5,đau thắt lưng
+M79.7,đau xơ cơ
 A41.9,nhiễm khuẩn huyết
 A41.9,nhiễm trùng huyết
+A41.9,nhiễm trùng máu
+R65.20,sốc nhiễm khuẩn
+A15.0,lao phổi
+A15.9,lao
 G03.9,viêm màng não
-N40.0,tăng sản tuyến tiền liệt
-N40.0,phì đại tuyến tiền liệt
+B99.9,nhiễm trùng
+L03.90,viêm mô tế bào
+L89.90,loét tì đè
+T14.90,chấn thương
+S06.9,chấn thương sọ não
+I95.9,hạ huyết áp
+R55,ngất
+R57.0,sốc tim
+E86.9,giảm thể tích tuần hoàn
+D65,đông máu nội mạch lan tỏa
+N04.9,hội chứng thận hư
+M32.9,lupus ban đỏ hệ thống
+E27.40,suy thượng thận
+E05.5,cơn bão giáp
+G30.9,alzheimer

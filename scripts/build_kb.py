@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.io.loader import load_dataset                 # noqa: E402
 from src.io.offsets import normalize_str               # noqa: E402
 from src.extract.baseline import extract               # noqa: E402
-from datagen.lexicon import DRUGS, SIGS                 # noqa: E402
+from datagen.lexicon import DRUGS, SIGS, COMMON_DRUGS   # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KB = os.path.join(ROOT, "data", "kb")
@@ -59,6 +59,8 @@ def collect_drug_mentions() -> set:
     for name, _ in DRUGS:                    # thêm tên + vài sig để phủ private test
         out.add(name)
         out.add(f"{name} {SIGS[0]}")
+    for name in COMMON_DRUGS:                # danh sách thuốc thường gặp -> pre-cache rộng
+        out.add(name)
     return out
 
 
