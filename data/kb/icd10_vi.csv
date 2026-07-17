@@ -1,0 +1,2132 @@
+code,term
+A00,bệnh tả
+A01,bệnh thương hàn và/hoặc bệnh phó thương hàn
+A02,nhiễm salmonella khác
+A03,bệnh lỵ trực khuẩn
+A04,nhiễm trùng đường ruột do vi khuẩn khác
+A05,"ngộ độc thực phẩm do vi khuẩn khác, không phân loại mục khác"
+A06,bệnh lỵ a-míp
+A07,bệnh đường ruột do đơn bào khác
+A08,nhiễm trùng đường ruột do virus và/hoặc tác nhân xác định khác
+A09,viêm dạ dày- ruột và/hoặc đại tràng do nhiễm trùng và/hoặc không xác định căn nguyên
+A15,"bệnh lao hô hấp, được khẳng định bằng vi khuẩn học và/hoặc mô học"
+A16,"bệnh lao hô hấp, không được khẳng định bằng vi khuẩn học hoặc mô học"
+A17,bệnh lao hệ thần kinh
+A18,bệnh lao ở cơ quan khác
+A19,bệnh lao kê
+A20,bệnh dịch hạch
+A21,bệnh tularaemia
+A22,bệnh than
+A23,bệnh do brucella
+A24,bệnh melioidosis và/hoặc bệnh glanders
+A25,sốt do chuột cắn
+A26,bệnh viêm quầng đỏ do erysipelothrix rhusiopathiae
+A27,bệnh nhiễm leptospira
+A28,"bệnh nhiễm trùng khác do động vật truyền sang người, không phân loại mục khác"
+A30,bệnh phong [bệnh hansen]
+A31,nhiễm trùng do mycobacteria khác
+A32,bệnh do nhiễm listeria
+A33,bệnh uốn ván sơ sinh
+A34,sản khoa
+A35,bệnh uốn ván khác
+A36,bệnh bạch hầu
+A37,bệnh ho gà
+A38,bệnh sốt tinh hồng nhiệt
+A39,nhiễm trùng do não mô cầu
+A40,nhiễm trùng hệ thống do liên cầu khuẩn
+A41,nhiễm trùng hệ thống khác
+A42,bệnh do nhiễm actinomyces
+A43,bệnh do nhiễm nocardia
+A44,bệnh do nhiễm bartonella
+A46,viêm quầng (do liên cầu khuẩn [streptococcus])
+A48,"bệnh nhiễm khuẩn khác, không phân loại mục khác"
+A49,nhiễm khuẩn ở vị trí không xác định
+A50,bệnh giang mai bẩm sinh
+A51,bệnh giang mai sớm
+A52,bệnh giang mai giai đoạn muộn [thời gian nhiễm khuẩn từ 2 năm trở lên]
+A53,bệnh giang mai khác và/hoặc không xác định
+A54,bệnh lậu [bệnh nhiễm khuẩn lậu cầu]
+A55,viêm hạch lympho do chlamydia (bệnh hột xoài)
+A56,bệnh khác do chlamydia lây truyền qua đường tình dục
+A57,bệnh hạ cam mềm
+A58,u hạt ở bẹn
+A59,bệnh do trichomonas
+A60,bệnh nhiễm virus herpes [herpes simplex] vùng hậu môn sinh dục
+A63,"bệnh khác lây chủ yếu qua đường tình dục, không phân loại mục khác"
+A64,bệnh lây truyền qua đường tình dục không xác định
+A65,bệnh giang mai không lây qua đường tình dục
+A66,bệnh ghẻ cóc [do spirochaete treponema pallidum]
+A67,bệnh pinta [do treponema carateum]
+A68,bệnh sốt tái phát
+A69,bệnh do xoắn khuẩn khác
+A70,bệnh do nhiễm chlamydia psittaci
+A71,bệnh mắt hột
+A74,bệnh khác do nhiễm chlamydia
+A75,bệnh sốt phát ban
+A77,sốt phát ban đốm [nhiễm rickttsia do bọ ve truyền]
+A78,sốt q
+A79,nhiễm rickettsia
+A80,cấp tính
+A81,bệnh do virus không điển hình ở hệ thần kinh trung ương
+A82,bệnh dại ở người
+A83,bệnh viêm não virus do muỗi truyền
+A84,bệnh viêm não virus do bọ ve truyền
+A85,"bệnh viêm não khác do virus, không phân loại mục khác"
+A86,bệnh viêm não do virus không xác định
+A87,bệnh viêm màng não do virus
+A88,"nhiễm virus khác của hệ thần kinh trung ương, không phân loại mục khác"
+A89,nhiễm virus không xác định của hệ thần kinh trung ương
+A92,bệnh sốt virus khác do muỗi truyền
+A93,"bệnh sốt virus khác do tiết túc truyền [virus arbo], không phân loại mục khác"
+A94,bệnh sốt virus do tiết túc truyền [virus arbo] không xác định
+A95,bệnh sốt vàng
+A96,bệnh sốt xuất huyết do virus arena
+A97,bệnh sốt xuất huyết dengue
+A98,"bệnh sốt xuất huyết do virus khác, không phân loại mục khác"
+A99,bệnh sốt xuất huyết do virus không xác định
+B00,bệnh do nhiễm virus herpes [herpes simplex]
+B01,bệnh thủy đậu
+B02,bệnh zona [herpes zoster] [bệnh giời leo]
+B03,bệnh đậu mùa
+B04,bệnh đậu mùa khỉ
+B05,bệnh sởi
+B06,bệnh rubella [sởi đức]
+B07,bệnh mụn cóc do virus
+B08,"nhiễm virus khác có biểu hiện tổn thương tại da và/hoặc niêm mạc, không phân loại mục khác"
+B09,"nhiễm virus không xác định, có biểu hiện tổn thương tại da và/hoặc niêm mạc"
+B15,bệnh viêm gan a cấp tính
+B16,bệnh viêm gan b cấp tính
+B17,bệnh viêm gan virus cấp tính khác
+B18,bệnh viêm gan virus mạn tính
+B19,bệnh viêm gan virus không xác định
+B20,bệnh do virus gây suy giảm miễn dịch ở người [hiv] gây ra bệnh nhiễm trùng và/hoặc ký sinh trùng
+B21,bệnh do virus suy giảm miễn dịch ở người [hiv] gây ra u ác tính
+B22,bệnh do virus gây suy giảm miễn dịch ở người [hiv] gây ra bệnh xác định khác
+B23,bệnh do virus gây suy giảm miễn dịch ở người [hiv] dẫn đến bệnh khác
+B24,bệnh do virus gây suy giảm miễn dịch ở người [hiv] không xác định
+B25,bệnh nhiễm virus đại bào [cytomegaloviru s-cmv]
+B26,bệnh quai bị
+B27,bệnh tăng bạch cầu đơn nhân nhiễm trùng
+B30,bệnh viêm kết mạc do virus
+B33,"bệnh nhiễm virus khác, không phân loại mục khác"
+B34,nhiễm virus ở vị trí không xác định
+B35,bệnh da do nấm sợi
+B36,bệnh nhiễm nấm nông khác ở da
+B37,bệnh do nấm candida
+B38,bệnh nhiễm nấm coccidioides
+B39,bệnh nhiễm nấm histoplasma
+B40,bệnh do nhiễm nấm blastomyces
+B41,bệnh do nhiễm nấm paracoccidioides
+B42,bệnh do nhiễm nấm sporotrichum
+B43,bệnh do nhiễm nấm chromoblastomy cosa [nấm màu] và/hoặc áp xe do phaeomyces
+B44,bệnh nhiễm nấm aspergillus
+B45,bệnh nhiễm nấm cryptococcus
+B46,bệnh nhiễm nấm zygomycetes
+B47,bệnh u bướu do nấm
+B48,"bệnh nhiễm nấm khác, không phân loại mục khác"
+B49,bệnh nhiễm nấm không xác định
+B50,bệnh sốt rét do plasmodium falciparum
+B51,bệnh sốt rét do plasmodium vivax
+B52,bệnh sốt rét do plasmodium malariae
+B53,bệnh sốt rét khác được khẳng định về ký sinh trùng học
+B54,bệnh sốt rét không xác định
+B55,bệnh do nhiễm leishmania
+B56,bệnh do nhiễm trypanosoma châu phi [bệnh ngủ châu phi]
+B57,bệnh chagas
+B58,bệnh do nhiễm toxoplasma
+B60,"bệnh do ký sinh trùng đơn bào khác, không phân loại mục khác"
+B64,bệnh do nhiễm ký sinh trùng đơn bào không xác định
+B65,bệnh nhiễm sán máng [bilharziasis]
+B66,bệnh nhiễm sán lá khác
+B67,bệnh nang sán [echinococcus]
+B68,bệnh sán dây taenia
+B69,bệnh nhiễm ấu trùng sán lợn [bệnh gạo lợn]
+B70,bệnh nhiễm sán dây diphyllobothriu m và/hoặc bệnh sán nhái sparganum
+B71,bệnh nhiễm sán dây khác
+B72,bệnh nhiễm giun dracunculus [giun guinea]
+B73,bệnh nhiễm giun chỉ onchocerca [mù sông]
+B74,bệnh nhiễm giun chỉ bạch huyết [filariasis]
+B75,bệnh nhiễm giun xoắn trichinella
+B76,bệnh nhiễm giun móc
+B77,bệnh nhiễm giun đũa
+B78,bệnh nhiễm giun lươn strongyloides
+B79,bệnh nhiễm giun tóc trichuris
+B80,bệnh nhiễm giun kim enterobias
+B81,"bệnh nhiễm giun khác ở đường ruột, không phân loại mục khác"
+B82,bệnh nhiễm ký sinh trùng không xác định ở đường ruột
+B83,bệnh nhiễm giun sán khác
+B85,bệnh nhiễm chấy và/hoặc rận
+B86,bệnh ghẻ
+B87,bệnh giòi [dòi]
+B88,bệnh nhiễm ký sinh trùng khác
+B89,bệnh do ký sinh trùng không xác định
+B90,di chứng của bệnh lao
+B91,di chứng của bệnh bại liệt
+B92,di chứng của bệnh phong
+B94,di chứng của bệnh nhiễm trùng và/hoặc ký sinh trùng khác và/hoặc không xác định
+B95,liên cầu khuẩn và/hoặc tụ cầu khuẩn là nguyên nhân gây bệnh phân loại ở chương khác
+B96,tác nhân vi khuẩn xác định khác là nguyên nhân gây bệnh phân loại ở chương khác
+B97,tác nhân virus là nguyên nhân gây bệnh phân loại ở chương khác
+B98,tác nhân nhiễm trùng xác định khác là nguyên nhân gây bệnh phân loại ở chương khác
+B99,bệnh truyền nhiễm khác và/hoặc không xác định
+C00,u ác tính ở môi
+C01,u ác tính ở gốc [rễ] lưỡi
+C02,u ác tính ở phần khác và/hoặc không xác định của lưỡi
+C03,u ác tính ở lợi [nướu răng]
+C04,u ác tính ở sàn miệng
+C05,u ác tính ở khẩu cái
+C06,u ác tính ở phần khác và/hoặc không xác định của miệng
+C07,u ác tính ở tuyến mang tai
+C08,u ác tính ở tuyến nước bọt chính khác và/hoặc không xác định
+C09,u ác tính ở amydan
+C10,u ác tính ở miệng-hầu
+C10,u ác tính ở miệng - hầu
+C11,u ác tính ở mũi- hầu
+C12,u ác tính ở xoang lê
+C13,u ác tính ở hạ họng
+C14,"u ác tính ở vị trí khác và/hoặc không rõ ràng ở môi, khoang miệng và/hoặc họng"
+C15,u ác tính ở thực quản
+C16,u ác tính ở dạ dày
+C17,u ác tính ở ruột non
+C18,u ác tính ở đại tràng
+C19,u ác tính ở nơi nối trực tràng sigma
+C20,u ác tính ở trực tràng
+C21,u ác tính ở hậu môn và/hoặc ống hậu môn
+C22,u ác tính ở gan và/hoặc đường mật trong gan
+C23,u ác tính ở túi mật
+C24,u ác tính ở phần khác và/hoặc phần không xác định của đường mật
+C25,u ác tính ở tụy
+C26,u ác tính ở cơ quan tiêu hóa khác và/hoặc không rõ ràng
+C30,u ác tính ở khoang mũi và/hoặc tai giữa
+C31,u ác tính ở xoang phụ
+C32,u ác tính ở thanh quản
+C33,u ác tính ở khí quản
+C34,u ác tính ở phế quản và/hoặc phổi
+C37,u ác tính ở tuyến ức
+C38,"u ác tính ở tim, trung thất và/hoặc màng phổi"
+C39,u ác tính ở những vị trí khác và/hoặc không rõ ràng của hệ hô hấp và/hoặc cơ quan trong khoang ngực
+C40,u ác tính ở xương và/hoặc sụn khớp của các chi
+C41,u ác tính ở vị trí khác và/hoặc không xác định ở xương và/hoặc sụn khớp
+C43,u hắc tố ác tính ở da
+C44,u tân sinh ác tính khác ở da
+C45,u trung biểu mô
+C46,ung thư [sarcoma] kaposi
+C47,u ác tính ở dây thần kinh ngoại biên và/hoặc hệ thần kinh tự động
+C48,u ác tính ở vùng sau phúc mạc và/hoặc phúc mạc
+C49,u ác tính ở mô liên kết và/hoặc mô mềm khác
+C50,u ác tính ở vú
+C51,u ác tính ở âm hộ
+C52,u ác tính ở âm đạo
+C53,u ác tính ở cổ tử cung
+C54,u ác tính ở thân tử cung
+C55,"u ác tính ở tử cung, phần không xác định"
+C56,u ác tính ở buồng trứng
+C57,u ác tính ở cơ quan sinh dục khác và/hoặc không xác định ở nữ giới
+C58,u ác tính ở rau thai [nhau thai]
+C60,u ác tính ở dương vật
+C61,u ác tính ở tuyến tiền liệt
+C62,u ác tính ở tinh hoàn
+C63,u ác tính ở cơ quan sinh dục khác và/hoặc không xác định ở nam giới
+C64,"u ác tính ở thận, ngoại trừ bể thận"
+C65,u ác tính ở bể thận
+C66,u ác tính ở niệu quản
+C67,u ác tính ở bàng quang
+C68,u ác tính ở cơ quan tiết niệu khác và/hoặc không xác định
+C69,u ác tính ở mắt và/hoặc cấu trúc phụ cận của mắt
+C70,u ác tính ở màng não tủy
+C71,u ác tính ở não
+C72,"u ác tính ở tủy sống, dây thần kinh sọ và/hoặc phần khác của hệ thần kinh trung ương"
+C73,u ác tính ở tuyến giáp
+C74,u ác tính ở tuyến thượng thận
+C75,u ác tính ở tuyến nội tiết khác và/hoặc cấu trúc liên quan
+C76,u ác tính ở vị trí khác và/hoặc không rõ ràng
+C77,u ác tính thứ phát và/hoặc không xác định ở hạch lympho
+C78,u ác tính thứ phát ở cơ quan hô hấp và/hoặc cơ quan tiêu hóa
+C79,u ác tính thứ phát ở vị trí khác và/hoặc không xác định
+C80,"u ác tính, vị trí không xác định"
+C82,u lympho thể nang
+C83,u lympho không phải thể nang
+C84,u lympho tế bào t/nk trưởng thành
+C84.1,sézary disease
+C85,u lympho không hodgkin loại khác và/hoặc không xác định
+C86,các loại u lympho tế bào t/nk xác định khác
+C88,bệnh tăng sinh miễn dịch ác tính
+C88.0,waldenström macroglobulinaemi a
+C90,đa u tủy xương và/hoặc u tương bào ác tính
+C91,bệnh bạch cầu dòng lympho
+C92,dòng tủy
+C93,bệnh bạch cầu dòng đơn nhân [mono]
+C94,bệnh bạch cầu khác ở dòng tế bào xác định
+C95,bệnh bạch cầu ở loại tế bào không xác định
+C96,"u ác tính khác và/hoặc không xác định ở mô hệ lympho, cơ quan tạo máu và/hoặc mô liên quan"
+C97,u ác tính ở nhiều vị trí độc lập (nguyên phát)
+D00,"ung thư biểu mô tại chỗ ở khoang miệng, thực quản và/hoặc dạ dày"
+D01,ung thư biểu mô tại chỗ ở cơ quan tiêu hóa khác và/hoặc không xác định
+D02,ung thư biểu mô tại chỗ ở tai giữa và/hoặc hệ hô hấp
+D03,ung thư tế bào hắc tố tại chỗ
+D04,ung thư biểu mô tại chỗ ở da
+D05,ung thư biểu mô tại chỗ ở vú
+D06,ung thư biểu mô tại chỗ ở cổ tử cung
+D07,ung thư biểu mô tại chỗ ở cơ quan sinh dục khác và/hoặc không xác định
+D07,ung thư biểu mô tại chỗ khác và/hoặc không xác định ở cơ quan sinh dục
+D09,ung thư biểu mô tại chỗ ở vị trí khác và/hoặc không xác định
+D10,u lành ở miệng và/hoặc họng
+D11,u lành ở tuyến nước bọt chính
+D12,"u lành ở đại tràng, trực tràng, hậu môn và/hoặc ống hậu môn"
+D13,u lành ở phần khác và/hoặc không rõ ràng ở hệ tiêu hóa
+D14,u lành ở tai giữa và/hoặc hệ hô hấp
+D15,u lành ở cơ quan khác và/hoặc không xác định trong khoang ngực
+D16,u lành ở xương và/hoặc sụn khớp
+D17,u mỡ lành tính
+D18,"u máu và/hoặc u bạch huyết, vị trí bất kỳ"
+D19,u lành trung biểu mô
+D20,u lành mô mềm ở vùng sau phúc mạc và/hoặc phúc mạc
+D21,u lành khác ở mô liên kết và/hoặc mô mềm khác
+D22,nơ vi [nevi] tế bào melanin [nốt ruồi]
+D23,u lành khác ở da
+D24,u lành ở vú
+D25,u cơ trơn tử cung
+D26,u lành khác ở tử cung
+D27,u lành ở buồng trứng
+D28,u lành ở cơ quan sinh dục nữ khác và/hoặc không xác định
+D29,u lành ở cơ quan sinh dục nam
+D30,u lành ở cơ quan tiết niệu
+D31,u lành ở mắt và/hoặc cấu trúc phụ cận của mắt
+D32,u lành ở màng não
+D33,u lành ở não và/hoặc phần khác của hệ thần kinh trung ương
+D34,u lành ở tuyến giáp
+D35,u lành ở tuyến nội tiết khác và/hoặc không xác định
+D36,u lành ở vị trí khác và/hoặc không xác định
+D37,u tân sinh không tiên lượng được tiến triển và tính chất ở khoang miệng và/hoặc cơ quan tiêu hóa
+D38,"u tân sinh không tiên lượng được tiến triển và tính chất ở tai giữa, cơ quan hô hấp và/hoặc cơ quan trong khoang ngực"
+D39,u tân sinh không tiên lượng được tiến triển và tính chất ở cơ quan sinh dục nữ
+D40,u tân sinh không tiên lượng được tiến triển và tính chất ở cơ quan sinh dục nam
+D41,u tân sinh không tiên lượng được tiến triển và tính chất ở cơ quan tiết niệu
+D42,u tân sinh không tiên lượng được tiến triển và tính chất ở màng não tủy
+D43,u tân sinh không tiên lượng được tiến triển và tính chất ở não và/hoặc hệ thần kinh trung ương
+D44,u tân sinh không tiên lượng được tiến triển và tính chất ở tuyến nội tiết
+D45,đa hồng cầu
+D46,hội chứng loạn sản tủy xương
+D47,"u tân sinh khác không tiên lượng được tiến triển và tính chất ở mô hệ lympho, cơ quan tạo máu và/hoặc mô liên quan"
+D48,u tân sinh không tiên lượng được tiến triển và tính chất ở vị trí khác và/hoặc không xác định
+D50,thiếu máu do thiếu sắt
+D51,thiếu máu do thiếu vitamin b12
+D52,thiếu máu do thiếu folate
+D53,thiếu máu do thiếu dinh dưỡng khác
+D55,thiếu máu do rối loạn men
+D56,bệnh thalassaemia [tan máu bẩm sinh]
+D57,rối loạn hồng cầu hình liềm
+D58,thiếu máu tan máu di truyền khác
+D59,thiếu máu tan máu mắc phải
+D60,suy tủy xương [bất sản hồng cầu] đơn thuần mắc phải [giảm nguyên hồng cầu]
+D61,thể suy tủy xương [thiếu máu bất sản] khác
+D62,thiếu máu sau chảy máu cấp tính
+D63,thiếu máu do bệnh mạn tính phân loại mục khác
+D64,bệnh thiếu máu khác
+D65,đông máu rải rác nội mạch [hội chứng tiêu sợi huyết]
+D66,thiếu hụt yếu tố viii di truyền
+D67,thiếu hụt yếu tố ix di truyền
+D68,rối loạn đông máu khác
+D69,ban xuất huyết và/hoặc tình trạng xuất huyết khác
+D70,bệnh mất bạch cầu hạt
+D71,rối loạn chức năng bạch cầu đa nhân trung tính
+D72,rối loạn khác của bạch cầu
+D73,bệnh lý lách
+D74,bệnh mất sắc tố máu [methaemoglobi naemia]
+D75,bệnh khác của máu và/hoặc cơ quan tạo máu
+D76,bệnh xác định khác liên quan mô hệ bạch huyết và/hoặc mô bào lưới
+D76,"excl.: (abt-)letterer-siwe disease (c96.0) eosinophilic granuloma (c96.6) hand-schüller- christian disease (c96.5) histiocytic sarcoma (c96.8) histiocytosis x, multifocal (c96.5) histiocytosis x, unifocal (c96.6) langerhans-cell histiocytosis, multifocal (c96.5) langerhans-cell histiocytosis, unifocal (c96.6) malignant histiocytosis (c96.8) reticuloendotheliosis: leukaemic (c91.4) nonlipid (c96.0) reticulosis: histiocytic medullary (c96.8) lipomelanotic (i89.8) malignant nos (c86.0)"
+D77,rối loạn khác ở máu và/hoặc cơ quan tạo máu do bệnh phân loại mục khác
+D80,suy giảm miễn dịch chủ yếu do bất thường kháng thể
+D81,suy giảm miễn dịch kết hợp
+D82,suy giảm miễn dịch liên quan đến bất thường nghiêm trọng khác
+D83,suy giảm miễn dịch biến thiên phổ biến
+D84,suy giảm miễn dịch khác
+D86,bệnh u hạt
+D89,"rối loạn khác liên quan cơ chế miễn dịch, không phân loại mục khác"
+E00,hội chứng thiếu iod bẩm sinh
+E01,rối loạn tuyến giáp liên quan đến thiếu iod và/hoặc bệnh phối hợp
+E02,suy tuyến giáp do thiếu iod dưới lâm sàng
+E03,suy tuyến giáp khác
+E04,bướu tuyến giáp không độc khác
+E05,nhiễm độc tuyến giáp [cường giáp]
+E06,viêm tuyến giáp
+E07,rối loạn khác của tuyến giáp
+E10,bệnh đái tháo đường típ 1
+E11,bệnh đái tháo đường típ 2
+E12,bệnh đái tháo đường liên quan đến suy dinh dưỡng
+E13,bệnh đái tháo đường xác định khác
+E14,đái tháo đường không xác định
+E15,hôn mê hạ đường huyết không do đái tháo đường
+E16,rối loạn khác của tuyến tụy nội tiết
+E20,suy cận giáp
+E21,cường cận giáp và/hoặc rối loạn khác của tuyến cận giáp
+E22,tăng cường chức năng tuyến yên
+E23,suy chức năng và/hoặc rối loạn khác của tuyến yên
+E24,hội chứng cushing
+E25,rối loạn thượng thận- sinh dục
+E26,cường aldosterone
+E27,rối loạn khác của tuyến thượng thận
+E28,rối loạn chức năng buồng trứng
+E29,rối loạn chức năng tinh hoàn
+E30,"rối loạn tuổi dậy thì, không phân loại mục khác"
+E31,rối loạn chức năng đa tuyến
+E32,diseases of thymus bệnh tuyến ức
+E34,rối loạn nội tiết khác
+E35,rối loạn tuyến nội tiết do bệnh phân loại mục khác
+E40,suy dinh dưỡng thể phù kwashiorkor
+E41,suy dinh dưỡng thể teo đét [marasmus]
+E42,suy dinh dưỡng thể hỗn hợp marasmus - kwashiorkor
+E43,"suy dinh dưỡng nặng do thiếu protein - năng lượng, không xác định"
+E44,suy dinh dưỡng vừa và/hoặc nhẹ do thiếu protein - năng lượng
+E45,chậm phát triển sau suy dinh dưỡng do thiếu protein - năng lượng
+E46,suy dinh dưỡng do thiếu protein-năng lượng không xác định
+E50,thiếu vitamin a
+E51,thiếu thiamine
+E52,thiếu niacin [bệnh pellagra]
+E53,thiếu vitamin nhóm b khác
+E54,thiếu acid ascorbic
+E55,thiếu vitamin d
+E56,thiếu vitamin khác
+E58,thiếu calci do chế độ ăn
+E59,thiếu selen do chế độ ăn
+E60,thiếu kẽm do chế độ ăn
+E61,thiếu yếu tố dinh dưỡng khác
+E63,thiếu dinh dưỡng khác
+E64,di chứng của suy dinh dưỡng và/hoặc thiếu hụt dinh dưỡng khác
+E65,bệnh béo phì khu trú
+E66,bệnh béo phì
+E67,tình trạng thừa dinh dưỡng khác
+E68,di chứng của thừa dinh dưỡng
+E70,rối loạn chuyển hóa acid amin thơm
+E71,rối loạn chuyển hóa acid amin chuỗi nhánh và/hoặc rối loạn chuyển hóa acid béo
+E72,rối loạn khác của chuyển hóa acid amin
+E73,lactose intolerance không dung nạp lactose
+E74,rối loạn khác của chuyển hóa carbohydrat
+E75,rối loạn chuyển hóa sphingolipid và/hoặc rối loạn tích lũy lipid
+E76,rối loạn chuyển hóa glycosaminoglyc an
+E77,rối loạn chuyển hóa glycoprotein
+E78,rối loạn chuyển hóa lipoprotein và/hoặc tình trạng tăng lipid máu khác
+E79,rối loạn chuyển hóa purine và/hoặc pyrimidine
+E80,rối loạn chuyển hóa porphyrin và/hoặc bilirubin
+E83,rối loạn chuyển hóa chất khoáng
+E84,xơ nang
+E85,thoái hóa tinh bột
+E86,giảm thể tích
+E87,"rối loạn cân bằng nước, điện giải và/hoặc thăng bằng kiềm toan"
+E88,rối loạn chuyển hóa khác
+E89,"rối loạn nội tiết và/hoặc chuyển hóa sau can thiệp, không phân loại mục khác"
+E90,rối loạn chuyển hóa và/hoặc dinh dưỡng do bệnh phân loại mục khác
+F00,sa sút trí tuệ do bệnh alzheimer (g30.- )
+F01,sa sút trí tuệ do bệnh mạch máu
+F02,sa sút trí tuệ do bệnh khác đã phân loại mục khác
+F03,sa sút trí tuệ không xác định
+F04,"hội chứng quên thực tổn, không do rượu và/hoặc chất hướng thần khác"
+F05,"mê sảng, không do rượu và/hoặc chất hướng thần khác"
+F06,rối loạn tâm thần khác do tổn thương và/hoặc rối loạn chức năng não và/hoặc do bệnh thực thể
+F07,"rối loạn nhân cách và/hoặc hành vi do bệnh lý, tổn thương và/hoặc rối loạn chức năng não"
+F09,rối loạn tâm thần thực tổn hoặc rối loạn tâm thần có triệu chứng không xác định
+F10,rối loạn tâm thần và/hoặc hành vi do sử dụng rượu
+F11,rối loạn tâm thần và/hoặc hành vi do sử dụng chất dạng thuốc phiện
+F12,rối loạn tâm thần và/hoặc hành vi do sử dụng cần sa
+F13,rối loạn tâm thần và/hoặc hành vi do sử dụng chất an thần hoặc thuốc ngủ
+F14,rối loạn tâm thần và/hoặc hành vi do sử dụng cocain
+F15,"rối loạn tâm thần và/hoặc hành vi do sử dụng chất kích thích khác, bao gồm cả caffein"
+F16,rối loạn tâm thần và/hoặc hành vi do sử dụng chất gây ảo giác
+F17,rối loạn tâm thần và/hoặc hành vi do sử dụng thuốc lá
+F18,rối loạn tâm thần và/hoặc hành vi do sử dụng dung môi dễ bay hơi
+F19,rối loạn tâm thần và/hoặc hành vi do sử dụng nhiều chất ma túy và/hoặc chất hướng thần khác
+F20,tâm thần phân liệt
+F21,rối loạn dạng phân liệt
+F22,rối loạn hoang tưởng dai dẳng
+F23,loạn thần cấp tính và/hoặc ngắn hạn
+F24,rối loạn hoang tưởng cảm ứng
+F24,a delusional disorder shared by two or more people with close emotional links. only one of the people suffers from a genuine psychotic disorder; the delusions are induced in the other(s) and usually disappear when the people are separated. incl.: folie à deux induced: paranoid disorder psychotic disorder
+F25,loạn thần dạng rối loạn khí sắc
+F28,loạn thần không thực tổn khác
+F29,loạn thần không thực tổn không xác định
+F30,giai đoạn hưng cảm
+F31,rối loạn cảm xúc lưỡng cực
+F32,depressive episode giai đoạn trầm
+F33,rối loạn trầm cảm tái phát
+F34,rối loạn khí sắc [cảm xúc] dai dẳng
+F38,rối loạn khí sắc [cảm xúc] khác
+F39,rối loạn khí sắc [cảm xúc] không xác định
+F40,rối loạn lo âu ám ảnh sợ
+F41,rối loạn lo âu khác
+F42,rối loạn ám ảnh cưỡng chế
+F43,phản ứng với căng thẳng trầm trọng và/hoặc rối loạn điều chỉnh
+F44,rối loạn phân ly [chuyển dạng]
+F45,rối loạn dạng cơ thể
+F48,rối loạn tâm căn khác
+F50,rối loạn ăn uống
+F51,rối loạn giấc ngủ không thực tổn
+F52,"rối loạn chức năng tình dục, không do rối loạn thực tổn hoặc bệnh lý"
+F53,"rối loạn tâm thần và/hoặc hành vi liên quan thời kỳ sau đẻ, không phân loại mục khác"
+F54,nhân tố tâm lý và/hoặc hành vi kết hợp với rối loạn hoặc bệnh phân loại mục khác
+F55,lạm dụng chất không gây nghiện
+F59,hội chứng hành vi ứng xử không xác định kết hợp với rối loạn sinh lý và/hoặc yếu tố thực thể
+F60,rối loạn nhân cách xác định cụ thể
+F61,rối loạn nhân cách khác và/hoặc rối loạn nhân cách hỗn hợp
+F62,"thay đổi nhân cách kéo dài, không thể quy cho một tổn thương hoặc bệnh não"
+F62,"biến đổi nhân cách kéo dài, không thể quy cho một tổn thương hay bệnh não"
+F63,rối loạn thói quen và/hoặc xung động
+F64,rối loạn nhận dạng giới tính
+F65,rối loạn sở thích tình dục
+F66,rối loạn tâm lý và/hoặc hành vi kết hợp với sự phát triển và/hoặc khuynh hướng tình dục
+F68,rối loạn khác về nhân cách và/hoặc hành vi ở người trưởng thành
+F69,rối loạn không xác định về nhân cách và/hoặc hành vi ở người trưởng thành
+F70,chậm phát triển trí tuệ nhẹ
+F71,chậm phát triển trí tuệ trung bình
+F72,chậm phát triển trí tuệ nặng
+F73,chậm phát triển trí tuệ trầm trọng
+F78,chậm phát triển trí tuệ khác
+F79,chậm phát triển trí tuệ không xác định
+F80,rối loạn cụ thể về phát triển lời nói và/hoặc ngôn ngữ
+F81,rối loạn cụ thể về phát triển kỹ năng học đường
+F82,rối loạn cụ thể của phát triển chức năng vận động
+F83,rối loạn cụ thể hỗn hợp của sự phát triển
+F84,rối loạn lan tỏa sự phát triển
+F88,rối loạn khác của phát triển tâm lý
+F89,rối loạn không xác định của phát triển tâm lý
+F90,rối loạn tăng động
+F91,rối loạn ứng xử
+F92,rối loạn hỗn hợp về ứng xử và/hoặc cảm xúc
+F93,rối loạn cảm xúc có sự khởi phát đặc trưng ở trẻ em
+F94,rối loạn hoạt động xã hội khởi phát đặc trưng ở tuổi trẻ em và/hoặc thanh thiếu niên
+F95,rối loạn tic [tật máy cơ]
+F98,rối loạn tác phong và/hoặc cảm xúc khác thường khởi phát ở trẻ em và/hoặc thanh thiếu niên
+F99,"rối loạn tâm thần, không xác định khác"
+G00,"bệnh viêm màng não vi khuẩn, không phân loại mục khác"
+G01,bệnh viêm màng não do bệnh nhiễm khuẩn phân loại mục khác
+G02,bệnh viêm màng não do bệnh nhiễm trùng và/hoặc ký sinh trùng phân loại mục khác
+G03,bệnh viêm màng não do nguyên nhân khác và/hoặc không xác định
+G04,"bệnh viêm não, viêm tủy và/hoặc viêm não-tủy"
+G05,"viêm não, viêm tủy và/hoặc viêm não-tủy do bệnh phân loại mục khác"
+G06,áp xe và/hoặc u hạt nội sọ và/hoặc nội tủy
+G07,áp xe và/hoặc u hạt nội sọ và/hoặc nội tủy do bệnh phân loại mục khác
+G08,viêm tĩnh mạch và/hoặc viêm [tắc] tĩnh mạch huyết khối nội sọ và/hoặc nội tủy
+G09,di chứng của bệnh viêm hệ thần kinh trung ương
+G10,huntington disease bệnh
+G11,mất điều hòa vận động [thất điều] di truyền
+G12,bệnh teo cơ do tổn thương tủy sống và/hoặc hội chứng liên quan
+G13,bệnh teo hệ thống ảnh hưởng chủ yếu tới hệ thần kinh trung ương do bệnh phân loại mục khác
+G14,hội chứng sau bại liệt
+G20,bệnh parkinson
+G21,hội chứng parkinson thứ phát
+G22,hội chứng parkinson do bệnh phân loại mục khác
+G23,bệnh thoái hóa khác của hạch nền não
+G24,loạn trương lực cơ
+G25,hội chứng ngoại tháp và/hoặc rối loạn vận động khác
+G26,hội chứng ngoại tháp và/hoặc rối loạn vận động do bệnh phân loại mục khác
+G30,bệnh alzheimer
+G31,"bệnh thoái hóa khác của hệ thần kinh, không phân loại mục khác"
+G32,rối loạn thoái hóa khác của hệ thần kinh do bệnh phân loại mục khác
+G35,bệnh đa xơ cứng
+G36,bệnh mất myelin rải rác cấp tính khác
+G37,bệnh mất myelin khác của hệ thần kinh trung ương
+G37.5,concentric sclerosis [baló]
+G40,bệnh động kinh
+G41,trạng thái động kinh
+G43,bệnh đau nửa đầu [migraine]
+G44,hội chứng đau đầu khác
+G45,cơn thiếu máu não bộ thoáng qua và/hoặc hội chứng liên quan
+G46,hội chứng mạch máu não do bệnh mạch máu não (i60-i67)
+G47,rối loạn giấc ngủ
+G50,rối loạn dây thần kinh sinh ba [tam thoa] [v]
+G51,rối loạn dây thần kinh mặt
+G52,rối loạn dây thần kinh sọ khác
+G53,rối loạn dây thần kinh sọ do bệnh phân loại mục khác
+G54,rối loạn rễ thần kinh và/hoặc đám rối thần kinh
+G55,chèn ép rễ thần kinh và/hoặc đám rối do bệnh phân loại mục khác
+G56,bệnh lý đơn dây thần kinh chi trên
+G57,bệnh lý đơn dây thần kinh của chi dưới
+G58,bệnh lý đơn dây thần kinh khác
+G59,bệnh lý đơn dây thần kinh do bệnh phân loại mục khác
+G60,bệnh lý dây thần kinh di truyền và/hoặc vô căn
+G61,bệnh lý viêm đa dây thần kinh
+G61.0,guillain-barré syndrome
+G62,bệnh lý đa dây thần kinh khác
+G63,bệnh lý đa dây thần kinh do bệnh phân loại mục khác
+G64,rối loạn khác của hệ thần kinh ngoại biên
+G70,nhược cơ và/hoặc rối loạn thần kinh- cơ khác
+G71,bệnh cơ nguyên phát
+G72,bệnh lý cơ khác
+G73,bệnh khớp thần kinh-cơ và/hoặc cơ do bệnh phân loại mục khác
+G80,bệnh bại não
+G81,hội chứng liệt nửa người [liệt một bên người]
+G82,hội chứng liệt nửa người [dưới thắt lưng] và/hoặc liệt tứ chi
+G83,hội chứng liệt khác
+G90,rối loạn hệ thần kinh tự động
+G91,bệnh não úng thủy
+G92,bệnh lý não nhiễm độc
+G93,rối loạn khác của não
+G94,rối loạn khác của não do bệnh phân loại mục khác
+G95,bệnh khác của tủy sống
+G96,rối loạn khác của hệ thần kinh trung ương
+G97,"rối loạn hệ thần kinh sau can thiệp, không phân loại mục khác"
+G98,"rối loạn khác của hệ thần kinh, không phân loại mục khác"
+G99,rối loạn khác của hệ thần kinh do bệnh phân loại mục khác
+H00,lẹo và/hoặc chắp
+H01,viêm khác của mi mắt
+H02,rối loạn khác của mi mắt
+H03,rối loạn mi mắt do bệnh phân loại mục khác
+H04,rối loạn hệ thống lệ
+H05,rối loạn hốc mắt
+H06,rối loạn hệ thống lệ và/hoặc hốc mắt do bệnh phân loại mục khác
+H10,viêm kết mạc
+H11,rối loạn khác của kết mạc
+H13,rối loạn kết mạc do bệnh phân loại mục khác
+H15,rối loạn của củng mạc
+H16,viêm giác mạc
+H17,sẹo và/hoặc đục giác mạc
+H18,rối loạn khác của giác mạc
+H19,rối loạn củng mạc và/hoặc giác mạc do bệnh phân loại mục khác
+H20,bệnh viêm mống mắt thể mi
+H20,viêm mống mắt thể mi
+H21,rối loạn khác của mống mắt và/hoặc thể mi
+H22,rối loạn của mống mắt và/hoặc thể mi do bệnh phân loại mục khác
+H25,đục thể thủy tinh tuổi già
+H26,đục thể thủy tinh khác
+H27,rối loạn khác của thể thủy tinh
+H28,đục thể thủy tinh và/hoặc rối loạn khác của thể thủy tinh do bệnh phân loại mục khác
+H30,viêm hắc võng mạc
+H31,rối loạn khác của hắc mạc [màng mạch]
+H32,rối loạn hắc [màng mạch] võng mạc do bệnh phân loại mục khác
+H33,bong và/hoặc rách võng mạc
+H34,tắc mạch máu võng mạc
+H35,rối loạn võng mạc khác
+H36,rối loạn võng mạc do bệnh phân loại mục khác
+H40,glôcôm
+H42,glôcôm do bệnh phân loại mục khác
+H43,rối loạn dịch kính
+H44,rối loạn nhãn cầu
+H45,rối loạn dịch kính và/hoặc nhãn cầu do bệnh phân loại mục khác
+H46,viêm thần kinh thị giác
+H47,rối loạn khác của thần kinh thị giác [ii] và/hoặc đường thị giác
+H48,rối loạn thần kinh thị giác [ii] và/hoặc đường thị giác do bệnh phân loại mục khác
+H49,lác liệt
+H50,lác khác
+H51,rối loạn khác của vận nhãn hai mắt
+H52,rối loạn khúc xạ và/hoặc điều tiết
+H53,visual disturbances rối loạn thị giác
+H54,thị lực giảm và/hoặc khiếm thị (hai mắt hoặc một mắt)
+H55,rung giật nhãn cầu và/hoặc rối loạn vận nhãn khác
+H57,rối loạn khác của mắt và/hoặc cấu trúc phụ cận của mắt
+H58,rối loạn khác của mắt và/hoặc cấu trúc phụ cận của mắt do bệnh phân loại mục khác
+H59,rối loạn của mắt và/hoặc cấu trúc phụ cận của mắt sau can thiệp không phân loại mục khác
+H60,viêm tai ngoài
+H61,rối loạn khác của tai ngoài
+H62,rối loạn tai ngoài ở bệnh phân loại mục khác
+H65,viêm tai giữa không có mủ
+H66,viêm tai giữa có mủ và/hoặc viêm tai giữa không xác định
+H67,viêm tai giữa do bệnh phân loại mục khác
+H68,"viêm và/hoặc tắc vòi tai [vòi eustache, vòi nhĩ]"
+H69,"rối loạn khác của vòi tai [vòi eustache, vòi nhĩ]"
+H70,viêm xương chũm và/hoặc bệnh liên quan
+H71,viêm tai giữa có cholesteatoma
+H72,thủng màng nhĩ
+H73,rối loạn khác của màng nhĩ
+H74,rối loạn khác của tai giữa và/hoặc xương chũm
+H75,rối loạn tai giữa và/hoặc xương chũm do bệnh phân loại mục khác
+H80,xốp xơ tai
+H81,rối loạn chức năng tiền đình
+H81.0,ménière disease
+H82,hội chứng chóng mặt do bệnh được phân loại mục khác
+H83,bệnh khác của tai trong
+H90,giảm thính lực dẫn truyền và/hoặc giảm thính lực thần kinh giác quan
+H91,giảm thính lực khác
+H92,đau tai và/hoặc tràn dịch tai
+H93,"rối loạn khác của tai, không phân loại mục khác"
+H94,rối loạn khác của tai do bệnh phân loại mục khác
+H95,"rối loạn tai và/hoặc xương chũm sau can thiệp, không phân loại mục khác"
+I00,bệnh sốt thấp không đề cập tác động đến tim
+I01,bệnh sốt thấp có tác động đến tim
+I02,múa giật do bệnh thấp
+I05,bệnh van hai lá do bệnh thấp
+I06,bệnh van động mạch chủ do bệnh thấp
+I07,bệnh van ba lá do bệnh thấp
+I08,bệnh lý của nhiều van tim
+I09,bệnh thấp tim khác
+I10,bệnh tăng huyết áp vô căn (nguyên phát)
+I11,bệnh tim do tăng huyết áp
+I12,bệnh thận do tăng huyết áp
+I13,bệnh tim và bệnh thận do tăng huyết áp
+I15,tăng huyết áp thứ phát
+I20,cơn đau thắt ngực
+I21,nhồi máu cơ tim cấp tính
+I22,nhồi máu cơ tim tái phát
+I23,biến chứng hiện tại xác định sau nhồi máu cơ tim cấp tính
+I24,bệnh tim thiếu máu cục bộ cấp tính khác
+I25,bệnh tim thiếu máu cục bộ mạn tính
+I26,thuyên tắc mạch phổi
+I27,bệnh tim phổi khác
+I28,bệnh mạch máu phổi khác
+I30,viêm màng ngoài tim cấp tính
+I31,bệnh màng ngoài tim khác
+I32,viêm màng ngoài tim do bệnh phân loại mục khác
+I33,viêm nội tâm mạc cấp và/hoặc bán cấp
+I34,rối loạn van hai lá không do bệnh thấp
+I35,rối loạn van động mạch chủ không do bệnh thấp
+I36,rối loạn van ba lá không do bệnh thấp
+I37,rối loạn van động mạch phổi
+I38,"viêm nội tâm mạc, không xác định van"
+I39,viêm nội tâm mạc và/hoặc bệnh van tim do bệnh phân loại mục khác
+I40,bệnh viêm cơ tim cấp
+I41,bệnh viêm cơ tim do bệnh phân loại mục khác
+I42,bệnh lý cơ tim
+I43,bệnh lý cơ tim do bệnh phân loại mục khác
+I44,blốc nhĩ thất và/hoặc nhánh trái
+I45,rối loạn dẫn truyền khác
+I46,ngưng tim
+I47,nhịp nhanh kịch phát
+I48,rung nhĩ và/hoặc cuồng nhĩ
+I49,loạn nhịp tim khác
+I51,biến chứng tim và/hoặc bệnh tim mô tả không rõ ràng
+I52,rối loạn tim khác do bệnh phân loại mục khác
+I60,xuất huyết dưới nhện
+I61,xuất huyết não
+I62,xuất huyết não không do chấn thương khác
+I63,cerebral infarction nhồi máu não
+I64,"đột quỵ, không xác định do xuất huyết hoặc nhồi máu"
+I65,"tắc và/hoặc hẹp động mạch trước não, không dẫn đến nhồi máu não"
+I66,"tắc và/hoặc hẹp động mạch não, không dẫn đến nhồi máu não"
+I67,bệnh mạch máu não khác
+I68,rối loạn mạch máu não do bệnh phân loại mục khác
+I69,di chứng bệnh mạch máu não
+I70,xơ vữa [xơ cứng] động mạch
+I71,phình và/hoặc tách thành động mạch chủ
+I71,phình và tách thành động mạch chủ
+I72,phình và/hoặc tách động mạch khác
+I73,bệnh mạch máu ngoại vi khác
+I74,thuyên tắc và/hoặc huyết khối động mạch
+I77,bệnh khác của hệ động mạch và/hoặc tiểu động mạch
+I78,bệnh về mao mạch
+I79,"rối loạn động mạch, tiểu động mạch và/hoặc mao mạch do bệnh phân loại mục khác"
+I80,viêm tĩnh mạch và/hoặc viêm [tắc] tĩnh mạch huyết khối
+I81,huyết khối tĩnh mạch cửa
+I82,thuyên tắc và/hoặc huyết khối tĩnh mạch khác
+I83,giãn tĩnh mạch chi dưới
+I85,giãn tĩnh mạch thực quản
+I86,giãn tĩnh mạch vị trí khác
+I87,rối loạn khác của tĩnh mạch
+I88,viêm hạch bạch huyết không xác định cụ thể
+I88,viêm hạch bạch huyết nguyên phát [vô căn]
+I89,rối loạn mạch bạch huyết và/hoặc hạch bạch huyết khác không do nhiễm trùng
+I95,huyết áp thấp (hạ huyết áp)
+I97,"rối loạn hệ tuần hoàn sau can thiệp, không phân loại mục khác"
+I98,rối loạn khác của hệ tuần hoàn do bệnh phân loại mục khác
+I99,rối loạn hệ tuần hoàn khác và/hoặc không xác định
+J00,viêm mũi họng cấp tính [cảm thường]
+J01,viêm xoang cấp tính
+J02,viêm họng cấp tính
+J03,viêm amydan cấp tính
+J04,viêm thanh quản và/hoặc khí quản cấp tính
+J05,viêm thanh quản tắc nghẽn [tắc nghẽn thanh quản] và/hoặc nắp thanh môn cấp tính
+J06,nhiễm trùng đường hô hấp trên cấp tính ở nhiều vị trí và/hoặc vị trí không xác định
+J09,cúm do virus cúm đã xác định truyền từ động vật hoặc đại dịch
+J10,cảm cúm do virus cúm mùa đã xác định
+J11,"cúm, không xác định được virus"
+J12,"viêm phổi do virus, không phân loại mục khác"
+J13,viêm phổi do vi khuẩn phế cầu khuẩn [streptococcus pneumoniae]
+J14,viêm phổi do vi khuẩn haemophilus cúm [h. influenzae]
+J15,"viêm phổi do vi khuẩn, không phân loại mục khác"
+J16,"viêm phổi do vi sinh vật truyền nhiễm khác, không phân loại mục khác"
+J17,viêm phổi ở bệnh phân loại mục khác
+J18,"viêm phổi, không xác định vi sinh vật"
+J20,viêm phế quản cấp tính
+J20,viêm phế quản cấp
+J21,viêm tiểu phế quản cấp tính
+J22,nhiễm trùng hô hấp dưới cấp tính không xác định
+J30,viêm mũi vận mạch và/hoặc viêm mũi dị ứng
+J31,"viêm mũi, viêm mũi họng và/hoặc viêm họng mạn tính"
+J32,viêm xoang mạn tính
+J33,polyp mũi
+J34,rối loạn khác của mũi và/hoặc xoang
+J35,bệnh mạn tính của amydan và khối mô lympho ở vòm họng [va]
+J36,áp xe quanh amydan
+J37,viêm thanh quản và/hoặc viêm thanh khí quản mạn tính
+J38,"bệnh của dây thanh âm và/hoặc thanh quản, không phân loại mục khác"
+J39,bệnh khác của đường hô hấp trên
+J40,"viêm phế quản, không xác định được là cấp tính hoặc mạn tính"
+J41,viêm phế quản mạn tính đơn thuần và/hoặc nhầy mủ
+J42,viêm phế quản mạn tính không xác định
+J43,khí phế thũng [khí thũng phổi]
+J44,bệnh phổi tắc nghẽn mạn tính khác
+J45,hen phế quản [hen suyễn] [hen]
+J46,quản ác tính
+J47,giãn phế quản
+J60,bệnh bụi phổi than nghề nghiệp
+J61,bệnh bụi phổi amiăng và/hoặc sợi khoáng khác
+J62,bệnh bụi phổi silic
+J63,bệnh bụi phổi do bụi vô cơ khác
+J64,bệnh bụi phổi không xác định
+J65,bệnh bụi phổi liên quan đến bệnh lao
+J66,bệnh đường thở do bụi hữu cơ cụ thể khác
+J67,viêm phổi quá mẫn do bụi hữu cơ
+J68,"bệnh hô hấp do hít hóa chất, khí, khói và/hoặc hơi"
+J69,viêm phổi do chất rắn và/hoặc chất lỏng
+J70,bệnh hô hấp do tác nhân bên ngoài khác
+J80,hội chứng suy hô hấp ở người lớn
+J81,pulmonary oedema phù phổi
+J82,"tăng bạch cầu ái toan ở phổi, không phân loại mục khác"
+J82,incl.: eosinophilic asthma löffler pneumonia tropical (pulmonary) eosinophilia nos excl.: due to: aspergillosis (b44.-) drugs (j70.2- j70.4) specified parasitic infection (b50- b83) systemic connective tissue disorders (m30-m36)
+J84,bệnh phổi mô kẽ khác
+J85,áp xe phổi và/hoặc trung thất
+J86,viêm mủ lồng ngực
+J90,"tràn dịch màng phổi, không phân loại mục khác"
+J91,tràn dịch màng phổi do bệnh phân loại mục khác
+J92,mảng xơ cứng màng phổi
+J92,incl.: pleural thickening mảng xơ cứng màng phổi
+J93,tràn khí màng phổi
+J94,bệnh màng phổi khác
+J95,"bệnh hô hấp sau can thiệp, không phân loại mục khác"
+J96,"suy hô hấp, không phân loại mục khác"
+J98,rối loạn hô hấp khác
+J99,rối loạn hô hấp do bệnh phân loại mục khác
+K00,rối loạn phát triển răng và/hoặc mọc răng
+K01,răng mọc kẹt và/hoặc răng ngầm
+K02,sâu răng
+K03,bệnh mô cứng khác của răng
+K04,bệnh tủy và/hoặc mô quanh chân răng
+K05,viêm lợi [nướu] và/hoặc bệnh viêm nha chu
+K06,rối loạn khác của lợi [nướu] và/hoặc sống hàm đã mất răng
+K07,bất thường hàm mặt [bao gồm khớp cắn lệch]
+K08,rối loạn khác của răng và/hoặc cấu trúc nâng đỡ
+K09,"nang vùng miệng, không phân loại mục khác"
+K10,bệnh khác của xương hàm
+K11,bệnh tuyến nước bọt
+K12,viêm miệng và/hoặc tổn thương liên quan
+K13,bệnh khác của môi và/hoặc niêm mạc miệng
+K14,bệnh của lưỡi
+K20,viêm thực quản
+K21,bệnh trào ngược dạ dày- thực quản
+K22,bệnh khác của thực quản
+K23,rối loạn thực quản do bệnh phân loại mục khác
+K25,loét dạ dày
+K26,loét tá tràng
+K27,"loét dạ dày-tá tràng, vị trí không xác định"
+K27,"""loét dạ dày-tá tràng vị trí không xác định"""
+K28,loét dạ dày- hỗng tràng
+K29,viêm dạ dày và/hoặc tá tràng
+K30,rối loạn tiêu hóa chức năng [không do loét]
+K31,bệnh khác của dạ dày và/hoặc tá tràng
+K35,viêm ruột thừa cấp tính
+K36,viêm ruột thừa khác
+K37,viêm ruột thừa không xác định
+K38,bệnh khác của ruột thừa
+K40,thoát vị bẹn
+K41,thoát vị đùi
+K42,thoát vị rốn
+K43,thoát vị thành bụng
+K44,thoát vị cơ hoành
+K45,thoát vị bụng khác
+K46,thoát vị bụng không xác định
+K50,bệnh crohn [viêm ruột từng vùng]
+K51,viêm loét đại tràng
+K52,viêm dạ dày- ruột và/hoặc viêm đại tràng khác không do nhiễm trùng
+K55,rối loạn của mạch máu ruột
+K56,liệt ruột và/hoặc tắc nghẽn ruột không có thoát vị
+K57,bệnh túi thừa của ruột
+K58,hội chứng ruột kích thích
+K59,rối loạn chức năng khác của ruột
+K60,nứt kẽ và/hoặc rò vùng hậu môn và/hoặc trực tràng
+K61,áp xe vùng hậu môn và/hoặc trực tràng
+K62,bệnh khác của hậu môn và/hoặc trực tràng
+K63,bệnh khác của ruột
+K64,bệnh trĩ và/hoặc huyết khối tĩnh mạch quanh hậu môn
+K65,viêm phúc mạc
+K66,rối loạn khác của phúc mạc
+K67,rối loạn của phúc mạc do bệnh nhiễm trùng phân loại mục khác
+K70,bệnh gan do rượu
+K71,bệnh gan nhiễm độc
+K72,"suy gan, không phân loại mục khác"
+K73,"viêm gan mạn tính, không phân loại mục khác"
+K74,xơ hóa gan và/hoặc xơ gan
+K75,bệnh viêm gan khác
+K76,bệnh gan khác
+K77,rối loạn gan do bệnh phân loại mục khác
+K80,bệnh sỏi mật
+K81,viêm túi mật
+K82,bệnh khác của túi mật
+K83,bệnh khác của đường mật
+K85,viêm tụy cấp tính
+K86,bệnh khác của tụy
+K87,"rối loạn của túi mật, đường mật và/hoặc tụy do bệnh phân loại mục khác"
+K90,suy giảm hấp thu ở ruột
+K91,"rối loạn của hệ tiêu hóa sau can thiệp, không phân loại mục khác"
+K92,bệnh khác của hệ tiêu hóa
+K93,rối loạn của cơ quan tiêu hóa khác do bệnh phân loại mục khác
+L00,hội chứng bong vảy da do tụ cầu khuẩn
+L01,bệnh chốc
+L02,"áp xe da, nhọt và/hoặc cụm nhọt"
+L03,viêm mô bào
+L04,viêm hạch bạch huyết cấp tính
+L05,u nang lông
+L08,nhiễm trùng khu trú khác của da và/hoặc mô dưới da
+L10,bệnh pemphigus
+L11,rối loạn da ly gai khác
+L12,bệnh bọng nước dạng pemphigus
+L13,rối loạn da bọng nước khác
+L14,bệnh lý da bọng nước do bệnh phân loại mục khác
+L20,viêm da cơ địa
+L21,viêm da dầu
+L22,viêm da vùng tã (bỉm) [hăm tã]
+L23,viêm da tiếp xúc dị ứng
+L24,viêm da tiếp xúc kích ứng
+L25,viêm da tiếp xúc không xác định
+L26,đỏ da toàn thân [viêm da tróc vảy]
+L27,viêm da do chất được đưa vào trong cơ thể
+L28,lichen đơn dạng mạn tính và/hoặc sẩn ngứa
+L29,ngứa
+L30,viêm da khác
+L40,bệnh vảy nến
+L41,á vảy nến
+L42,bệnh vảy phấn hồng
+L43,lichen phẳng
+L44,rối loạn sẩn có vảy khác
+L45,rối loạn của sẩn tróc vảy da do bệnh phân loại mục khác
+L50,bệnh mày đay
+L51,hồng ban đa dạng
+L52,erythema nodosum hồng ban nút
+L53,trạng thái hồng ban khác
+L54,hồng ban do bệnh phân loại mục khác
+L55,bỏng [cháy] nắng
+L56,thay đổi cấp tính khác của da do tia cực tím [tia tử ngoại]
+L57,thay đổi của da do phơi nhiễm mạn tính với phóng xạ [bức xạ] không ion hóa
+L58,viêm da do phóng xạ
+L59,rối loạn khác ở da và/hoặc mô dưới da liên quan đến phóng xạ [bức xạ]
+L60,rối loạn của móng
+L62,rối loạn móng do bệnh phân loại mục khác
+L63,rụng tóc thể mảng
+L64,rụng tóc do nội tiết tố nam
+L65,rụng tóc không sẹo khác
+L66,rụng tóc có sẹo
+L67,bất thường về màu và/hoặc sợi tóc
+L68,chứng rậm lông tóc
+L70,trứng cá
+L70.5,acné excoriée
+L71,trứng cá đỏ
+L72,kén nang lông của da và/hoặc mô dưới da
+L73,bệnh lý nang lông khác
+L74,rối loạn của tuyến mồ hôi toàn hủy [eccrine]
+L75,rối loạn tuyến mồ hôi đầu hủy [apocrine]
+L80,bệnh bạch biến
+L81,rối loạn sắc tố khác
+L81.3,café au lait spots
+L82,bệnh dày sừng tiết bã
+L82,incl.: basal cell papilloma dermatosis papulosa nigra leser-trélat
+L83,bệnh gai đen
+L84,mắt cá và/hoặc vết chai chân
+L85,dày thượng bì khác
+L86,dày sừng do bệnh phân loại mục khác
+L87,rối loạn của bệnh bài tiết qua thượng bì
+L88,viêm da mủ hoại thư
+L89,loét do tì đè và/hoặc loét vùng đè ép
+L90,rối loạn teo da
+L91,rối loạn phì đại của da
+L92,u hạt của da và/hoặc mô dưới da
+L93,bệnh lupus ban đỏ
+L94,rối loạn mô liên kết khu trú khác
+L95,"viêm mao mạch ở da, không phân loại mục khác"
+L95,excl.: angioma serpiginosum (l81.7) granulomatosis with polyangiitis (m31.3) henoch(- schönlein) purpura (d69.0) hypersensitivity angiitis (m31.0) panniculitis (of): nos (m79.3) lupus (l93.2) neck and back (m54.0) relapsing [weber-christian] (m35.6) polyarteritis nodosa (m30.0) rheumatoid vasculitis (m05.2) serum sickness (t80.6) urticaria (l50.-)
+L97,"loét chi dưới, không phân loại mục khác"
+L98,"rối loạn khác của da và/hoặc mô dưới da, không phân loại mục khác"
+L99,rối loạn khác của da và/hoặc mô dưới da do bệnh phân loại mục khác
+M00,viêm khớp nhiễm khuẩn sinh mủ
+M01,viêm khớp nhiễm trùng trực tiếp do bệnh nhiễm khuẩn và/hoặc ký sinh trùng phân loại mục khác
+M02,bệnh lý khớp phản ứng
+M02,[see site code at the beginning of this chapter] excl.: behçet disease (m35.2) rheumatic fever (i00)
+M03,bệnh lý khớp sau nhiễm trùng và/hoặc bệnh lý khớp phản ứng phân loại mục khác
+M05,viêm khớp dạng thấp huyết thanh dương tính
+M06,viêm khớp dạng thấp khác
+M07,bệnh lý khớp do vảy nến và/hoặc do bệnh lý viêm ruột
+M08,viêm khớp thiếu niên
+M09,viêm khớp thiếu niên do bệnh phân loại mục khác
+M10,gút [thống phong]
+M11,bệnh lý khớp do vi tinh thể khác
+M12,bệnh lý khớp xác định khác
+M13,viêm khớp khác
+M14,bệnh lý khớp do bệnh phân loại mục khác
+M15,thoái hóa đa khớp
+M16,thoái hóa khớp háng [thoái hóa xương hông]
+M17,thoái hóa khớp gối
+M18,thoái hóa khớp cổ tay-khớp gốc ngón tay cái
+M19,thoái hóa khớp khác
+M20,biến dạng mắc phải của ngón tay và/hoặc ngón chân
+M21,biến dạng mắc phải khác của các chi
+M21.59,"acquired clawhand, clubhand, clawfoot and clubfoot, site únpecified"
+M22,rối loạn của xương bánh chè
+M23,tổn thương bên trong khớp gối
+M24,tổn thương xác định khác ở khớp
+M25,"rối loạn khớp khác, không phân loại mục khác"
+M30,viêm nốt quanh động mạch và/hoặc bệnh liên quan
+M31,bệnh lý mạch máu hoại tử khác
+M31,bệnh mạch máu hoại tử khác
+M32,bệnh lupus ban đỏ hệ thống
+M33,bệnh viêm đa cơ và da
+M34,bệnh xơ cứng bì toàn thể
+M35,tổn thương hệ thống khác của mô liên kết
+M35.0,sicca syndrome [sjögren]
+M35.2,behçet disease
+M36,tổn thương hệ thống của mô liên kết do bệnh phân loại mục khác
+M40,gù và/hoặc ưỡn cột sống [lưng]
+M41,vẹo cột sống
+M42,bệnh thoái hóa xương sụn cột sống
+M43,bệnh lý biến dạng khác của cột sống
+M45,viêm đốt sống dính khớp
+M45,[see site code before m40] incl.: rheumatoid arthritis of spine excl.: arthropathy in reiter disease (m02.3) behçet disease (m35.2) juvenile (ankylosing) spondylitis (m08.1)
+M46,bệnh lý viêm đốt sống khác
+M47,thoái hóa đốt sống
+M48,bệnh lý đốt sống khác
+M48,bệnh đốt sống khác
+M49,bệnh lý đốt sống do bệnh phân loại mục khác
+M50,rối loạn đĩa đệm đốt sống cổ
+M51,rối loạn đĩa đệm cột sống khác
+M53,"bệnh lý cột sống khác, không phân loại mục khác"
+M54,đau lưng
+M60,viêm cơ
+M61,vôi hóa và/hoặc cốt hóa cơ
+M62,rối loạn khác của cơ
+M63,rối loạn cơ do bệnh phân loại mục khác
+M65,viêm màng hoạt dịch và/hoặc viêm bao gân
+M66,rách (đứt) tự phát của màng hoạt dịch và/hoặc gân
+M67,rối loạn khác của màng hoạt dịch và/hoặc gân
+M68,rối loạn màng hoạt dịch và/hoặc gân do bệnh phân loại mục khác
+M70,"rối loạn mô mềm liên quan đến vận động, vận động quá mức và/hoặc bị chèn ép"
+M71,hoạt dịch khác
+M72,rối loạn nguyên bào sợi
+M73,rối loạn mô mềm do bệnh phân loại mục khác
+M73,rối loạn mô mềm trong bệnh phân loại mục khác
+M75,tổn thương vai
+M76,"bệnh lý điểm bám gân của chân, ngoại trừ bàn chân"
+M77,bệnh lý điểm bám gân-dây chằng khác
+M79,"rối loạn khác của mô mềm, không phân loại mục khác"
+M80,loãng xương kèm gãy xương bệnh lý
+M81,loãng xương không kèm gãy xương bệnh lý
+M82,loãng xương do bệnh phân loại mục khác
+M83,xương ở người lớn
+M84,rối loạn về tính liên tục của xương
+M85,rối loạn khác về mật độ và/hoặc cấu trúc xương
+M86,viêm xương tủy
+M87,hoại tử xương
+M88,bệnh paget xương [viêm xương biến dạng]
+M89,rối loạn khác của xương
+M90,bệnh lý xương do bệnh phân loại mục khác
+M91,thoái hóa xương sụn khớp háng và/hoặc khung chậu ở thiếu niên
+M91.1,juvenile osteochondrosis of head of femur [legg-calvé- perthes]
+M92,thoái hóa xương sụn khác ở tuổi thiếu niên
+M93,bệnh lý xương sụn khác
+M93.1,kienböck disease of adults
+M94,rối loạn khác của sụn
+M95,biến dạng mắc phải khác của hệ cơ xương khớp và/hoặc mô liên kết
+M96,"rối loạn của hệ cơ xương khớp sau can thiệp, không phân loại mục khác"
+M99,"tổn thương sinh-cơ học, không phân loại mục khác"
+M99,"tổn thương sinh - cơ học, không phân loại mục khác"
+N00,hội chứng viêm thận cấp tính
+N01,hội chứng viêm thận tiến triển nhanh
+N02,tiểu máu dai dẳng và/hoặc tái phát
+N03,hội chứng viêm thận mạn tính
+N04,hội chứng thận hư
+N05,hội chứng viêm thận không xác định
+N06,protein niệu đơn độc với tổn thương hình thái xác định
+N07,"bệnh lý thận di truyền, không phân loại mục khác"
+N08,rối loạn cầu thận do bệnh phân loại mục khác
+N10,viêm ống thận mô kẽ cấp tính
+N11,viêm ống thận mô kẽ mạn tính
+N12,"viêm ống thận mô kẽ, không xác định cấp tính hay mạn tính"
+N13,bệnh lý tiết niệu do tắc nghẽn và/hoặc trào ngược
+N14,bệnh lý ống thận và/hoặc ống thận mô kẽ do thuốc và/hoặc kim loại nặng
+N15,bệnh ống thận mô kẽ khác
+N16,rối loạn ống thận mô kẽ do bệnh phân loại mục khác
+N17,suy thận cấp tính
+N18,bệnh thận mạn tính
+N19,suy thận không xác định
+N20,sỏi thận và/hoặc niệu quản
+N21,sỏi đường tiết niệu dưới
+N22,sỏi đường tiết niệu do bệnh phân loại mục khác
+N23,cơn đau quặn thận không xác định
+N25,rối loạn do suy giảm chức năng ống thận
+N26,thận nhỏ không xác định
+N27,thận teo nhỏ không rõ nguyên nhân
+N28,"rối loạn khác của thận và/hoặc niệu quản, không phân loại mục khác"
+N29,rối loạn khác của thận và/hoặc niệu quản do bệnh phân loại mục khác
+N30,viêm bàng quang
+N31,"rối loạn chức năng thần kinh- cơ bàng quang, không phân loại mục khác"
+N32,rối loạn khác của bàng quang
+N33,rối loạn bàng quang do bệnh phân loại mục khác
+N34,viêm niệu đạo và/hoặc hội chứng niệu đạo
+N35,co hẹp niệu đạo
+N36,rối loạn khác của niệu đạo
+N37,rối loạn niệu đạo do bệnh phân loại mục khác
+N39,rối loạn khác của hệ tiết niệu
+N40,phì đại [tăng sản] tuyến tiền liệt
+N41,bệnh viêm tuyến tiền liệt
+N42,rối loạn khác của tuyến tiền liệt
+N43,tràn dịch màng tinh hoàn và/hoặc nang mào tinh hoàn
+N44,xoắn tinh hoàn
+N45,viêm tinh hoàn và/hoặc viêm mào tinh hoàn
+N46,vô sinh ở nam giới
+N47,"bao quy đầu dài, hẹp bao quy đầu và/hoặc thắt nghẹt bao quy đầu"
+N48,rối loạn khác của dương vật
+N49,"rối loạn viêm của cơ quan sinh dục nam, không phân loại mục khác"
+N50,rối loạn khác của cơ quan sinh dục nam
+N51,rối loạn cơ quan sinh dục nam do bệnh phân loại mục khác
+N60,loạn sản vú lành tính
+N61,rối loạn viêm của vú
+N62,phì đại vú
+N63,khối u không xác định ở vú
+N64,rối loạn khác ở vú
+N70,viêm vòi trứng và/hoặc viêm buồng trứng
+N71,"bệnh viêm tử cung, trừ cổ tử cung"
+N72,bệnh viêm cổ tử cung
+N73,bệnh viêm khác của tiểu khung ở nữ giới
+N74,rối loạn viêm tiểu khung ở nữ giới do bệnh phân loại mục khác
+N75,bệnh của tuyến bartholin
+N76,viêm khác của âm đạo và/hoặc âm hộ
+N77,viêm và/hoặc loét âm hộ âm đạo do bệnh phân loại mục khác
+N80,bệnh lạc nội mạc tử cung
+N81,sa sinh dục nữ
+N82,rò đường sinh dục ở nữ giới
+N83,"rối loạn không do viêm của buồng trứng, vòi trứng và/hoặc dây chằng rộng"
+N84,polyp đường sinh dục ở nữ giới
+N85,"rối loạn khác không do viêm của tử cung, trừ cổ tử cung"
+N86,trợt và/hoặc lộn cổ tử cung
+N87,loạn sản cổ tử cung
+N88,rối loạn khác không do viêm của cổ tử cung
+N89,rối loạn khác không do viêm của âm đạo
+N90,rối loạn khác không do viêm của âm hộ và/hoặc tầng sinh môn
+N91,"vô kinh, thiểu kinh và/hoặc hiếm kinh"
+N92,"kinh nguyệt quá nhiều, thường xuyên và/hoặc thất thường"
+N93,chảy máu bất thường khác của tử cung và/hoặc âm đạo
+N94,đau và/hoặc các tình trạng khác liên quan đến cơ quan sinh dục nữ và/hoặc chu kỳ kinh nguyệt
+N95,rối loạn mãn kinh và/hoặc rối loạn tiền mãn kinh
+N96,chứng sảy thai liên tục [tái phát]
+N97,vô sinh ở nữ giới
+N98,biến chứng liên quan đến thụ tinh nhân tạo
+N99,"rối loạn sau can thiệp của hệ sinh dục tiết niệu, không phân loại mục khác"
+O00,thai ngoài tử cung
+O01,thai trứng dạng nang
+O02,bất thường khác của mô được tạo ra do thụ thai
+O03,sảy thai tự nhiên
+O04,phá thai bằng thuốc
+O05,phá thai khác
+O06,sảy/phá thai không xác định
+O07,phá thai thất bại
+O08,"biến chứng sau sảy thai, thai ngoài tử cung và/hoặc thai trứng"
+O10,"tăng huyết áp mắc từ trước gây biến chứng cho thai kỳ, sinh đẻ và/hoặc thời kỳ sau đẻ"
+O11,tiền sản giật kèm tăng huyết áp mạn tính
+O12,phù và/ hoặc protein niệu trong thai kỳ [do thai nghén gây ra] không kèm tăng huyết áp
+O13,tăng huyết áp thai kỳ [do mang thai gây ra]
+O14,tiền sản giật
+O15,sản giật
+O16,tăng huyết áp thai sản không xác định
+O20,xuất huyết đầu thai kỳ
+O21,nôn quá mức trong thai kỳ
+O22,biến chứng tĩnh mạch và/hoặc trĩ trong thai kỳ
+O23,nhiễm trùng đường tiết niệu- sinh dục trong thai kỳ
+O24,đái tháo đường trong thai kỳ
+O25,thiếu dinh dưỡng trong thai kỳ
+O26,chăm sóc thai sản đối với bệnh lý khác chủ yếu liên quan đến thai kỳ
+O28,phát hiện bất thường ở thai phụ khi khám sàng lọc trước sinh
+O29,biến chứng do gây mê trong thai kỳ
+O30,multiple gestation đa thai
+O31,biến chứng xác định của đa thai
+O32,chăm sóc thai sản vì biết hoặc nghi ngờ ngôi thai bất thường
+O33,chăm sóc thai sản vì biết hay nghi ngờ có bất tương xứng đầu chậu
+O34,chăm sóc thai sản vì có hoặc nghi ngờ bất thường ở cơ quan tiểu khung
+O35,chăm sóc thai sản vì biết hoặc nghi ngờ có bất thường và/hoặc tổn thương ở thai nhi
+O36,chăm sóc thai sản vì biết hoặc nghi ngờ có vấn đề khác ở thai nhi
+O40,đa ối
+O41,rối loạn khác của nước ối và/hoặc màng ối
+O42,vỡ ối sớm
+O43,placental disorders rối loạn của rau thai
+O44,rau tiền đạo
+O46,"xuất huyết trước đẻ, không phân loại mục khác"
+O47,chuyển dạ giả
+O48,thai kỳ quá ngày sinh
+O60,chuyển dạ và đẻ sớm
+O61,can thiệp gây chuyển dạ nhân tạo thất bại
+O62,bất thường về động lực chuyển dạ
+O63,chuyển dạ kéo dài
+O64,chuyển dạ đình trệ do ngôi và/hoặc do thế của thai bất thường
+O65,chuyển dạ đình trệ do bất thường ở khung chậu sản phụ
+O66,chuyển dạ đình trệ khác
+O67,chuyển dạ và đẻ kèm biến chứng xuất huyết trong đẻ không phân loại mục khác
+O68,chuyển dạ và đẻ kèm biến chứng suy thai
+O69,chuyển dạ và đẻ kèm biến chứng dây rốn
+O70,rách tầng sinh môn trong đẻ
+O71,chấn thương sản khoa khác
+O72,băng huyết sau đẻ
+O73,sót rau thai và/hoặc màng rau thai không có băng huyết
+O74,biến chứng do gây mê trong chuyển dạ và đẻ
+O75,"biến chứng khác của chuyển dạ và đẻ, không phân loại mục khác"
+O80,đẻ thường một thai
+O81,đẻ một thai bằng forcep hoặc giác hút
+O82,mổ lấy thai cho một thai
+O83,đẻ một thai có can thiệp hỗ trợ khác
+O84,đẻ đa thai
+O85,nhiễm trùng hệ thống trong thời kỳ sau đẻ
+O86,nhiễm trùng khác trong thời kỳ sau đẻ
+O87,biến chứng tĩnh mạch và/hoặc trĩ trong thời kỳ sau đẻ
+O88,mạch sản khoa
+O89,biến chứng do gây mê trong thời kỳ sau đẻ
+O90,"biến chứng trong thời kỳ sau đẻ, không phân loại mục khác"
+O91,nhiễm trùng vú liên quan đến sinh đẻ
+O92,rối loạn khác của vú và/hoặc tiết sữa liên quan đến sinh đẻ
+O94,"di chứng của biến chứng thai kỳ, sinh đẻ và/hoặc thời kỳ sau đẻ"
+O95,tử vong sản khoa không rõ nguyên nhân
+O96,tử vong vì bất kỳ nguyên nhân sản khoa nào xảy ra trên 42 ngày và dưới 1 năm sau đẻ
+O97,tử vong vì di chứng có nguyên nhân sản khoa
+O97,"note: this category is to be used to indicate death from any obstetric cause (conditions in categories o00-o75, o85-o92, and o98-o99 occurring more than 42 days but less than one year after delivery. the ‘sequelae’ include conditions specified as such or as late effects, or those present one year or more after delivery. use additional code, if desired, to identify the obstetric cause (direct or indirect) excl.: conditions specified as sequelae or late effects of obstetric causes that are not resulting in death (o94)"
+O98,"bệnh nhiễm trùng và/hoặc ký sinh trùng ở người mẹ phân loại mục khác có gây biến chứng cho thai kỳ, sinh đẻ và/hoặc thời kỳ sau đẻ"
+O99,"bệnh thai sản khác phân loại mục khác có gây biến chứng cho thai kỳ, sinh đẻ và/hoặc thời kỳ sau đẻ"
+P00,thai nhi và/hoặc trẻ sơ sinh bị ảnh hưởng do bệnh lý của mẹ có thể không liên quan đến lần mang thai hiện nay
+P01,thai nhi và/hoặc trẻ sơ sinh bị ảnh hưởng do biến chứng ở thai phụ trong thai kỳ
+P02,"thai nhi và/hoặc trẻ sơ sinh bị ảnh hưởng do biến chứng của rau thai, dây rốn và/hoặc màng thai"
+P03,thai nhi và/hoặc trẻ sơ sinh bị ảnh hưởng do biến chứng của chuyển dạ và đẻ
+P04,thai nhi và/hoặc trẻ sơ sinh bị ảnh hưởng do chất độc hại truyền qua rau thai hoặc qua sữa mẹ
+P05,thai nhi chậm phát triển và/hoặc thai suy dinh dưỡng
+P07,"rối loạn liên quan đến sinh non và/hoặc nhẹ cân lúc sinh, không phân loại mục khác"
+P08,rối loạn liên quan đến thai già tháng và/hoặc trẻ nặng cân khi sinh
+P10,rách và/hoặc xuất huyết nội sọ do chấn thương khi sinh
+P11,chấn thương khi sinh khác ở hệ thần kinh trung ương
+P12,tổn thương da đầu khi sinh
+P13,chấn thương hệ xương khi sinh
+P14,chấn thương hệ thần kinh ngoại biên khi sinh
+P15,khác khi sinh
+P20,hạ oxy huyết trong tử cung
+P21,ngạt trong khi sinh
+P22,suy hô hấp ở trẻ sơ sinh
+P23,viêm phổi bẩm sinh
+P24,hội chứng hít phải ở trẻ sơ sinh
+P25,tràn khí tổ chức kẽ phổi và/hoặc bệnh lý liên quan xuất phát trong thời kỳ chu sinh
+P26,xuất huyết phổi trong thời kỳ chu sinh
+P27,bệnh hô hấp mạn tính xuất phát trong thời kỳ chu sinh
+P28,bệnh lý hô hấp khác xuất phát từ thời kỳ chu sinh
+P29,rối loạn tim mạch xuất phát trong thời kỳ chu sinh
+P35,bệnh nhiễm virus bẩm sinh
+P36,nhiễm khuẩn hệ thống ở trẻ sơ sinh
+P37,bệnh nhiễm trùng và/hoặc ký sinh trùng bẩm sinh khác
+P38,viêm rốn ở trẻ sơ sinh có hoặc không có chảy máu mức độ nhẹ
+P39,nhiễm trùng khác đặc trưng của thời kỳ chu sinh
+P50,mất máu thai nhi
+P51,xuất huyết rốn ở trẻ sơ sinh
+P52,xuất huyết nội sọ không do chấn thương ở thai nhi và/hoặc ở trẻ sơ sinh
+P53,bệnh xuất huyết của thai nhi và/hoặc trẻ sơ sinh
+P54,xuất huyết khác ở trẻ sơ sinh
+P55,bệnh tan máu ở thai nhi và/hoặc ở trẻ sơ sinh
+P56,phù thai do bệnh tan máu
+P57,vàng da nhân xám
+P58,vàng da sơ sinh do tan máu quá mức
+P59,vàng da sơ sinh do các nguyên nhân khác và/hoặc không xác định
+P60,bệnh đông máu rải rác nội mạch của thai nhi và/hoặc trẻ sơ sinh
+P61,rối loạn huyết học chu sinh khác
+P70,rối loạn chuyển hóa carbon hydrat tạm thời đặc trưng ở thai nhi và/hoặc trẻ sơ sinh
+P71,rối loạn chuyển hóa calci và/hoặc magie tạm thời ở trẻ sơ sinh
+P72,rối loạn nội tiết tạm thời khác ở trẻ sơ sinh
+P74,rối loạn điện giải và/hoặc chuyển hóa tạm thời khác ở trẻ sơ sinh
+P75,tắc ruột phân su do bệnh xơ nang (e84.1)
+P76,tắc nghẽn ruột non khác ở trẻ sơ sinh
+P77,viêm ruột hoại tử ở thai nhi và/hoặc trẻ sơ sinh
+P78,rối loạn khác của hệ tiêu hóa ở thời kỳ chu sinh
+P80,hạ thân nhiệt ở trẻ sơ sinh
+P81,rối loạn điều nhiệt khác ở trẻ sơ sinh
+P83,bệnh lý khác của da đặc trưng của thai nhi và/hoặc trẻ sơ sinh
+P90,cơn co giật ở trẻ sơ sinh
+P91,rối loạn khác của tình trạng não trẻ sơ sinh
+P92,rối loạn ăn uống ở trẻ sơ sinh
+P93,phản ứng và/hoặc ngộ độc thuốc dùng cho thai nhi và/hoặc trẻ sơ sinh
+P94,rối loạn trương lực cơ ở trẻ sơ sinh
+P95,thai chết không rõ nguyên nhân
+P96,bệnh lý khác xuất phát trong thời kỳ chu sinh
+Q00,dị tật khuyết não và dị tật tương tự
+Q01,dị tật thoát vị não
+Q02,dị tật đầu nhỏ
+Q03,bệnh não úng thủy bẩm sinh
+Q04,dị tật bẩm sinh khác của não
+Q05,dị tật bẩm sinh nứt đốt sống [cột sống chẻ đôi] [gai đôi cột sống]
+Q06,dị tật bẩm sinh khác của tủy sống
+Q07,dị tật bẩm sinh khác của hệ thần kinh
+Q10,"dị tật bẩm sinh của mi mắt, hệ lệ và/hoặc hốc mắt"
+Q11,"dị tật không có nhãn cầu, mắt bé, mắt to"
+Q12,dị tật bẩm sinh của thủy tinh thể
+Q13,dị tật bẩm sinh bán phần trước của mắt
+Q14,dị tật bẩm sinh phần sau của mắt
+Q15,dị tật bẩm sinh khác của mắt
+Q16,dị tật bẩm sinh ở tai gây suy giảm thính lực
+Q17,dị tật bẩm sinh khác ở tai
+Q18,dị tật bẩm sinh khác của mặt và/hoặc cổ
+Q20,dị tật bẩm sinh của buồng tim và bộ phận nối
+Q21,dị tật bẩm sinh của vách tim
+Q22,dị tật bẩm sinh của van động mạch phổi và/hoặc van ba lá
+Q23,dị tật bẩm sinh của van động mạch chủ và/hoặc van hai lá
+Q24,dị tật bẩm sinh khác của tim
+Q25,dị tật bẩm sinh của động mạch lớn
+Q26,dị tật bẩm sinh của tĩnh mạch lớn
+Q27,dị tật bẩm sinh khác của hệ thống mạch máu ngoại vi
+Q28,dị tật bẩm sinh khác của hệ thống tuần hoàn
+Q30,dị tật bẩm sinh ở mũi
+Q31,dị tật bẩm sinh của thanh quản
+Q32,dị tật bẩm sinh ở khí quản và/hoặc phế quản
+Q33,dị tật bẩm sinh của phổi
+Q34,dị tật bẩm sinh khác của hệ hô hấp
+Q35,khe hở vòm miệng
+Q36,khe hở môi
+Q37,khe hở vòm miệng kết hợp khe hở môi
+Q38,"dị tật bẩm sinh khác của lưỡi, miệng và/hoặc họng"
+Q39,dị tật bẩm sinh của thực quản
+Q40,dị tật bẩm sinh khác của đường tiêu hóa trên
+Q41,"dị tật thiếu, teo và/hoặc hẹp ruột non bẩm sinh"
+Q42,"dị tật thiếu, teo và/hoặc hẹp đại tràng bẩm sinh"
+Q43,dị tật bẩm sinh khác của ruột
+Q44,"dị tật bẩm sinh của túi mật, đường [ống] mật và/hoặc gan"
+Q45,dị tật bẩm sinh khác của hệ tiêu hóa
+Q50,"dị tật bẩm sinh của buồng trứng, vòi trứng và/hoặc dây chằng rộng"
+Q51,dị tật bẩm sinh của tử cung và/hoặc cổ tử cung
+Q52,dị tật bẩm sinh khác của cơ quan sinh dục nữ
+Q53,dị tật tinh hoàn ẩn [lạc chỗ]
+Q54,dị tật bẩm sinh lỗ tiểu lệch thấp
+Q54,excl.: epispadias (q64.0) dị tật bẩm sinh lỗ tiểu
+Q55,dị tật bẩm sinh khác của cơ quan sinh dục nam
+Q56,giới tính chưa định hình chính xác và/hoặc hội chứng giả lưỡng giới
+Q60,dị tật bất sản và/hoặc khuyết thiếu khác của thận
+Q61,bệnh nang thận
+Q62,dị tật tắc nghẽn bẩm sinh của bể thận và dị tật bẩm sinh của niệu quản
+Q63,dị tật bẩm sinh khác của thận
+Q64,dị tật bẩm sinh khác của hệ tiết niệu
+Q65,dị dạng bẩm sinh của khớp háng
+Q66,dị dạng bẩm sinh của bàn chân
+Q67,"dị dạng cơ xương bẩm sinh của đầu, mặt, cột sống và/hoặc ngực"
+Q68,dị dạng cơ xương bẩm sinh khác
+Q69,dị tật thừa ngón
+Q70,dị tật dính ngón
+Q71,dị tật bẩm sinh thiếu hụt chi trên
+Q71,khuyết tật thiếu hụt của chi trên
+Q72,dị tật bẩm sinh thiếu hụt chi dưới
+Q72,khuyết tật thiếu hụt của chi dưới
+Q73,dị tật thiếu hụt của chi không xác định
+Q74,dị tật bẩm sinh khác của chi
+Q75,dị tật bẩm sinh khác của xương sọ và xương mặt
+Q76,dị tật bẩm sinh của xương sống và/hoặc xương lồng ngực
+Q77,loạn sản xương sụn có khuyết tật phát triển xương dài và/hoặc cột sống
+Q78,loạn sản xương sụn khác
+Q79,"dị tật bẩm sinh của hệ cơ xương, không phân loại mục khác"
+Q80,bệnh da vảy cá bẩm sinh
+Q81,bệnh ly thượng bì bọng nước bẩm sinh
+Q82,dị tật bẩm sinh khác của da
+Q83,dị tật bẩm sinh của vú
+Q84,dị tật bẩm sinh khác của hệ vỏ bọc [da]
+Q85,"hội chứng u thần kinh - da ngoại bì, không phân loại mục khác"
+Q86,"hội chứng dị tật bẩm sinh do nguyên nhân bên ngoài đã biết, không phân loại mục khác"
+Q87,hội chứng dị tật bẩm sinh khác tác động nhiều hệ thống
+Q89,"dị tật bẩm sinh khác, không phân loại mục khác"
+Q90,hội chứng down
+Q91,hội chứng edwards và/hoặc hội chứng patau
+Q92,"thể tam nhiễm sắc thể thường hoàn toàn và/hoặc một phần khác, không phân loại mục khác"
+Q93,"thể đơn nhiễm sắc thể thường và/hoặc mất đoạn nhiễm sắc thể thường, không phân loại mục khác"
+Q95,"đột biến cấu trúc nhiễm sắc thể không gây mất cân bằng gen và/hoặc cá thể bình thường có dấu ấn đột biến cấu trúc, không phân loại ở mục khác"
+Q96,hội chứng turner
+Q97,"bất thường nhiễm sắc thể giới tính khác, kiểu hình nữ, không phân loại mục khác"
+Q98,"bất thường nhiễm sắc thể giới tính khác, kiểu hình nam không phân loại mục khác"
+Q99,bất thường nhiễm sắc thể khác không phân loại mục khác
+R00,nhịp tim bất thường
+R01,tiếng thổi của tim và/hoặc các âm thanh khác của tim
+R02,"hoại thư, không phân loại mục khác"
+R03,"chỉ số huyết áp bất thường, không có chẩn đoán"
+R04,chảy máu đường hô hấp
+R06,nhịp thở bất thường
+R07,đau họng và/hoặc đau ngực
+R09,triệu chứng và/hoặc dấu hiệu khác liên quan đến hệ tuần hoàn và/hoặc hệ hô hấp
+R10,đau vùng bụng và/hoặc chậu
+R11,buồn nôn và/hoặc nôn
+R12,ợ nóng [đau rát ngực]
+R13,khó nuốt
+R14,đầy hơi và/hoặc tình trạng liên quan
+R15,đại tiện không tự chủ
+R16,"gan to và/hoặc lá lách to, không phân loại mục khác"
+R17,"tăng bilirubin máu, có hoặc không vàng da, không phân loại mục khác"
+R18,chứng cổ trướng
+R19,triệu chứng và/hoặc dấu hiệu khác liên quan tới hệ tiêu hóa và/hoặc bụng
+R20,rối loạn cảm giác da
+R21,ban da và/hoặc phát ban không xác định cụ thể
+R22,"sưng cục bộ, khối và/hoặc u ở da và/hoặc mô dưới da"
+R23,của da
+R25,vận động không tự chủ bất thường
+R26,bất thường về dáng đi và/hoặc vận động
+R27,thiếu phối hợp vận động khác
+R29,triệu chứng và/hoặc dấu hiệu khác liên quan tới hệ thần kinh và/hoặc cơ xương khớp
+R30,đau liên quan với tiểu tiện
+R31,tiểu máu không xác định
+R32,tiểu tiện không tự chủ không xác định
+R33,bí tiểu
+R34,và/hoặc thiểu niệu
+R35,đa niệu
+R36,dịch tiết từ niệu đạo
+R39,triệu chứng và/hoặc dấu hiệu khác liên quan tới hệ tiết niệu
+R40,"buồn ngủ, ngẩn ngơ và/hoặc hôn mê"
+R41,triệu chứng và/hoặc dấu hiệu khác liên quan đến chức năng nhận thức và/hoặc tri giác
+R42,hoa mắt và/hoặc chóng mặt
+R43,rối loạn khứu giác và/hoặc vị giác
+R44,triệu chứng và/hoặc dấu hiệu khác về cảm giác và/hoặc tri giác
+R45,triệu chứng và/hoặc dấu hiệu về trạng thái cảm xúc
+R46,triệu chứng và/hoặc dấu hiệu khác liên quan đến diện mạo bên ngoài và/hoặc hành vi
+R47,"rối loạn ngôn ngữ, không phân loại mục khác"
+R48,"chứng khó đọc và/hoặc các rối loạn chức năng biểu đạt khác, không phân loại mục khác"
+R49,rối loạn giọng nói
+R50,sốt không rõ nguyên nhân và/hoặc sốt khác
+R51,đau đầu
+R52,"đau, không phân loại mục khác"
+R53,khó chịu và/hoặc mệt mỏi
+R54,suy yếu do tuổi già
+R55,ngất và/hoặc ngã quỵ
+R56,"co giật, không phân loại mục khác"
+R57,"sốc, không phân loại mục khác"
+R58,"xuất huyết, không phân loại mục khác"
+R59,chứng phì đại hạch bạch huyết
+R60,"phù, không phân loại mục khác"
+R61,tăng tiết mồ hôi
+R62,phát triển sinh lý không bình thường như kỳ vọng
+R63,triệu chứng và/hoặc dấu hiệu liên quan đến ăn uống thức ăn và/hoặc đồ uống
+R64,suy mòn
+R65,hội chứng đáp ứng viêm hệ thống [sirs]
+R68,triệu chứng và/hoặc dấu hiệu toàn thể khác
+R69,nguyên nhân mắc bệnh không xác định và/hoặc không rõ
+R70,tăng tốc độ lắng hồng cầu và/hoặc độ nhớt huyết tương bất thường
+R71,bất thường về hồng cầu
+R72,"bất thường bạch cầu, không phân loại mục khác"
+R73,tăng nồng độ đường huyết
+R74,nồng độ enzym huyết thanh bất thường
+R75,bằng chứng cận lâm sàng của virus gây suy giảm miễn dịch ở người [hiv]
+R76,phát hiện miễn dịch khác bất thường trong huyết thanh
+R77,bất thường khác của protein huyết tương
+R78,"phát hiện ma túy và/hoặc chất khác, không thường có trong máu"
+R79,phát hiện sinh hóa máu bất thường khác
+R80,protein niệu đơn độc
+R81,glucoza niệu
+R82,phát hiện bất thường khác trong nước tiểu
+R83,phát hiện bất thường trong dịch não tủy
+R84,phát hiện bất thường trong mẫu bệnh phẩm từ cơ quan hô hấp và/hoặc lồng ngực
+R85,phát hiện bất thường trong mẫu bệnh phẩm từ cơ quan tiêu hóa và/hoặc ổ bụng
+R86,phát hiện bất thường trong mẫu bệnh phẩm của cơ quan sinh dục nam
+R87,phát hiện bất thường trong mẫu bệnh phẩm của cơ quan sinh dục nữ
+R89,"phát hiện bất thường trong mẫu bệnh phẩm của các cơ quan, hệ thống và/hoặc mô khác"
+R90,phát hiện bất thường của chẩn đoán hình ảnh ở hệ thần kinh trung ương
+R91,phát hiện bất thường của chẩn đoán hình ảnh ở phổi
+R92,phát hiện bất thường của chẩn đoán hình ảnh ở ngực
+R93,phát hiện bất thường của chẩn đoán hình ảnh ở cơ quan khác
+R94,kết quả bất thường của thăm dò chức năng
+R95,hội chứng đột tử ở trẻ sơ sinh
+R96,"đột tử khác, không rõ nguyên nhân"
+R98,tử vong một mình [không ai biết]
+R99,nguyên nhân tử vong không rõ ràng và/hoặc không xác định khác
+S00,tổn thương nông ở đầu
+S01,vết thương hở ở đầu
+S02,vỡ xương sọ và/hoặc gãy xương mặt
+S03,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng của đầu"
+S04,tổn thương dây thần kinh sọ
+S05,tổn thương mắt và/hoặc hốc mắt
+S06,tổn thương nội sọ
+S07,tổn thương dập nát ở đầu
+S08,đứt rời một phần của đầu do chấn thương
+S09,tổn thương khác và/hoặc không xác định ở đầu
+S10,tổn thương nông ở cổ
+S11,vết thương hở ở cổ
+S11,excl.: decapitation (s18) vết thương hở ở cổ
+S12,gãy cổ
+S13,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng vùng cổ"
+S14,"tổn thương dây thần kinh và/hoặc tủy sống, vùng cổ"
+S15,"tổn thương mạch máu, vùng cổ"
+S16,"tổn thương cơ và/hoặc gân, vùng cổ"
+S17,tổn thương dập nát ở cổ
+S18,đứt rời vùng cổ do chấn thương
+S19,tổn thương khác và/hoặc không xác định ở cổ
+S20,tổn thương nông ở ngực
+S21,vết thương hở ở ngực
+S22,"gãy xương sườn, xương ức và/hoặc cột sống ngực"
+S23,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng ngực"
+S24,"tổn thương dây thần kinh và/hoặc tủy sống, vùng ngực"
+S25,tổn thương mạch máu ở ngực
+S25,tổn thương mạch máu của ngực
+S26,tổn thương tim
+S27,tổn thương nội tạng khác và/hoặc không xác định trong khoang ngực
+S28,tổn thương dập nát và/hoặc đứt rời phần của ngực do chấn thương
+S29,tổn thương khác và/hoặc không xác định ở ngực
+S30,"tổn thương nông ở bụng, thắt lưng và/hoặc vùng chậu"
+S31,"vết thương hở ở bụng, thắt lưng và/hoặc vùng chậu"
+S32,gãy cột sống thắt lưng và/hoặc khung chậu
+S33,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng cột sống thắt lưng và/hoặc vùng chậu"
+S34,"tổn thương dây thần kinh và/hoặc tủy sống thắt lưng, vùng bụng, thắt lưng và/hoặc chậu"
+S35,"tổn thương mạch máu, vùng bụng, thắt lưng và/hoặc chậu"
+S36,tổn thương tạng trong ổ bụng
+S37,tổn thương tạng của hệ tiết niệu và/hoặc vùng chậu
+S38,"tổn thương dập nát và/hoặc đứt rời do chấn thương ở một phần của bụng, thắt lưng và/hoặc vùng chậu"
+S39,"tổn thương khác và/hoặc không xác định ở vùng bụng, thắt lưng và/hoặc chậu"
+S40,tổn thương nông ở vai và/hoặc cánh tay trên
+S41,vết thương hở ở vai và/hoặc cánh tay trên
+S42,"gãy xương vùng vai [xương đòn, vai] và/hoặc xương cánh tay trên"
+S43,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng của vòng ngực [xương đòn, vai, cánh tay trên và khớp liên quan]"
+S44,"tổn thương dây thần kinh, vùng vai và cánh tay trên"
+S45,"tổn thương mạch máu, vùng vai và cánh tay trên"
+S46,"tổn thương cơ và/hoặc gân, vùng vai và cánh tay trên"
+S47,tổn thương dập nát vai và/hoặc cánh tay trên
+S48,đứt rời vai và/hoặc cánh tay trên do chấn thương
+S49,tổn thương khác và/hoặc không xác định ở vai và/hoặc cánh tay trên
+S50,tổn thương nông ở cẳng tay
+S51,vết thương hở ở cẳng tay
+S52,gãy xương cẳng tay
+S53,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng khuỷu tay"
+S54,"tổn thương dây thần kinh, tầm cẳng tay"
+S55,"tổn thương mạch máu, tầm cẳng tay"
+S56,"tổn thương cơ và/hoặc gân, tầm cẳng tay"
+S57,tổn thương dập nát ở cẳng tay
+S58,đứt rời cẳng tay do chấn thương
+S59,tổn thương khác và/hoặc không xác định của cẳng tay
+S60,tổn thương nông ở cổ tay và/hoặc bàn tay
+S61,vết thương hở ở cổ tay và/hoặc bàn tay
+S62,"gãy xương, tầm cổ tay và bàn tay"
+S63,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ khớp và/hoặc dây chằng, tầm cổ tay và bàn tay"
+S64,"tổn thương dây thần kinh, tầm cổ tay và bàn tay"
+S65,"tổn thương mạch máu, tầm cổ tay và bàn tay"
+S66,"tổn thương cơ bắp và/hoặc gân, tầm cổ tay và bàn tay"
+S67,tổn thương dập nát cổ tay và/hoặc bàn tay
+S68,đứt rời cổ tay và/hoặc bàn tay do chấn thương
+S69,tổn thương khác và/hoặc không xác định ở cổ tay và/hoặc bàn tay
+S70,tổn thương nông ở hông và/hoặc đùi
+S71,vết thương hở ở hông và/hoặc đùi
+S72,gãy xương đùi
+S73,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ khớp háng"
+S74,"tổn thương dây thần kinh, tầm hông và đùi"
+S75,"tổn thương mạch máu, tầm hông và đùi"
+S76,"tổn thương cơ và/hoặc gân, tầm hông và đùi"
+S77,tổn thương dập nát ở hông và/hoặc đùi
+S78,đứt rời hông và/hoặc đùi do chấn thương
+S79,tổn thương khác và/hoặc không xác định ở hông và/hoặc đùi
+S80,tổn thương nông tại cẳng chân
+S80,tổn thương nông ở cẳng chân
+S81,vết thương hở ở cẳng chân
+S82,"gãy xương cẳng chân, bao gồm cổ chân"
+S83,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở khớp và/hoặc dây chằng đầu gối"
+S84,"tổn thương dây thần kinh, tầm cẳng chân"
+S85,"tổn thương mạch máu, tầm cẳng chân"
+S86,"tổn thương cơ và/hoặc gân, tầm cẳng chân"
+S87,tổn thương dập nát cẳng chân
+S88,đứt rời cẳng chân do chấn thương
+S89,tổn thương khác và/hoặc không xác định ở cẳng chân
+S90,tổn thương nông ở cổ chân và/hoặc bàn chân
+S91,vết thương hở ở cổ chân và/hoặc bàn chân
+S92,"gãy xương bàn chân, trừ cổ chân"
+S93,"trật khớp, giãn dây chằng [bong gân], căng cơ khớp và/hoặc dây chằng tầm cẳng chân và bàn chân"
+S94,"tổn thương dây thần kinh, tầm cổ chân và bàn chân"
+S95,tổn thương mạch máu tầm cổ chân và bàn chân
+S96,"tổn thương cơ và/hoặc gân, tầm cổ chân và bàn chân"
+S97,tổn thương dập nát cổ chân và/hoặc bàn chân
+S98,đứt rời cổ chân và/hoặc bàn chân do chấn thương
+S99,tổn thương khác và/hoặc không xác định ở cổ chân và/hoặc bàn chân
+T00,tổn thương nông tác động đến nhiều vùng cơ thể
+T01,vết thương hở tác động đến nhiều vùng cơ thể
+T02,gãy xương tác động đến nhiều vùng cơ thể
+T03,"trật khớp, giãn dây chằng [bong gân] và/hoặc căng cơ ở nhiều vùng cơ thể"
+T04,tổn thương dập nát tác động đến nhiều vùng cơ thể
+T05,đứt rời do chấn thương tác động đến nhiều vùng cơ thể
+T06,"tổn thương khác tác động đến nhiều vùng cơ thể, không phân loại mục khác"
+T07,đa tổn thương không xác định
+T07,excl.: injury nos (t14.9) đa tổn thương không xác
+T08,"gãy cột sống, đoạn không xác định"
+T09,"tổn thương khác ở cột sống và/hoặc thân, vùng không xác định"
+T10,"gãy xương chi trên, tầm chi không xác định"
+T11,"tổn thương khác ở chi trên, tầm không xác định"
+T12,"gãy xương chi dưới, tầm chi không xác định"
+T13,"tổn thương khác ở chi dưới, tầm không xác định"
+T14,tổn thương ở vùng cơ thể không xác định
+T15,dị vật ở mắt ngoài
+T16,dị vật ở tai
+T17,dị vật đường hô hấp
+T18,dị vật đường tiêu hóa
+T19,dị vật đường sinh dục - tiết niệu
+T20,bỏng và/hoặc ăn mòn ở đầu và/hoặc cổ
+T21,bỏng và/hoặc ăn mòn tại thân
+T22,"bỏng và/hoặc ăn mòn tại vai và/hoặc chi trên, trừ cổ tay và bàn tay"
+T23,bỏng và/hoặc ăn mòn tại cổ tay và/hoặc bàn tay
+T24,"bỏng và/hoặc ăn mòn tại hông và/hoặc chi dưới, trừ cổ chân và bàn chân"
+T25,bỏng và/hoặc ăn mòn tại cổ chân và/hoặc bàn chân
+T26,bỏng và/hoặc ăn mòn giới hạn tại mắt và/hoặc cấu trúc phụ cận của mắt
+T27,bỏng và/hoặc ăn mòn đường hô hấp
+T28,bỏng và/hoặc ăn mòn nội tạng khác
+T29,bỏng và/hoặc ăn mòn nhiều vùng cơ thể
+T30,"bỏng và/hoặc ăn mòn, vùng cơ thể không xác định"
+T31,phân loại bỏng theo diện tích bề mặt cơ thể bị tổn thương
+T32,phân loại ăn mòn theo diện tích bề mặt cơ thể bị tổn thương
+T33,bỏng lạnh nông
+T34,bỏng lạnh có hoại tử mô
+T35,bỏng lạnh tác động đến nhiều vùng cơ thể và/hoặc bỏng lạnh không xác định
+T36,ngộ độc kháng sinh toàn thân
+T37,ngộ độc do thuốc chống nhiễm trùng và/hoặc thuốc chống ký sinh trùng toàn thân khác
+T38,"ngộ độc do nội tiết tố [hormon] và/hoặc chất tổng hợp thay thế và/hoặc đối kháng của chúng, không phân loại mục khác"
+T39,"ngộ độc do thuốc giảm đau, hạ nhiệt và/hoặc chống viêm khớp dạng thấp không có chất dạng thuốc phiện"
+T40,ngộ độc chất ma túy và/hoặc chất gây ảo giác
+T41,ngộ độc chất gây tê/gây tê và/hoặc khí trị liệu
+T42,"ngộ độc thuốc chống động kinh, thuốc an thần - gây ngủ và/hoặc thuốc chống hội chứng parkison"
+T43,"ngộ độc thuốc hướng thần, không phân loại mục khác"
+T44,ngộ độc do thuốc tác động chủ yếu đến hệ thần kinh tự động
+T45,"ngộ độc tác nhân chủ yếu tác động toàn thân và/hoặc huyết học, không phân loại mục khác"
+T46,ngộ độc tác nhân chủ yếu tác động đến hệ tim mạch
+T47,ngộ độc do tác nhân tác động chủ yếu trên hệ thống tiêu hóa
+T48,ngộ độc do tác nhân tác động chủ yếu trên cơ trơn và/hoặc cơ xương và/hoặc hệ hô hấp
+T49,"ngộ độc tác nhân dùng tại chỗ tác động chủ yếu trên da và/hoặc niêm mạc và/hoặc do thuốc mắt, tai- mũi - họng và/hoặc nha khoa"
+T50,"ngộ độc thuốc lợi tiểu và/hoặc dược chất, thuốc điều trị, sinh phẩm khác và/hoặc không xác định"
+T51,tác động độc hại của cồn
+T52,tác động độc hại của dung môi hữu cơ
+T53,tác động độc hại của dẫn xuất halogen của hydrocarbon béo và/hoặc hydrocarbon thơm
+T54,tác động độc hại của chất ăn mòn
+T55,tác động độc hại của xà phòng và/hoặc chất tẩy rửa
+T56,tác động độc hại của kim loại
+T57,tác động độc hại của chất vô cơ khác
+T58,tác động độc hại của carbon monoxide
+T59,"tác động độc hại của khí, khói và/hoặc hơi khác"
+T60,tác động độc hại của thuốc trừ sâu
+T61,tác động độc hại do ăn hải sản có chất độc
+T62,tác động độc hại do ăn phải thực phẩm có chất độc
+T63,tác động độc hại do tiếp xúc với động vật có nọc độc
+T64,tác động độc hại của aflatoxin và/hoặc độc tố nấm khác gây ô nhiễm thực phẩm
+T65,tác động độc hại của chất khác và/hoặc không xác định
+T66,tác động không xác định của phóng xạ [bức xạ]
+T67,tác động của nhiệt và/hoặc ánh sáng
+T68,hạ thân nhiệt
+T69,tác động khác của hạ nhiệt độ
+T70,tác động của áp suất không khí và/hoặc áp suất nước
+T71,ngạt thở
+T73,tác động của thiếu hụt khác
+T74,hội chứng ngược đãi
+T75,tác động của nguyên nhân bên ngoài khác
+T76,tác động không xác định của nguyên nhân bên ngoài
+T78,"tác dụng bất lợi, không phân loại mục khác"
+T79,"một số biến chứng ban đầu của chấn thương, không phân loại mục khác"
+T80,"biến chứng sau tiêm truyền, truyền máu và/hoặc tiêm thuốc điều trị"
+T81,"biến chứng can thiệp, không phân loại mục khác"
+T82,"biến chứng của thiết bị nhân tạo tim và/hoặc mạch máu, cấy và/hoặc ghép"
+T83,"biến chứng của thiết bị/dụng cụ nhân tạo, cấy và/hoặc ghép ở hệ sinh dục - tiết niệu"
+T84,"biến chứng do thiết bị/dụng cụ, cấy và/hoặc ghép chỉnh hình bên trong"
+T85,"biến chứng của thiết bị/dụng cụ nhân tạo, cấy và/hoặc ghép bên trong khác"
+T86,thất bại và/hoặc thải ghép tạng và/hoặc mô
+T87,biến chứng đặc trưng của phẫu thuật nối lại và/hoặc cắt cụt
+T88,biến chứng khác của chăm sóc ngoại khoa và/hoặc nội khoa không phân loại mục khác
+T90,di chứng tổn thương ở đầu
+T91,di chứng tổn thương cổ và/hoặc thân
+T92,di chứng tổn thương chi trên
+T93,di chứng tổn thương chi dưới
+T94,di chứng tổn thương tác động đến nhiều vùng cơ thể và/hoặc vùng không xác định
+T95,"di chứng bỏng, ăn mòn và/hoặc bỏng lạnh"
+T96,"di chứng ngộ độc dược chất, thuốc điều trị và/hoặc sinh phẩm"
+T97,di chứng của tác động độc hại do chất chủ yếu có nguồn gốc không phải là thuốc
+T98,di chứng do tác động từ nguyên nhân bên ngoài khác và/hoặc không xác định
+V01,người đi bộ bị thương do va chạm với xe đạp
+V02,người đi bộ bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V03,"người đi bộ bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V04,người đi bộ bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V05,người đi bộ bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V06,người đi bộ bị thương do va chạm với xe không có động cơ khác
+V09,người đi bộ bị thương trong tai nạn giao thông khác và/hoặc không xác định
+V10,người đi xe đạp bị thương do va chạm với người đi bộ hoặc động vật
+V11,người đi xe đạp bị thương do va chạm với xe đạp khác
+V12,người đi xe đạp bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V13,"người đi xe đạp bị thương khi va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V14,người đi xe đạp bị thương khi va chạm với xe tải hạng nặng hoặc xe buýt
+V15,người đi xe đạp bị thương khi va chạm với tàu hỏa hoặc phương tiện đường sắt
+V16,người đi xe đạp bị thương do va chạm với xe không có động cơ khác
+V17,người đi xe đạp bị thương do va chạm với vật cố định hoặc tĩnh vật
+V18,người đi xe đạp bị thương trong tai nạn giao thông vận tải không có va chạm
+V19,người đi xe đạp bị thương do những tai nạn giao thông vận tải khác và/hoặc không xác định
+V20,người đi xe máy 2 bánh bị thương do va chạm với người đi bộ hoặc va chạm với động vật
+V21,người đi xe máy 2 bánh bị thương khi va chạm với xe đạp
+V22,người đi xe máy 2 bánh bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V23,"người đi xe máy 2 bánh bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V24,người đi xe máy 2 bánh bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V25,người đi xe máy 2 bánh bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V26,người đi xe máy 2 bánh bị thương do va chạm với xe không có động cơ khác
+V27,người đi xe máy 2 bánh bị thương do va chạm với vật cố định hoặc tĩnh vật
+V28,người đi xe máy 2 bánh bị thương trong tai nạn giao thông vận tải không có va chạm
+V29,người đi xe máy 2 bánh bị thương trong tai nạn giao thông khác và/hoặc không xác định
+V30,người đi xe máy 3 bánh bị thương do va chạm với người đi bộ hoặc động vật
+V31,người đi xe máy 3 bánh bị thương do va chạm với xe đạp
+V32,người đi xe máy 3 bánh bị thương do va chạm với xe máy 2 bánh hoặc xe máy 3 bánh
+V33,"người đi xe máy 3 bánh bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V34,người đi xe máy 3 bánh bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V35,người đi xe máy 3 bánh bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V36,người đi xe máy 3 bánh bị thương do va chạm với xe cơ giới khác
+V37,người đi xe máy 3 bánh bị thương do va chạm với vật cố định hoặc tĩnh vật
+V38,người đi xe máy 3 bánh bị thương trong tai nạn giao thông vận tải không có va chạm
+V39,người đi xe máy 3 bánh bị thương trong tai nạn giao thông vận tải khác và/hoặc không xác định
+V40,người đi xe ô tô bị thương do va chạm với người đi bộ hoặc động vật
+V41,người đi xe ô tô bị thương do va chạm với xe đạp
+V42,người đi xe ô tô bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V43,"người đi xe ô tô bị thương do va chạm với xe ô tô, xe bán tải hoặc xe tải nhỏ"
+V44,người đi xe ô tô bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V45,người đi xe ô tô bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V46,người đi xe ô tô bị thương do va chạm với xe không có động cơ khác
+V47,người đi xe ô tô bị thương do va chạm với vật cố định hoặc tĩnh vật
+V48,người đi xe ô tô bị thương trong tai nạn giao thông vận tải không có va chạm
+V49,người đi xe ô tô bị thương trong tai nạn giao thông vận tải khác và/hoặc không xác định
+V50,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với người đi bộ hoặc động vật
+V51,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với xe đạp
+V52,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V53,"người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V54,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V55,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V56,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với xe không có động cơ khác
+V57,người đi xe bán tải hoặc xe tải nhỏ bị thương do va chạm với vật cố định hoặc tĩnh vật
+V58,người đi xe bán tải hoặc xe tải nhỏ bị thương trong tai nạn giao thông vận tải không có va chạm
+V59,người đi xe bán tải hoặc xe tải nhỏ bị thương tai nạn giao thông vận tải khác và/hoặc không xác định
+V59,người đi xe bán tải hoặc xe tải van bị thương tai nạn giao thông vận tải khác và/hoặc không xác định
+V60,người đi xe tải hạng nặng bị thương do va chạm với người đi bộ hoặc động vật
+V61,người đi xe tải hạng nặng bị thương do va chạm với xe đạp
+V62,người đi xe tải hạng nặng bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V63,"người đi xe tải hạng nặng bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V64,người đi xe tải hạng nặng bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V65,người đi xe tải hạng nặng bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V66,người đi xe tải hạng nặng bị thương do va chạm với xe không có động cơ khác
+V67,người đi xe tải hạng nặng bị thương do va chạm với vật cố định hoặc tĩnh vật
+V68,người đi xe tải hạng nặng bị thương trong tai nạn giao thông vận tải không có va chạm
+V69,người đi xe tải hạng nặng bị thương trong tai nạn giao thông vận tải khác và/hoặc không xác định
+V70,người đi xe buýt bị thương khi va chạm với người đi bộ hoặc động vật
+V71,người đi xe buýt bị thương do va chạm với với xe đạp
+V72,người đi xe buýt bị thương do va chạm với xe máy 2 hoặc 3 bánh
+V73,"người đi xe buýt bị thương do va chạm với ô tô, xe bán tải hoặc xe tải nhỏ"
+V74,người đi xe buýt bị thương do va chạm với xe tải hạng nặng hoặc xe buýt
+V75,người đi xe buýt bị thương do va chạm với tàu hỏa hoặc phương tiện đường sắt
+V76,người đi xe buýt bị thương do va chạm với xe không có động cơ khác
+V77,người đi xe buýt bị thương do va chạm với vật cố định hoặc tĩnh vật
+V78,người đi xe buýt bị thương trong tai nạn giao thông vận tải không có va chạm
+V79,người đi xe buýt bị thương trong tai nạn giao thông vận tải khác và/hoặc không xác định
+V80,người cưỡi động vật hoặc người trên xe động vật kéo bị thương trong tai nạn giao thông
+V81,người đi tàu hỏa hoặc phương tiện đường sắt bị thương trong tai nạn giao thông
+V82,người đi xe điện bị thương trong tai nạn giao thông
+V83,người đi xe chuyên dùng chủ yếu sử dụng trong các cơ sở công nghiệp bị thương trong tai nạn giao thông
+V84,người đi xe chuyên dùng sử dụng chủ yếu trong nông nghiệp bị thương trong tai nạn giao thông
+V85,người đi xe chuyên dùng trong xây dựng bị thương trong tai nạn giao thông
+V86,"người đi xe chuyên dùng mọi địa hình hoặc xe mô tô khác được thiết kế chủ yếu cho sử dụng ngoài quốc lộ, bị thương trong tai nạn giao thông"
+V87,tai nạn giao thông xác định nhưng không rõ phương tiện vận tải của nạn nhân
+V88,tai nạn xác định không liên quan đến giao thông nhưng không rõ phương tiện vận tải của nạn nhân
+V89,"tai nạn xe cơ giới hoặc xe không có động cơ, không xác định loại phương tiện"
+V90,tai nạn tàu thủy gây đuối nước và/hoặc chìm tàu
+V91,tai nạn phương tiện giao thông đường thủy gây chấn thương khác
+V92,đuối nước và/hoặc ngạt nước liên quan tới giao thông đường thủy không có tai nạn do phương tiện giao thông đường thủy gây ra
+V93,"tai nạn trên phương tiện thủy không có tai nạn của phương tịên, không gây đuối nước và/hoặc chìm tàu"
+V94,tai nạn giao thông đường thủy khác và/hoặc không xác định
+V95,tai nạn do phương tiện bay có động cơ gây tổn thương cho người sử dụng phương tiện
+V96,tai nạn của phương tiện bay không động cơ làm bị thương người trên tàu
+V97,các tai nạn do phương tịên bay xác định khác
+V98,các tai nạn giao thông xác định khác
+V99,tai nạn giao thông không xác định
+W00,ngã trên cùng một mặt bằng liên quan băng và/hoặc tuyết
+W01,"ngã trên cùng mặt bằng do trượt, vấp và/hoặc lộn nhào"
+W02,"ngã liên quan trượt băng, ski, trượt patin hoặc ván trượt"
+W03,ngã khác trên cùng mặt bằng do va chạm hoặc bị người khác xô đẩy
+W04,ngã khi đang được người khác bế hoặc cõng
+W05,ngã liên quan đến xe lăn
+W06,ngã liên quan đến giường
+W07,đến ghế
+W08,ngã liên quan đến đồ nội thất khác
+W09,ngã liên quan đến thiết bị sân chơi
+W10,ngã trên và ngã từ bậc thang và/hoặc bậc thềm
+W11,ngã trên và/hoặc ngã từ thang
+W12,ngã trên và/hoặc ngã từ giàn giáo
+W13,"ngã từ, ngã ra ngoài hoặc ngã xuyên qua tòa nhà hoặc công trình xây dựng"
+W14,ngã từ cây
+W15,rơi từ vách đã
+W16,lặn hoặc nhảy xuống nước gây thương tích không phải là chết đuối hoặc chìm trong nước
+W17,ngã khác từ cấp độ này sang cấp độ khác
+W18,ngã khác trên cùng mặt bằng
+W19,ngã không xác định
+W20,"bị tác động của (các) vật ném, tung hoặc đang rơi"
+W21,va phải hoặc bị đập bởi dụng cụ thể thao
+W22,va phải hoặc bị đập bởi các vật thể khác
+W23,"bị bắt, kẹp, ép hoặc bị chèn ép trong hoặc giữa các vật"
+W24,"tiếp xúc với (các) thiết bị nâng và/hoặc truyền tải, không phân loại mục khác"
+W25,tiếp xúc với kính sắc nhọn
+W26,tiếp xúc với (các) vật thể sắc nhọn khác
+W27,tiếp xúc với dụng cụ cầm tay không có động cơ
+W28,tiếp xúc với máy cắt cỏ có động cơ
+W29,tiếp xúc với các dụng cụ cầm tay và máy móc gia dụng có động cơ khác
+W30,va chạm với máy móc nông nghiệp
+W31,va chạm với máy móc khác và/hoặc máy móc không xác định
+W32,handgun discharge xả súng ngắn
+W33,"xả súng trường, súng bắn đạn ghém và/hoặc súng lớn hơn"
+W34,xả súng khác và/hoặc không xác định
+W35,nổ và/hoặc vỡ lò hơi
+W36,nổ và/hoặc vỡ bình ga
+W37,"nổ và/hoặc vỡ lốp, đường ống hoặc ống có áp suất"
+W38,nổ và vỡ các thiết bị điều áp xác định khác
+W39,nổ pháo hoa
+W40,nổ các vật liệu khác
+W41,tiếp xúc với tia áp lực cao
+W42,phơi nhiễm tiếng ồn
+W43,phơi nhiễm với chấn động
+W44,dị vật xâm nhập vào hoặc qua mắt hoặc lỗ tự nhiên
+W45,dị vật xâm nhập qua da
+W46,tiếp xúc với kim tiêm dưới da
+W49,bị ảnh hưởng của lực cơ học bất động khác và/hoặc không xác định
+W50,"bị người khác đập đánh, đá, vặn, cắn, cào"
+W51,bị người khác tấn công chống lại hoặc đâm vào
+W52,"bị đám đông hoặc đám người dẫm lên, ép hoặc xô đẩy"
+W53,bị chuột cắn
+W54,bị chó cắn hoặc tấn công
+W55,bị cắn hoặc tấn công do loài động vật có vú khác
+W56,tiếp xúc với động vật biển
+W57,bị côn trùng không có nọc và/hoặc các loài tiết túc [virus arbo] không có nọc độc cắn hoặc đốt
+W58,bị cá sấu châu phi hoặc cá sấu mỹ cắn hoặc tấn công
+W59,bị loài bò sát khác cắn hoặc kẹp
+W60,"tiếp xúc với cây gai, gai, lá nhọn"
+W64,tiếp xúc với các lực cơ học động khác và/hoặc không xác định
+W65,đuối nước và/hoặc ngập nước khi ở trong bồn tắm
+W66,đuối nước và/hoặc ngập nước sau khi ngã vào bồn tắm
+W67,đuối nước và/hoặc ngập nước khi ở bể bơi
+W68,đuối nước và/hoặc ngập nước sau khi ngã vào bể bơi
+W69,đuối nước và/hoặc ngập nước khi ở trong nước tự nhiên
+W70,đuối nước và/hoặc ngập nước sau khi ngã xuống nước tự nhiên
+W73,đuối nước và/hoặc ngập nước xác định khác
+W74,đuối nước và/hoặc ngập nước xác định khác
+W75,vô tình bị ngạt thở và/hoặc bị siết cổ trên giường
+W76,vô tình bị treo cổ và/hoặc siết cổ khác
+W77,"đe dọa hô hấp do sụt đất, sạt lở đất và/hoặc các chất khác"
+W78,hít phải các chất trong dạ dày
+W79,hít và/hoặc nuốt thức ăn gây tắc nghẽn đường hô hấp
+W80,hít và/hoặc nuốt phải các vật thể khác gây tắc nghẽn đường hô hấp
+W81,bị giam giữ hoặc bị mắc kẹt trong môi trường thiếu oxy
+W83,các mối đe dọa xác định khác đối với hô hấp
+W84,mối đe dọa không xác định đối với hô hấp
+W85,tiếp xúc với đường dây tải điện
+W86,tiếp xúc với dòng điện xác định khác
+W87,tiếp xúc với dòng điện không xác định
+W88,phơi nhiễm với nguồn phóng xạ [bức xạ] ion hóa
+W89,mắt phơi nhiễm với ánh sáng nhân tạo và/hoặc tia cực tím
+W89,incl.: welding light (arc) mắt phơi nhiễm với ánh
+W90,phơi nhiễm với bức xạ không ion hóa khác
+W91,phơi nhiễm với nguồn phóng xạ [bức xạ] không xác định
+W92,tiếp xúc với nhiệt độ quá cao có nguồn gốc nhân tạo
+W93,tiếp xúc quá mức với nguồn nhiệt lạnh nhân tạo
+W94,tiếp xúc với áp suất không khí cao và/hoặc thấp và/hoặc thay đổi áp suất không khí
+W99,tiếp xúc với các yếu tố môi trường khác và/hoặc không xác định do con người tạo ra
+X00,tiếp xúc với đám cháy không kiểm soát được ở tòa nhà hoặc công trình xây dựng
+X01,"tiếp xúc với đám cháy không kiểm soát được, không phải ở tòa nhà hoặc công trình xây dựng"
+X02,tiếp xúc với đám cháy kiểm soát được của tòa nhà hoặc công trình xây dựng
+X03,"tiếp xúc với đám cháy có kiểm soát, không phải ở tòa nhà hoặc công trình xây dựng"
+X04,tiếp xúc với vật liệu dễ cháy có tính bắt lửa cao
+X05,tiếp xúc với quần áo hoặc trang phục dễ nóng chảy
+X06,phơi nhiễm với quần áo hoặc trang phục khác dễ bắt lửa
+X08,"phơi nhiễm với khói, cháy và/hoặc lửa xác định khác"
+X09,"phơi nhiễm với khói, cháy và/hoặc lửa không xác định"
+X10,"tiếp xúc với đồ uống, thức ăn, mỡ và/hoặc dầu ăn nóng"
+X11,tiếp xúc với vòi nước nóng
+X12,tiếp xúc với các chất lỏng nóng khác
+X13,tiếp xúc với hơi nước và/hoặc hơi nóng
+X14,tiếp xúc với không khí nóng và/hoặc hơi nóng
+X15,tiếp xúc với các thiết bị gia dụng nóng
+X16,"tiếp xúc với thiết bị sưởi, bộ tản nhiệt và/hoặc đường ống nóng"
+X17,"tiếp xúc với động cơ, máy móc và/hoặc công cụ nóng"
+X18,tiếp xúc với các kim loại nóng khác
+X19,tiếp xúc với các chất nóng và nhiệt khác và/hoặc không xác định
+X20,tiếp xúc với rắn độc và/hoặc thằn lằn độc
+X21,tiếp xúc với nhện độc
+X22,tiếp xúc với bọ cạp
+X23,"tiếp xúc với ong bắp cày, tò vò và/hoặc ong vò vẽ"
+X24,tiếp xúc với các loại rết và/hoặc các loại động vật nhiều chân (nhiệt đới)
+X25,tiếp xúc với các động vật thân đốt có độc tính khác
+X26,tiếp xúc với các thực vật và/hoặc động vật biển có độc tính khác
+X27,tiếp xúc với động vật có nọc độc xác định khác
+X28,tiếp xúc với các loài thực vật độc xác định khác
+X29,tiếp xúc với động vật hoặc thực vật độc không xác định
+X30,phơi nhiễm với thời tiết cực nóng
+X31,phơi nhiễm với thời tiết cực lạnh
+X32,phơi nhiễm với ánh nắng
+X33,nạn nhân của sét
+X34,nạn nhân của động đất
+X35,nạn nhân của vụ phun trào núi lửa
+X36,"nạn nhân của tuyết lở, đất trượt, hoặc các chuyển động khác của đất"
+X37,nạn nhân của cơn bão đại hồng thủy
+X38,nạn nhân của lũ lụt
+X39,phơi nhiễm với các lực lượng thiên nhiên khác và/hoặc không xác định
+X40,"ngộ độc do vô tình và/hoặc phơi nhiễm với thuốc giảm đau, hạ sốt và/hoặc chống viêm khớp dạng thấp không có chất dạng thuốc phiện"
+X41,"ngộ độc do vô tình và/hoặc phơi nhiễm với thuốc chống động kinh, thuốc an thần - thuốc ngủ, thuốc chống hội chứng parkinson và/hoặc thuốc hướng thần, không phân loại mục khác"
+X42,"vô tình ngộ độc do và tiếp xúc với ma túy và thuốc an thần [chất gây ảo giác], không phân loại mục khác"
+X43,ngộ độc do vô tình và/hoặc phơi nhiễm với các thuốc khác tác động lên hệ thống thần kinh tự động
+X44,"ngộ độc và/hoặc phơi nhiễm vô tình với dược chất, thuốc điều trị và/hoặc sinh phẩm khác và/hoặc không xác định"
+X45,ngộ độc do vô tình và/hoặc phơi nhiễm với rượu
+X46,ngộ độc do vô tình và/hoặc phơi nhiễm với dung môi hữu cơ và/hoặc hydrocacbon đã halogen hóa và/hoặc hơi của chúng
+X47,ngộ độc do vô tình và/hoặc phơi nhiễm với khí và/hoặc hơi khác
+X48,ngộ độc do vô tình và/hoặc phơi nhiễm với thuốc trừ sâu
+X49,ngộ độc do vô tình và/hoặc phơi nhiễm với chất hóa học và/hoặc chất có hại khác và/hoặc không xác định
+X50,vận động quá sức và/hoặc gắng sức hoặc lặp đi lặp lại
+X51,di chuyển và/hoặc vận động
+X52,ở lâu trong môi trường không trọng lượng
+X53,thiếu thức ăn
+X54,thiếu nước
+X57,tình trạng thiếu thốn không xác định
+X58,phơi nhiễm với các yếu tố xác định khác
+X59,phơi nhiễm với các yếu tố không xác định
+X60,"cố ý tự đầu độc bằng và/hoặc cố tình phơi nhiễm với thuốc giảm đau, hạ sốt và/hoặc chống viêm khớp dạng thấp không có chất dạng thuốc phiện"
+X61,"cố tình tự đầu độc bằng và/hoặc cố tình phơi nhiễm với thuốc chống động kinh, thuốc an thần - gây ngủ, thuốc chống hội chứng parkinson và/hoặc thuốc tâm thần, không phân loại mục khác"
+X62,"cố ý tự đầu độc và/hoặc cố tình phơi nhiễm với chất ma túy và/hoặc thuốc an thần [chất gây ảo giác], không phân loại mục khác"
+X63,cố tình tự đầu độc bằng và/hoặc cố tình phơi nhiễm với các thuốc khác tác dụng lên hệ thống thần kinh tự động
+X64,"cố tình tự đầu độc bằng và/hoặc phơi nhiễm với dược chất, thuốc điều trị, sinh phẩm khác và/hoặc không xác định"
+X65,cố tình tự đầu độc bằng và/hoặc cố tình phơi nhiễm với rượu
+X66,"cố tình tự đầu độc bằng và/hoặc cố tình phơi nhiễm với dung môi hữu cơ, hydrocacbon halogen hóa và/hoặc hơi của chúng"
+X67,cố tình tự đầu độc bằng và/hoặc cố tình phơi nhiễm với các khí và/hoặc hơi khác
+X68,cố ý tự đầu độc bằng và/hoặc cố tình phơi nhiễm với thuốc trừ sâu
+X69,cố ý tự đầu độc bằng và/hoặc cố tình phơi nhiễm với hóa chất và hoặc chất độc hại khác và/hoặc không xác định
+X70,"cố tình tự làm hại bản thân bằng cách treo cổ, bóp cổ và/hoặc tự làm ngạt thở"
+X71,cố tình tự hại bằng nhảy xuống nước và/hoặc trầm mình dưới nước
+X72,cố tình tự làm hại bản thân bằng xả súng ngắn
+X73,"cố tình tự làm hại bản thân bằng xả súng trường, xúng bắn đạn ghém và/hoặc súng lớn hơn"
+X74,cố tình tự làm hại bản thân bằng xả súng khác và/hoặc không xác định
+X75,cố tình tự làm hại bản thân bằng vật liệu nổ
+X76,"cố tình tự làm hại bản thân bằng khói, cháy và/hoặc lửa"
+X77,"cố tình tự làm hại bản thân bằng hơi nước, hơi nóng và/hoặc vật nóng"
+X78,cố tình tự làm hại bản thân bằng vật sắc nhọn
+X79,cố tình tự làm hại bản thân bằng vật cùn
+X80,cố tình ý tự làm hại bản thân bằng cách nhảy từ trên cao xuống
+X81,cố tình tự làm hại bản thân bằng cách nhảy hoặc nằm trước khi di chuyển vật thể
+X82,cố tình tự làm hại bản thân bằng cách đâm vào xe cơ giới
+X83,cố tình tự làm hại bản thân bằng các phương tiện xác định khác
+X84,cố tình tự hại bằng các phương tiện không xác định
+X85,"tấn công bằng dược chất, thuốc điều trị và/hoặc sinh phẩm"
+X86,tấn công bằng hóa chất ăn mòn
+X87,tấn công bằng thuốc trừ sâu
+X88,tấn công bằng carbon monoxide và/hoặc các loại khí và/hoặc hơi khác
+X89,tấn công bằng hóa chất và/hoặc chất độc hại xác định khác
+X90,tấn công bằng hóa chất và/hoặc chất độc hại không xác định
+X91,"tấn công bằng cách treo cổ, bóp cổ và/hoặc làm ngạt thở"
+X92,tấn công bằng cách dìm nước và/hoặc làm ngập nước
+X93,tấn công bằng xả súng ngắn
+X94,"tấn công bằng xả súng trường, súng bắn đạn ghém và/hoặc súng lớn hơn"
+X95,tấn công bằng cách xả súng khác và/hoặc không xác định
+X96,tấn công bằng vật liệu nổ
+X97,"tấn công bằng khói, hỏa hoạn và/hoặc bằng lửa"
+X98,"tấn công bằng hơi nước, hơi nóng và/hoặc các vật thể nóng"
+X99,tấn công bằng vật sắc nhọn
+Y00,tấn công bằng vật thể không sắc nhọn
+Y01,tấn công bằng cách đẩy từ nơi cao
+Y02,tấn công bằng cách đẩy hoặc đặt nạn nhân trước vật đang chuyển động
+Y03,tấn công bằng đâm xe cơ giới
+Y04,tấn công bằng vũ lực
+Y05,tấn công tình dục bằng vũ lực
+Y06,thờ ơ và/hoặc bỏ rơi
+Y07,ngược đãi khác
+Y08,tấn công bằng các phương tiện xác định khác
+Y09,tấn công bằng phương tiện khác không xác định
+Y10,"ngộ độc và/hoặc phơi nhiễm với thuốc giảm đau, hạ sốt, chống viêm khớp dạng thấp không có chất dạng thuốc phiện, không rõ mục đích"
+Y11,"ngộ độc và/hoặc phơi nhiễm với thuốc chống động kinh, thuốc an thần - gây ngủ, thuốc chống hội chứng parkinson và hướng thần, không phân loại mục khác và/hoặc không rõ mục đích"
+Y12,"ngộ độc và/hoặc phơi nhiễm với thuốc mê và/hoặc thuốc làm hưng phấn tinh thần (sinh hoang tưởng), không phân loại mục khác và/hoặc không rõ mục đích"
+Y13,"ngộ độc và/hoặc phơi nhiễm với các thuốc khác tác dụng trên hệ thần kinh tự động, không rõ mục đích"
+Y14,"ngộ độc và/hoặc phơi nhiễm với dược chất, thuốc điều trị, sinh phẩm khác và/hoặc không xác định, không rõ ý định sử dụng"
+Y15,"ngộ độc và/hoặc phơi nhiễm với rượu, không rõ mục đích"
+Y16,"ngộ độc và/hoặc phơi nhiễm với chất dung môi hữu cơ và/hoặc hologenat carbon và/hoặc các chất hơi của chúng, không rõ mục đích"
+Y17,"ngộ độc và/hoặc phơi nhiễm với carbon monoxide và/hoặc các khí và/hoặc hơi khác, không rõ mục đích"
+Y18,"ngộ độc và/hoặc phơi nhiễm với thuốc trừ sâu, không rõ mục đích"
+Y19,"ngộ độc và/hoặc phơi nhiễm với hóa chất, chất độc hại khác và/hoặc không xác định, không rõ mục đích"
+Y20,"treo cổ, bóp cổ và/hoặc nghẹt thở, không rõ mục đích"
+Y21,"ngã xuống nước và/hoặc ngập nước, không rõ mục đích"
+Y22,"xả súng ngắn, không rõ mục đích"
+Y23,"xả súng trường, súng bắn đạn ghém và/hoặc súng lớn hơn, không rõ mục đích"
+Y24,"xả súng khác và/hoặc không xác định, không rõ mục đích"
+Y25,"tiếp xúc với vật liệu nổ, không rõ mục đích"
+Y26,"phơi nhiễm khói, cháy và/hoặc lửa, không rõ mục đích"
+Y27,"phơi nhiễm hơi nước, hơi nước nóng và/hoặc vật nóng, không rõ mục đích"
+Y28,"tiếp xúc với vật sắc nhọn, không rõ mục đích"
+Y29,"tiếp xúc với vật thể cùn, không rõ mục đích"
+Y30,"ngã, nhảy hoặc bị đẩy từ một chỗ cao, không rõ mục đích"
+Y31,"ngã, nằm hoặc chạy trước hoặc chạy vào vật đang chuyển động, không rõ mục đích"
+Y32,"bị xe mô tô đâm, không rõ mục đích"
+Y33,"các sự cố xác định khác, không rõ mục đích"
+Y34,"sự cố không xác định, không rõ mục đích"
+Y35,can thiệp pháp lý
+Y36,các hoạt động trong chiến tranh
+Y40,kháng sinh toàn thân
+Y41,thuốc chống nhiễm trùng và/hoặc chống ký sinh trùng toàn thân khác
+Y42,"nội tiệt tố [hormon] và/hoặc chất thay thế tổng hợp và/hoặc chất đối kháng, không phân loại mục khác"
+Y43,tác nhân tác dụng toàn thân chủ yếu
+Y44,chất tác dụng chủ yếu lên các thành phần của máu
+Y45,"thuốc giảm đau, thuốc hạ sốt và/hoặc thuốc chống viêm"
+Y46,thuốc chống động kinh và/hoặc parkinson
+Y47,"thuốc an thần, thuốc ngủ và/hoặc thuốc chống lo lắng"
+Y48,thuốc mê và/hoặc khí điều trị
+Y49,"thuốc hướng thần, không phân loại mục khác"
+Y50,"thuốc kích thích hệ thần kinh trung ương, không phân loại mục khác"
+Y51,thuốc tác dụng chủ yếu trên hệ thần kinh tự động
+Y52,các thuốc tác dụng chủ yếu lên hệ tim mạch
+Y53,thuốc tác dụng chủ yếu đến hệ tiêu hóa
+Y54,các thuốc chủ yếu ảnh hưởng tới cân bằng nước và/hoặc chuyển hoá acid và hoặc khoáng chất
+Y55,"tác nhân chủ yếu tác động lên cơ trơn, cơ xương và/hoặc hệ hô hấp"
+Y56,"tác nhân dùng tại chỗ chủ yếu ảnh hưởng đến da, màng nhầy và/hoặc các loại thuốc nhãn khoa, tai mũi họng và/hoặc nha khoa"
+Y57,dược chất và/hoặc thuốc điều trị khác và/hoặc không xác định
+Y58,vắc xin chống vi khuẩn
+Y59,vắc xin và sinh phẩm khác và/hoặc không xác định
+Y60,"vết cắt, đâm thủng, thủng hoặc xuất huyết ngoài ý muốn trong chăm sóc ngoại khoa và/hoặc nội khoa"
+Y61,dị vật vô tình để lại trong cơ thể trong chăm sóc ngoại khoa và/hoặc nội khoa
+Y62,không đảm bảo vô khuẩn trong chăm sóc ngoại khoa và/hoặc nội khoa
+Y63,sai sót về liều lượng thuốc trong chăm sóc ngoại khoa và/hoặc nội khoa
+Y64,"chế phẩm y tế, sinh phẩm bị ô nhiễm"
+Y65,sai sót khác của chăm sóc ngoại khoa và/hoặc nội khoa
+Y66,không thực hiện can thiệp ngoại khoa và/hoặc nội khoa
+Y69,sai sót không xác định của chăm sóc ngoại khoa và/hoặc nội khoa
+Y70,thiết bị gây mê có liên quan đến biến cố bất lợi
+Y70,dụng cụ gây mê kết hợp với tai biến
+Y71,thiết bị tim mạch có liên quan đến biến cố bất lợi
+Y72,thiết bị tai mũi họng có liên quan đến biến cố bất lợi
+Y73,thiết bị tiêu hóa và/hoặc tiết niệu có liên quan đến biến cố bất lợi
+Y74,bệnh viện đa khoa và/hoặc các thiết bị sử dụng cá nhân có liên quan đến biến cố bất lợi
+Y75,thiết bị thần kinh có liên quan đến biến cố bất lợi
+Y76,thiết bị sản phụ khoa có liên quan đến biến cố bất lợi
+Y77,thiết bị nhãn khoa có liên quan đến biến cố bất lợi
+Y78,thiết bị phóng xạ có liên quan đến biến cố bất lợi
+Y79,thiết bị chỉnh hình có liên quan đến biến cố bất lợi
+Y80,thiết bị y tế liên quan đến sự cố y khoa
+Y81,thiết bị ngoại khoa và/hoặc tạo hình liên quan đến sự cố y khoa
+Y82,thiết bị khác và/hoặc không xác định có liên quan đến biến cố bất lợi
+Y83,"can thiệp ngoại khoa là nguyên nhân của phản ứng bất thường của người bệnh hoặc biến chứng sau này, không đề cập đến sai sót tại thời điểm thực hiện"
+Y84,"can thiệp khác là nguyên nhân của phản ứng bất thường ở người bệnh hay biến chứng sau này, không đề cập đến sai sót tại thời điểm thực hiện"
+Y85,di chứng của tai nạn giao thông vận tải
+Y86,di chứng của các tai nạn khác
+Y87,"di chứng của hành vi cố ý tự làm hại bản thân, tấn công và/hoặc các sự kiện không xác định được chủ đích"
+Y88,di chứng của chăm sóc ngoại khoa và/hoặc nội khoa là nguyên nhân bên ngoài
+Y89,di chứng của các nguyên nhân bên ngoài khác
+Y90,bằng chứng về tác động do rượu xác định bởi nồng độ cồn trong máu
+Y91,bằng chứng về tác động do rượu xác định bằng mức độ nhiễm độc
+Y95,nhiễm trùng mắc phải tại bệnh viện
+Y96,bệnh mắc phải liên quan đến công việc
+Y97,bệnh mắc phải liên quan đến ô nhiễm môi trường
+Y98,bệnh mắc phải liên quan đến lối sống
+Z00,khám lâm sàng và/hoặc cận lâm sàng cho những người không có than phiền về sức khỏe và/hoặc chẩn đoán được ghi nhận
+Z01,khám lâm sàng và/hoặc cận lâm sàng chuyên khoa cho những người không có than phiền về sức khỏe hoặc chẩn đoán được ghi nhận
+Z02,khám vì lý do hành chính
+Z03,"theo dõi và đánh giá y tế đối với các bệnh và/hoặc bệnh lý nghi ngờ, bệnh được loại trừ"
+Z04,khám và/hoặc theo dõi vì những lý do khác
+Z08,tái khám sau điều trị u ác tính
+Z09,tái khám sau điều trị bệnh lý ngoài u ác tính
+Z10,khám sức khỏe tổng quát định kỳ cho nhóm đối tượng xác định
+Z11,khám sàng lọc chuyên khoa bệnh nhiễm trùng và/hoặc ký sinh trùng
+Z12,khám sàng lọc chuyên khoa u tân sinh
+Z13,khám sàng lọc chuyên khoa bệnh và/hoặc rối loạn khác
+Z20,tiếp xúc và/hoặc phơi nhiễm với bệnh truyền nhiễm
+Z21,tình trạng nhiễm virus suy giảm miễn dịch ở người [hiv] không có triệu chứng
+Z22,người mang mầm bệnh nhiễm trùng
+Z23,nhu cầu tiêm chủng phòng các bệnh nhiễm khuẩn đơn lẻ
+Z24,nhu cầu tiêm chủng phòng một số bệnh do nhiễm virus đơn lẻ
+Z25,nhu cầu tiêm chủng phòng bệnh do nhiễm virus đơn lẻ khác
+Z26,nhu cầu tiêm chủng phòng các bệnh nhiễm trùng đơn lẻ khác
+Z27,nhu cầu tiêm chủng phòng các bệnh nhiễm trùng kết hợp
+Z28,không thực hiện được tiêm chủng
+Z29,nhu cầu thực hiện biện pháp dự phòng khác
+Z30,quản lý biện pháp tránh thai
+Z31,quản lý hỗ trợ sinh sản
+Z32,thăm khám và/hoặc xét nghiệm xác định có thai
+Z33,"trạng thái mang thai, mã phụ trợ"
+Z34,theo dõi thai kỳ bình thường
+Z35,theo dõi thai phụ có thai kỳ nguy cơ cao
+Z36,khám sàng lọc trước sinh
+Z37,kết quả sinh đẻ
+Z38,trẻ sinh ra sống theo nơi sinh
+Z39,chăm sóc và/hoặc thăm khám sau sinh
+Z40,phẫu thuật dự phòng
+Z41,can thiệp vì mục đích khác ngoài phục hồi tình trạng sức khỏe
+Z42,chăm sóc y tế tiếp có can thiệp tạo hình
+Z43,chăm sóc lỗ mở nhân tạo
+Z44,lắp và/hoặc điều chỉnh bộ phận giả bên ngoài
+Z45,điều chỉnh thiết bị cấy ghép
+Z46,điều chỉnh thiết bị khác
+Z47,tái khám sau chỉnh hình khác
+Z48,chăm sóc sau phẫu thuật khác
+Z49,chăm sóc liên quan đến lọc máu nhân tạo
+Z50,chăm sóc có sử dụng kỹ thuật phục hồi chức năng
+Z51,khác
+Z52,hiến tạng và/hoặc mô
+Z53,"người bệnh đến cơ sở y tế để thực hiện can thiệp xác định cụ thể, không thực hiện được"
+Z54,dưỡng sức
+Z55,những vấn đề liên quan đến giáo dục và/hoặc kỹ năng đọc viết
+Z56,những vấn đề liên quan đến việc làm và/hoặc thất nghiệp
+Z57,phơi nhiễm nghề nghiệp với các yếu tố nguy cơ
+Z58,vấn đề liên quan đến môi trường sống
+Z59,những vấn đề liên quan đến nhà ở và/hoặc hoàn cảnh kinh tế
+Z60,vấn đề liên quan đến môi trường xã hội
+Z61,vấn đề liên quan đến sự kiện tiêu cực trong cuộc sống thời thơ ấu
+Z62,vấn đề khác liên quan đến nuôi dạy trẻ
+Z63,"vấn đề khác liên quan đến nhóm hỗ trợ chính, bao gồm cả hoàn cảnh gia đình"
+Z64,vấn đề liên quan đến một số hoàn cảnh tâm lý xã hội nhất định
+Z65,vấn đề liên quan đến hoàn cảnh tâm lý xã hội khác
+Z70,"tư vấn liên quan đến thái độ, hành vi và/hoặc khuynh hướng tình dục"
+Z71,"những người đến cơ sở y tế để được tư vấn y tế và/hoặc tư vấn khác, không phân loại mục khác"
+Z71,những người đến cơ sở y tế để được tư vấn y tế và/hoặc tư vấn khác không phân loại mục khác
+Z72,vấn đề liên quan đến lối sống
+Z73,vấn đề liên quan đến khó khăn trong quản lý cuộc sống
+Z74,vấn đề liên quan tình trạng phụ thuộc vào người chăm sóc
+Z75,vấn đề liên quan đến cơ sở y tế và/hoặc dịch vụ chăm sóc sức khỏe khác
+Z76,những người tiếp cận dịch vụ y tế trong hoàn cảnh khác
+Z80,tiền sử gia đình có u ác tính
+Z81,tiền sử gia đình có rối loạn tâm thần và/hoặc hành vi
+Z82,tiền sử gia đình có một số khuyết tật và bệnh mạn tính dẫn đến tàn tật
+Z83,tiền sử gia đình có rối loạn xác định cụ thể khác
+Z84,tiền sử gia đình có bệnh lý khác
+Z85,tiền sử cá nhân có u ác tính
+Z86,tiền sử cá nhân có một số bệnh khác
+Z87,tiền sử cá nhân có bệnh và/hoặc bệnh lý khác
+Z88,"tiền sử cá nhân có dị ứng với dược chất, thuốc điều trị và/hoặc sinh phẩm"
+Z89,mất chi mắc phải
+Z90,"mất tạng [cơ quan] mắc phải, không phân loại mục khác"
+Z91,"tiền sử cá nhân có yếu tố nguy cơ, không phân loại mục khác"
+Z92,tiền sử cá nhân liên quan can thiệp y tế
+Z93,tình trạng lỗ mở nhân tạo
+Z94,tình trạng tạng và/hoặc mô được cấy ghép
+Z95,sự có mặt thiết bị/dụng cụ cấy ghép tim và/hoặc mạch máu
+Z96,sự có mặt của thiết bị/dụng cụ cấy ghép chức năng khác
+Z97,sự có mặt thiết bị/dụng cụ cấy ghép khác
+Z98,tình trạng khác sau can thiệp
+Z99,"tình trạng phụ thuộc vào thiết bị và/hoặc máy móc hỗ trợ, không phân loại mục khác"
+U04,hội chứng suy hô hấp cấp tính nặng [sars]
+U07,sử dụng mã u07 trong tình huống khẩn cấp
+U08,tiền sử cá nhân mắc covid-19
+U09,tình trạng bệnh lý hậu covid-19
+U10,hội chứng viêm đa cơ quan liên quan đến covid-19
+U11,nhu cầu tiêm phòng covid-19
+U12,vắc xin covid- 19 gây tác dụng bất lợi trong điều trị
+U13,sử dụng mã u13 trong tình huống khẩn cấp
+U14,sử dụng mã u14 trong tình huống khẩn cấp
+U15,sử dụng mã u15 trong tình huống khẩn cấp
+U16,sử dụng mã u16 trong tình huống khẩn cấp
+U17,sử dụng mã u17 trong tình huống khẩn cấp
+U18,sử dụng mã u18 trong tình huống khẩn cấp
+U19,sử dụng mã u19 trong tình huống khẩn cấp
+U20,sử dụng mã u20 trong tình huống khẩn cấp
+U21,sử dụng mã u21 trong tình huống khẩn cấp
+U22,sử dụng mã u22 trong tình huống khẩn cấp
+U23,sử dụng mã u23 trong tình huống khẩn cấp
+U24,sử dụng mã u24 trong tình huống khẩn cấp
+U25,sử dụng mã u25 trong tình huống khẩn cấp
+U26,sử dụng mã u26 trong tình huống khẩn cấp
+U27,sử dụng mã u27 trong tình huống khẩn cấp
+U28,sử dụng mã u28 trong tình huống khẩn cấp
+U29,sử dụng mã u29 trong tình huống khẩn cấp
+U30,sử dụng mã u30 trong tình huống khẩn cấp
+U31,sử dụng mã u31 trong tình huống khẩn cấp
+U32,sử dụng mã u32 trong tình huống khẩn cấp
+U33,sử dụng mã u33 trong tình huống khẩn cấp
+U34,sử dụng mã u34 trong tình huống khẩn cấp
+U35,sử dụng mã u35 trong tình huống khẩn cấp
+U36,sử dụng mã u36 trong tình huống khẩn cấp
+U37,sử dụng mã u37 trong tình huống khẩn cấp
+U38,sử dụng mã u38 trong tình huống khẩn cấp
+U39,sử dụng mã u39 trong tình huống khẩn cấp
+U40,sử dụng mã u40 trong tình huống khẩn cấp
+U41,sử dụng mã u41 trong tình huống khẩn cấp
+U42,sử dụng mã u42 trong tình huống khẩn cấp
+U43,sử dụng mã u43 trong tình huống khẩn cấp
+U44,sử dụng mã u44 trong tình huống khẩn cấp
+U45,sử dụng mã u45 trong tình huống khẩn cấp
+U46,sử dụng mã u46 trong tình huống khẩn cấp
+U47,sử dụng mã u47 trong tình huống khẩn cấp
+U48,sử dụng mã u48 trong tình huống khẩn cấp
+U49,sử dụng mã u49 trong tình huống khẩn cấp
+U49,sử dụng mã u49 trong trường hợp khẩn cấp
+U82,kháng kháng sinh họ betalactam
+U83,kháng kháng sinh khác
+U84,kháng thuốc kháng vi sinh vật khác
+U85,kháng thuốc chống ung thư

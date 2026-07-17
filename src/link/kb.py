@@ -89,6 +89,13 @@ def load_rxnorm(kb_dir: str = KB_DIR) -> KB:
 
 
 def load_icd10(kb_dir: str = KB_DIR) -> KB:
-    full = os.path.join(kb_dir, "icd10.csv")
-    path = full if os.path.exists(full) else os.path.join(kb_dir, "icd10_seed.csv")
-    return load_csv(path, "icd10")
+    """Gộp mọi nguồn ICD sẵn có: icd10.csv (nếu bạn thả full) + icd10_vi.csv (danh mục
+    Bộ Y tế ~2k mã) + icd10_seed.csv (alias VN gõ tay). Thứ tự = ưu tiên khi trùng term."""
+    kb = KB("icd10")
+    for name in ("icd10.csv", "icd10_vi.csv", "icd10_seed.csv"):
+        p = os.path.join(kb_dir, name)
+        if os.path.exists(p):
+            _merge(kb, load_csv(p, "icd10"))
+    if len(kb) == 0:      # phòng khi thiếu hết -> tối thiểu seed
+        _merge(kb, load_csv(os.path.join(kb_dir, "icd10_seed.csv"), "icd10"))
+    return kb

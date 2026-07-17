@@ -11,6 +11,7 @@ Sau đó pipeline inference chỉ ĐỌC các CSV này (không gọi API) — đ
 """
 import os
 import re
+import io
 import sys
 import csv
 import glob
@@ -30,6 +31,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KB = os.path.join(ROOT, "data", "kb")
 TEST = os.path.join(ROOT, "data", "test", "input")
 ICD_URL = "https://raw.githubusercontent.com/k4m1113/ICD-10-CSV/master/codes.csv"
+# Danh mục ICD-10 tiếng Việt (Bộ Y tế, EN+VN có phân cấp) — phủ mạnh phần bệnh.
+ICD_VI_URL = "https://raw.githubusercontent.com/tamton23/primekg-vn-icd10-omop/main/icd10_danh_muc.csv"
+_ICD_CODE = re.compile(r"^([A-Z]\d\d(?:\.\d+)?)\*?$")
 
 # token sig cần bỏ khi hỏi API (giữ tên + hàm lượng)
 _SIG = re.compile(r"\b(po|iv|im|sc|sl|pr|bid|tid|qid|qd|qhs|qam|qpm|prn|daily|"
@@ -113,6 +117,36 @@ def build_rxnorm_full(ttys=("IN", "PIN", "BN", "SCD", "SBD", "SCDC")):
     print(f"[rxnorm_full] {len(seen)} (mã,tên) -> {path}")
 
 
+def build_icd_vi():
+    """Tải danh mục ICD-10 VN (Bộ Y tế) -> icd10_vi.csv. Mã ở cột i, tên VN ở i+2 (triple
+    code/en/vn theo từng cấp phân loại); lấy mọi cấp có tên tiếng Việt."""
+    path = os.path.join(KB, "icd10_vi.csv")
+    print(f"[icd_vi] tải {ICD_VI_URL} ...")
+    req = urllib.request.Request(ICD_VI_URL, headers={"User-Agent": "kb-builder"})
+    raw = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "replace")
+    rows = list(csv.reader(io.StringIO(raw)))
+    pairs = {}
+    for r in rows:
+        for i, c in enumerate(r):
+            m = _ICD_CODE.match(c.strip())
+            if not m:
+                continue
+            code = m.group(1)
+            for j in (i + 2, i + 1):                     # tên VN cạnh mã (code/en/vn)
+                if j < len(r):
+                    term = " ".join(r[j].split()).strip()
+                    if (term and re.search(r"[^\x00-\x7f]", term)   # có ký tự phi-ASCII (VN)
+                            and len(term) > 3 and not _ICD_CODE.match(term)):
+                        pairs[(code, term.lower())] = 1
+                        break
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["code", "term"])
+        for (c, t) in pairs:
+            w.writerow([c, t])
+    print(f"[icd_vi] {len(pairs)} (mã,tên VN), {len({c for c,_ in pairs})} mã riêng -> {path}")
+
+
 def build_icd(force=False):
     path = os.path.join(KB, "icd10_en.csv")
     if os.path.exists(path) and not force:
@@ -142,16 +176,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rxnorm", action="store_true")
     ap.add_argument("--rxnorm_full", action="store_true", help="getAllConcepts: phủ TOÀN BỘ RxNorm")
-    ap.add_argument("--icd", action="store_true")
+    ap.add_argument("--icd", action="store_true", help="ICD-10 tiếng Anh (cho SapBERT)")
+    ap.add_argument("--icd_vi", action="store_true", help="danh mục ICD-10 VN (Bộ Y tế) — phủ bệnh")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
-    if not (args.rxnorm or args.rxnorm_full or args.icd):
+    if not (args.rxnorm or args.rxnorm_full or args.icd or args.icd_vi):
         args.rxnorm = args.icd = True
     os.makedirs(KB, exist_ok=True)
     if args.rxnorm_full:
         build_rxnorm_full()
     if args.rxnorm:
         build_rxnorm(args.force)
+    if args.icd_vi:
+        build_icd_vi()
     if args.icd:
         build_icd(args.force)
 

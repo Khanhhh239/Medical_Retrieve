@@ -36,6 +36,16 @@ def test_no_match_returns_empty():
     assert _rx().link("khôngtồntạithuốc", "drug") == []
 
 
+def test_icd_vi_covers_common_diseases():
+    from src.link.kb import load_icd10
+    icd = Linker(load_icd10())
+    assert len(icd.kb) > 1000                       # danh mục VN (Bộ Y tế) đã nạp
+    assert icd.link("tăng huyết áp", "disease")[0] == "I10"
+    assert icd.link("đái tháo đường type 2", "disease")[0] == "E11"
+    assert icd.link("nhồi máu cơ tim", "disease")[0].startswith("I21")
+    assert icd.link("xơ gan", "disease")[0].startswith("K7")
+
+
 def test_drug_name_does_not_cut_glued_number():
     # fix #3: cắt liều ở khoảng-trắng+số, KHÔNG cắt số dính trong tên ('b12')
     rx = _rx()
