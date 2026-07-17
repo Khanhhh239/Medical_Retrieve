@@ -92,6 +92,27 @@ def build_rxnorm(force=False):
     print(f"[rxnorm] xong: {len(done)} mã -> {path} (+{n_new} mới)")
 
 
+def build_rxnorm_full(ttys=("IN", "PIN", "BN", "SCD", "SBD", "SCDC")):
+    """PHỦ MẠNH thuốc: getAllConcepts toàn bộ RxNorm prescribable (KHÔNG cần UMLS license)."""
+    from src.link.rxnav import get_all_concepts
+    path = os.path.join(KB, "rxnorm_full.csv")
+    seen = {}
+    for tty in ttys:
+        try:
+            concs = get_all_concepts([tty])
+            for rxcui, name, _t in concs:
+                seen[(rxcui, name)] = 1
+            print(f"  {tty}: {len(concs)} concept")
+        except Exception as e:
+            print(f"  {tty} LỖI: {type(e).__name__} {str(e)[:60]}")
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["code", "term"])
+        for (code, term) in sorted(seen):
+            w.writerow([code, term])
+    print(f"[rxnorm_full] {len(seen)} (mã,tên) -> {path}")
+
+
 def build_icd(force=False):
     path = os.path.join(KB, "icd10_en.csv")
     if os.path.exists(path) and not force:
@@ -120,12 +141,15 @@ def build_icd(force=False):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rxnorm", action="store_true")
+    ap.add_argument("--rxnorm_full", action="store_true", help="getAllConcepts: phủ TOÀN BỘ RxNorm")
     ap.add_argument("--icd", action="store_true")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
-    if not (args.rxnorm or args.icd):
+    if not (args.rxnorm or args.rxnorm_full or args.icd):
         args.rxnorm = args.icd = True
     os.makedirs(KB, exist_ok=True)
+    if args.rxnorm_full:
+        build_rxnorm_full()
     if args.rxnorm:
         build_rxnorm(args.force)
     if args.icd:

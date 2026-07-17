@@ -43,6 +43,16 @@ def test_drug_name_does_not_cut_glued_number():
     assert rx._drug_name("vitamin b12") == "vitamin b12"
 
 
+def test_synonym_and_product_query():
+    rx = _rx()                                  # helper thuần logic, không đụng KB
+    assert rx._canon("paracetamol") == "acetaminophen"
+    assert rx._canon("salbutamol") == "albuterol"
+    assert rx._canon("amlodipine") == "amlodipine"          # không có synonym -> giữ
+    assert rx._product_query("amlodipine 10mg") == "amlodipine 10 mg oral tablet"
+    assert rx._product_query("paracetamol 500 mg") == "acetaminophen 500 mg oral tablet"
+    assert rx._product_query("amlodipine") is None          # không liều -> None
+
+
 def test_link_concepts_wires_only_dx_and_drug():
     cs = [
         Concept("aspirin 81 mg po daily", "THUỐC", (0, 22)),
@@ -50,6 +60,8 @@ def test_link_concepts_wires_only_dx_and_drug():
         Concept("sốt", "TRIỆU_CHỨNG", (37, 40)),
     ]
     d = {c.type: c for c in link_concepts(cs)}
-    assert d["THUỐC"].candidates == ("1191",)
+    # kiểm WIRING (mã cụ thể là data, đổi theo KB): THUỐC nhận 1 RxCUI (số),
+    # CHẨN_ĐOÁN nhận ICD I10, TRIỆU_CHỨNG KHÔNG đụng.
+    assert len(d["THUỐC"].candidates) == 1 and d["THUỐC"].candidates[0].isdigit()
     assert d["CHẨN_ĐOÁN"].candidates == ("I10",)
     assert d["TRIỆU_CHỨNG"].candidates == ()          # không đụng

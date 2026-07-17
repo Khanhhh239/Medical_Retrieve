@@ -69,13 +69,21 @@ def _merge(dst: KB, src: KB) -> None:
 def load_rxnorm(kb_dir: str = KB_DIR) -> KB:
     """Ưu tiên api-cache (RxNav) -> rồi RRF đầy đủ (nếu có) hoặc seed."""
     kb = KB("rxnorm")
-    api = os.path.join(kb_dir, "rxnorm_api.csv")
-    if os.path.exists(api):
-        _merge(kb, load_csv(api, "rxnorm"))       # thêm trước -> ưu tiên khi trùng term
+    # THỨ TỰ = ƯU TIÊN khi trùng term (mã nạp trước đứng đầu -> linker trả). Nguồn CHÍNH
+    # XÁC trước: getAllConcepts / RRF (mã IN/SCD chuẩn) rồi mới tới cache approximate cũ.
+    full = os.path.join(kb_dir, "rxnorm_full.csv")   # getAllConcepts (phủ mạnh, chính xác)
+    if os.path.exists(full):
+        _merge(kb, load_csv(full, "rxnorm"))
     rrf = os.path.join(kb_dir, "RXNCONSO.RRF")
     if os.path.exists(rrf):
         _merge(kb, load_rxnorm_rrf(rrf))
-    else:
+    # cache RxNav approximate CHỈ dùng khi CHƯA có nguồn chính xác (nó có mã sai như
+    # omeprazole->esomeprazole -> đừng để nó chèn vào KB đầy đủ).
+    if len(kb) == 0:
+        api = os.path.join(kb_dir, "rxnorm_api.csv")
+        if os.path.exists(api):
+            _merge(kb, load_csv(api, "rxnorm"))
+    if len(kb) == 0:
         _merge(kb, load_csv(os.path.join(kb_dir, "rxnorm_seed.csv"), "rxnorm"))
     return kb
 

@@ -35,6 +35,26 @@ def parse_approx(data: dict) -> Optional[str]:
     return cands[0].get("rxcui") if cands else None
 
 
+def get_all_concepts(ttys, timeout: int = 120):
+    """
+    getAllConcepts — LẤY TOÀN BỘ concept RxNorm theo term-type (1 call/TTY). Phủ MẠNH
+    thuốc mà KHÔNG cần UMLS license. Trả list (rxcui, name, tty).
+
+    TTY hay dùng: IN/PIN (hoạt chất), BN (brand), SCD/SBD (sản phẩm lâm sàng/brand),
+    SCDC (thành phần). SCD chứa hàm lượng ('amlodipine 10 MG Oral Tablet') -> khớp mã
+    cấp sản phẩm như ví dụ đề (308135).
+    """
+    tty = "+".join(ttys) if not isinstance(ttys, str) else ttys
+    url = f"{BASE}/allconcepts.json?tty={urllib.parse.quote(tty)}"
+    data = _get(url, timeout)
+    out = []
+    for c in (data.get("minConceptGroup") or {}).get("minConcept") or []:
+        rxcui, name = c.get("rxcui"), c.get("name")
+        if rxcui and name:
+            out.append((rxcui, name, c.get("tty", "")))
+    return out
+
+
 def rxcui_for(name: str, timeout: int = 15, sleep: float = 0.05) -> Optional[str]:
     """
     Tên thuốc (có thể kèm hàm lượng) -> RxCUI. Thử EXACT (chuẩn hoá) trước cho tên

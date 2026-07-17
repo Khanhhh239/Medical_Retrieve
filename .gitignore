@@ -27,3 +27,4 @@ output_ner/
 
 # HuggingFace / torch cache
 .cache/
+data/kb/rxnorm_full.csv
