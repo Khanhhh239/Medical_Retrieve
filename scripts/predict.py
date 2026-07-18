@@ -27,7 +27,7 @@ DEFAULT_IN = os.path.join(ROOT, "data", "test", "input")
 DEFAULT_OUT = os.path.join(ROOT, "output")
 
 
-def build_pipeline(name, model_dir, no_link, clean=True):
+def build_pipeline(name, model_dir, no_link, clean=False):
     if name == "baseline":
         from src.extract.baseline import extract
         def run(doc):
@@ -61,12 +61,13 @@ def main():
     ap.add_argument("--input_dir", default=DEFAULT_IN)
     ap.add_argument("--out_dir", default=DEFAULT_OUT)
     ap.add_argument("--no-link", action="store_true")
-    ap.add_argument("--no-clean", action="store_true", help="tắt khử nhiễu v2 (debug)")
+    ap.add_argument("--clean", action="store_true",
+                    help="BẬT khử nhiễu v2 (mặc định TẮT — đo trên leaderboard là xấu hơn)")
     ap.add_argument("--zip", action="store_true")
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    run = build_pipeline(args.pipeline, args.model_dir, args.no_link, clean=not args.no_clean)
+    run = build_pipeline(args.pipeline, args.model_dir, args.no_link, clean=args.clean)
     docs = load_dataset(args.input_dir)
     n_c = n_ung = 0
     for d in docs:

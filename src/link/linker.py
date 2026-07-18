@@ -54,9 +54,14 @@ _SYNONYM = {
 
 
 class Linker:
-    def __init__(self, kb: KB, fuzzy_threshold: int = _DEFAULT_FUZZY):
+    def __init__(self, kb: KB, fuzzy_threshold: int = _DEFAULT_FUZZY,
+                 aggressive: bool = False):
+        # aggressive=False (MẶC ĐỊNH): disease = exact -> fuzzy chặt (bản 34.60).
+        # aggressive=True: thêm strip-modifier + substring + fuzzy nới — ĐÃ ĐO trên
+        # leaderboard là XẤU HƠN (over-fill mã sai, gold nhiều candidate rỗng) -> chỉ để A/B.
         self.kb = kb
         self.threshold = fuzzy_threshold
+        self.aggressive = aggressive
         self._exact: dict = {}
         self._choices: List[str] = []
         self._choice_code: List[str] = []
@@ -136,4 +141,7 @@ class Linker:
                 return self._exact[name][:top_k]
             hit = process.extractOne(name or q, self._choices, scorer=fuzz.token_sort_ratio)
             return [self._choice_code[hit[2]]] if hit and hit[1] >= self.threshold else []
-        return self._disease_link(q, top_k)           # bệnh: nhánh mạnh (strip+substring+fuzzy nới)
+        if self.aggressive:
+            return self._disease_link(q, top_k)       # nhánh nới (A/B only — leaderboard xấu hơn)
+        hit = process.extractOne(q, self._choices, scorer=fuzz.token_sort_ratio)   # v1: fuzzy chặt
+        return [self._choice_code[hit[2]]] if hit and hit[1] >= self.threshold else []

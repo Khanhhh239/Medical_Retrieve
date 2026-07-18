@@ -46,10 +46,10 @@ def test_icd_vi_covers_common_diseases():
     assert icd.link("xơ gan", "disease")[0].startswith("K7")
 
 
-def test_disease_link_strips_modifiers():
-    # v2: từ thừa không được phá match
+def test_disease_link_aggressive_strips_modifiers():
+    # nhánh nới (aggressive=True) — A/B only; mặc định TẮT vì leaderboard xấu hơn
     from src.link.kb import load_icd10
-    icd = Linker(load_icd10())
+    icd = Linker(load_icd10(), aggressive=True)
     assert icd.link("Tăng huyết áp nguyên phát", "disease")[0] == "I10"
     assert icd.link("bệnh thận mạn, không đặc hiệu", "disease")[0].startswith("N18")
     assert icd.link("bệnh gút không đặc hiệu", "disease")[0].startswith("M10")
