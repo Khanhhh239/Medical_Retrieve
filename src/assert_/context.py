@@ -98,11 +98,13 @@ def detect_assertions(concept_type: str,
     line_low = line_text.lower()
     header_low = section_header.lower()
 
-    # isHistorical: section / doc_section cha / header / cue trong line
+    # isHistorical: section / doc_section cha / header / cue ĐỨNG TRƯỚC concept.
+    # (cue phải nằm TRƯỚC khái niệm trong line — trước đây quét cả line -> lạm dụng 39%.)
+    hist_prefix = line_low[:concept_start_in_line]
     hist = (section in HISTORICAL_SECTIONS
             or doc_section in HISTORICAL_SECTIONS
             or any(h in header_low for h in cues.hist_headers)
-            or _any(cues.historical, line_low))
+            or _any(cues.historical, hist_prefix))
     if hist:
         out.append("isHistorical")
 

@@ -20,9 +20,15 @@ from ..config import get as _cfg
 from .kb import KB
 
 _DEFAULT_FUZZY = _cfg("linker", "fuzzy_threshold", 90)
+_DX_FUZZY = _cfg("linker", "disease_fuzzy_threshold", 82)   # bệnh nới hơn (VN nhiều biến thể)
 
 # liều: số + đơn vị (chấp nhận dính 'amlodipine10mg' hiếm, và '10 mg')
 _DOSE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(mg|mcg|ug|g|ml|iu)\b", re.I)
+
+# từ THỪA trong chẩn đoán phá match ('tăng huyết áp nguyên phát' -> I10)
+_DX_MOD = re.compile(
+    r"\b(không đặc hiệu|không xác định|nguyên phát|thứ phát|nghi ngờ|theo dõi|"
+    r"chưa rõ nguyên nhân|mức độ \w+|giai đoạn \w+)\b", re.I)
 
 # INN / cách viết VN-quốc tế -> tên hoạt chất RxNorm (US). Chỉ map cái CHẮC CHẮN.
 _SYNONYM = {
@@ -85,6 +91,36 @@ class Linker:
         unit = m.group(2).lower()
         return normalize_str(f"{name} {num} {unit} oral tablet")
 
+    def _substring_code(self, q: str) -> Optional[str]:
+        """Tìm mã có TERM là chuỗi con của q (mention cụ thể hơn) — chọn term DÀI nhất;
+        hoặc term chứa q — chọn term NGẮN nhất (gần nghĩa nhất). Chỉ term >=5 ký tự."""
+        best_in = (0, None)      # (len term, code) term ⊂ q
+        best_out = (10 ** 9, None)   # (len term, code) q ⊂ term
+        for nt, code in zip(self._choices, self._choice_code):
+            if len(nt) < 5:
+                continue
+            if nt in q and len(nt) > best_in[0]:
+                best_in = (len(nt), code)
+            elif len(q) >= 5 and q in nt and len(nt) < best_out[0]:
+                best_out = (len(nt), code)
+        return best_in[1] or best_out[1]
+
+    def _disease_link(self, q: str, top_k: int) -> List[str]:
+        # 1) exact sau khi bỏ TỪ THỪA + phần sau dấu phẩy
+        for v in (q, re.sub(r",.*$", "", q).strip(), _DX_MOD.sub("", re.sub(r",.*$", "", q)).strip(" ,")):
+            if v and v in self._exact:
+                return self._exact[v][:top_k]
+        core = _DX_MOD.sub("", re.sub(r",.*$", "", q)).strip(" ,") or q
+        # 2) substring (term ⊂ mention / mention ⊂ term)
+        sc = self._substring_code(core)
+        if sc:
+            return [sc]
+        # 3) fuzzy NỚI cho bệnh
+        hit = process.extractOne(core, self._choices, scorer=fuzz.token_sort_ratio)
+        if hit and hit[1] >= _DX_FUZZY:
+            return [self._choice_code[hit[2]]]
+        return []
+
     def link(self, text: str, kind: str = "disease", top_k: int = 1) -> List[str]:
         q = normalize_str(text)
         if not q:
@@ -98,8 +134,6 @@ class Linker:
             name = self._canon(self._drug_name(q))    # -> tên hoạt chất (đã map synonym)
             if name and name in self._exact:
                 return self._exact[name][:top_k]
-            q = name or q
-        hit = process.extractOne(q, self._choices, scorer=fuzz.token_sort_ratio)
-        if hit and hit[1] >= self.threshold:          # fuzzy toàn chuỗi
-            return [self._choice_code[hit[2]]]
-        return []
+            hit = process.extractOne(name or q, self._choices, scorer=fuzz.token_sort_ratio)
+            return [self._choice_code[hit[2]]] if hit and hit[1] >= self.threshold else []
+        return self._disease_link(q, top_k)           # bệnh: nhánh mạnh (strip+substring+fuzzy nới)

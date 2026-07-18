@@ -21,6 +21,11 @@ def _icd() -> Linker:
     return Linker(load_icd10())
 
 
+def get_linkers():
+    """(rx, icd) — dùng cho KB-trim khi khử nhiễu span."""
+    return _rx(), _icd()
+
+
 def link_concepts(concepts: List[Concept], top_k: int = 1) -> List[Concept]:
     out: List[Concept] = []
     for c in concepts:

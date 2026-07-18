@@ -19,17 +19,17 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.io.loader import load_dataset               # noqa: E402
 from src.io.offsets import is_grounded               # noqa: E402
 from src.assemble.writer import save_json            # noqa: E402
-from src.link.pipeline import link_concepts          # noqa: E402
+from src.link.pipeline import link_concepts, get_linkers   # noqa: E402
+from datagen.denoise import clean_concepts           # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_IN = os.path.join(ROOT, "data", "test", "input")
 DEFAULT_OUT = os.path.join(ROOT, "output")
 
 
-def build_pipeline(name, model_dir, no_link):
+def build_pipeline(name, model_dir, no_link, clean=True):
     if name == "baseline":
         from src.extract.baseline import extract
-        from src.io.loader import Document
         def run(doc):
             return extract(doc)
     elif name == "ner":
@@ -42,8 +42,12 @@ def build_pipeline(name, model_dir, no_link):
     else:
         raise ValueError(name)
 
+    linkers = get_linkers() if clean else None
+
     def full(doc):
         concepts = run(doc)
+        if clean:                                    # v2: khử nhiễu (bỏ rác, cắt ngoặc, KB-trim)
+            concepts = clean_concepts(doc.raw, concepts, linkers=linkers, kb_trim=True)
         if not no_link:
             concepts = link_concepts(concepts)
         return concepts
@@ -57,11 +61,12 @@ def main():
     ap.add_argument("--input_dir", default=DEFAULT_IN)
     ap.add_argument("--out_dir", default=DEFAULT_OUT)
     ap.add_argument("--no-link", action="store_true")
+    ap.add_argument("--no-clean", action="store_true", help="tắt khử nhiễu v2 (debug)")
     ap.add_argument("--zip", action="store_true")
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    run = build_pipeline(args.pipeline, args.model_dir, args.no_link)
+    run = build_pipeline(args.pipeline, args.model_dir, args.no_link, clean=not args.no_clean)
     docs = load_dataset(args.input_dir)
     n_c = n_ung = 0
     for d in docs:
