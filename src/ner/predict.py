@@ -13,7 +13,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 from ..metric.scorer import Concept
-from .labels import bio_to_spans
+from .labels import bio_to_spans_conf
 
 
 class NERPredictor:
@@ -45,20 +45,29 @@ class NERPredictor:
         return chunks or [(0, text)]
 
     @torch.no_grad()
-    def _predict_chunk(self, text: str, max_length: int) -> List[Tuple[int, int, str]]:
+    def _predict_chunk(self, text: str, max_length: int):
         enc = self.tok(text, return_offsets_mapping=True, truncation=True,
                        max_length=max_length, return_tensors="pt")
         offsets = enc.pop("offset_mapping")[0].tolist()
         inputs = {k: v.to(self.device) for k, v in enc.items()}
-        pred_ids = self.model(**inputs).logits[0].argmax(-1).tolist()
-        return bio_to_spans(pred_ids, offsets)
+        probs = self.model(**inputs).logits[0].softmax(-1)
+        conf, pred = probs.max(-1)                        # độ tin cậy + nhãn / token
+        return bio_to_spans_conf(pred.tolist(), offsets, conf.tolist())
 
-    def predict(self, text: str, max_length: int = 512) -> List[Concept]:
-        out: List[Concept] = []
+    def predict_with_conf(self, text: str, max_length: int = 512
+                          ) -> List[Tuple[Concept, float]]:
+        """Chạy model 1 lần, trả [(Concept, confidence)] — để sweep nhiều ngưỡng khỏi chạy lại."""
+        out: List[Tuple[Concept, float]] = []
         for base, chunk in self._chunk_by_lines(text, max_length):
-            for s, e, typ in self._predict_chunk(chunk, max_length):
-                gs, ge = base + s, base + e             # offset toàn cục
+            for s, e, typ, cf in self._predict_chunk(chunk, max_length):
+                gs, ge = base + s, base + e                 # offset toàn cục
                 txt = text[gs:ge]
-                if txt.strip():                          # grounded by construction
-                    out.append(Concept(txt, typ, (gs, ge)))
+                if txt.strip():                            # grounded by construction
+                    out.append((Concept(txt, typ, (gs, ge)), cf))
         return out
+
+    def predict(self, text: str, max_length: int = 512,
+                min_prob: float = 0.0) -> List[Concept]:
+        """min_prob>0: BỎ span có confidence trung bình < ngưỡng (cắt span thừa/rác mà
+        model không chắc). min_prob=0 -> y hệt bản 34.60."""
+        return [c for c, cf in self.predict_with_conf(text, max_length) if cf >= min_prob]

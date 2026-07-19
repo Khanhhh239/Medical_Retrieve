@@ -59,7 +59,8 @@ def main():
             return
         items = load_labeled(path)
         before = sum(len(c) for _, _, c in items)
-        clean = [(did, txt, clean_concepts(txt, cs, linkers=linkers, kb_trim=True))
+        # training: chỉ bỏ rác + cắt ngoặc (biên sạch hơn để HỌC). KHÔNG kb_trim.
+        clean = [(did, txt, clean_concepts(txt, cs, kb_trim=False))
                  for did, txt, cs in items]
         after = sum(len(c) for _, _, c in clean)
         out = os.path.join(args.out_dir, name + "_clean.jsonl")

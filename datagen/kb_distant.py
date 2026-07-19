@@ -57,6 +57,13 @@ def build_term_index(rx, icd, symptoms=(), labs=(), max_words: int = 8) -> Dict[
         add(s, "TRIỆU_CHỨNG", None)
     for l in labs:
         add(l, "TÊN_XÉT_NGHIỆM", None)
+    # v3 Khối B: viết tắt kế thừa (type, code) của CỤM ĐẦY ĐỦ đã có trong idx
+    from datagen.abbrev import ABBREV
+    for ab, canon in ABBREV.items():
+        ck = _norm(canon)
+        ak = _norm(ab)
+        if ck in idx and ak not in idx:
+            idx[ak] = idx[ck]
     return idx
 
 

@@ -27,18 +27,25 @@ DEFAULT_IN = os.path.join(ROOT, "data", "test", "input")
 DEFAULT_OUT = os.path.join(ROOT, "output")
 
 
-def build_pipeline(name, model_dir, no_link, clean=False):
+def build_pipeline(name, model_dir, no_link, clean=False, min_prob=0.0, assert_model=""):
     if name == "baseline":
         from src.extract.baseline import extract
         def run(doc):
             return extract(doc)
     elif name == "ner":
         from src.ner.predict import NERPredictor
-        from src.extract.enrich import add_assertions
         predictor = NERPredictor(model_dir)
-        def run(doc):
-            spans = predictor.predict(doc.raw)
-            return add_assertions(doc.raw, spans)
+        if assert_model:                                    # v3: assertion HỌC (thay ConText)
+            from src.assert_.model import AssertionModel
+            am = AssertionModel(assert_model)
+            def run(doc):
+                spans = predictor.predict(doc.raw, min_prob=min_prob)
+                return am.annotate(doc.raw, spans)
+        else:                                               # ConText rule (bản 34.60)
+            from src.extract.enrich import add_assertions
+            def run(doc):
+                spans = predictor.predict(doc.raw, min_prob=min_prob)
+                return add_assertions(doc.raw, spans)
     else:
         raise ValueError(name)
 
@@ -63,11 +70,17 @@ def main():
     ap.add_argument("--no-link", action="store_true")
     ap.add_argument("--clean", action="store_true",
                     help="BẬT khử nhiễu v2 (mặc định TẮT — đo trên leaderboard là xấu hơn)")
+    ap.add_argument("--min_prob", type=float, default=0.0,
+                    help="Ngưỡng tin cậy: bỏ span NER conf < ngưỡng (cắt span thừa). 0 = như 34.60. Thử 0.6/0.75/0.85.")
+    ap.add_argument("--assert_model", default="",
+                    help="v3: thư mục assertion head (Khối D). Rỗng = ConText rule (34.60).")
     ap.add_argument("--zip", action="store_true")
     args = ap.parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    run = build_pipeline(args.pipeline, args.model_dir, args.no_link, clean=args.clean)
+    run = build_pipeline(args.pipeline, args.model_dir, args.no_link,
+                         clean=args.clean, min_prob=args.min_prob,
+                         assert_model=args.assert_model)
     docs = load_dataset(args.input_dir)
     n_c = n_ung = 0
     for d in docs:

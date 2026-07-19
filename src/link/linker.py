@@ -19,6 +19,12 @@ from ..io.offsets import normalize_str
 from ..config import get as _cfg
 from .kb import KB
 
+try:
+    from datagen.abbrev import expand as _abbrev_expand
+except Exception:                                    # datagen không nằm trên path -> no-op
+    def _abbrev_expand(x):
+        return x
+
 _DEFAULT_FUZZY = _cfg("linker", "fuzzy_threshold", 90)
 _DX_FUZZY = _cfg("linker", "disease_fuzzy_threshold", 82)   # bệnh nới hơn (VN nhiều biến thể)
 
@@ -132,6 +138,9 @@ class Linker:
             return []
         if q in self._exact:                          # exact TOÀN mention
             return self._exact[q][:top_k]
+        qx = normalize_str(_abbrev_expand(q))         # v3: viết tắt -> đầy đủ (exact, an toàn)
+        if qx != q and qx in self._exact:
+            return self._exact[qx][:top_k]
         if kind == "drug":
             pq = self._product_query(q)               # ưu tiên mã cấp SẢN PHẨM (SCD)
             if pq and pq in self._exact:
